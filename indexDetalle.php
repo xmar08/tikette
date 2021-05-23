@@ -16,7 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap"
         rel="stylesheet">
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="./css/styleDetalle.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 </head>
 
 
