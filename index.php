@@ -28,8 +28,10 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="navbar  navbar-expand-sm nav1 ">
-
-                <div class="navbar-brand  " href="#"><img src="./img/logo.png" class="d-inline-block logo" alt="">
+                <div class="navbar-brand  " >
+                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo"
+                            alt="logo"></a>
+                           
                 </div>
                 <div class="col-sm titubarra">
 
@@ -142,7 +144,7 @@
                                         <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                         <p class="card-text lugar-evento">Lugar
                                         </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                     </div>
                                 </div>
                             </div>

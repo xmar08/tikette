@@ -24,7 +24,10 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="navbar  navbar-expand-sm nav1 ">
-                <div class="navbar-brand" href="#"><img src="./img/logo.png" class="d-inline-block align-top" alt="">
+            <div class="navbar-brand  " >
+                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo"
+                            alt="logo"></a>
+                           
                 </div>
 
                 <div class="col-sm titubarra">
