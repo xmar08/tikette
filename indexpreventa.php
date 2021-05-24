@@ -150,7 +150,7 @@
 
            
             <div class="col-sm-3">
-                <a href="./indexregister.php" class="btn btn-primary botton-evento btncontinuar">Continuar</a>
+                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar">Continuar</a>
 
             </div>
             <div class="col-sm-3">
