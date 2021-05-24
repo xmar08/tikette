@@ -65,15 +65,11 @@
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
-                        
+
                     </div>
 
                 </div>
-                <div class="col-sm-3">
-                            <a href="./indexcompra.php"
-                                class="btn btn-primary botton-evento btnregister">Register</a>
-
-                        </div>
+               
             </nav><!-- TERMINA NAV -->
 
             <nav class="navbar   navbar-expand-sm nav2 ">
@@ -89,43 +85,11 @@
             </nav>
 
             <!--SLIDER-->
-            <div class="row conta">
 
-                <div class="col-sm-6"><img class=" image" src="./img/1-concierto.png" alt="#">
-                </div>
-                <div class="row ">
-
-                    <!-- titulo evento -->
-                    <h2 class="ti-event">CONCIERTO </h2>
-                </div> <!-- titulo evento -->
-            </div> <!-- row -->
 
             <!-- eventos detalle -->
-            <div class="row">
-                <h4 class="subtitu2">CARLOS RIVERA</h4>
-            </div>
-            <div class=" row container ">
-                <!--titulo3-->
-                <div class="col-sm"><img class=" image2" src="./img/1-concierto.png" alt="#">
-                </div>
-                <div class="col">
-                    <h4 class="subtitu4">04 </h4>
-                    <h4 class="subtitu4">Junio </h4>
-                    <h4 class="subtitu4">2021 </h4>
-                </div>
-                <div class="col-sm-4 ">
-                    <h6 class="subtitu5">ESTADIO NACIONAL </h4>
-                        <h4 class="subtitu6">CARLOS RIVERA-GUERRA TOUR </h4>
-                </div>
+           
 
-                <div class="col-sm">
-                    <a href="./indexpreventa.php" class="btn btn-primary botton-evento">Comprar</a>
-
-                </div>
-
-            </div><!--  fin container -->
-
-            <hr size=3>
             <!--  fin container -->
             <!--  formulario -->
             <div class="row  container">
@@ -173,32 +137,7 @@
 
                 </div>
 
-                <!--Eventos Relacionados-->
-                <div class=" contain   row">
-                    <div>
-                        <h4 class="otrosevent">OTROS EVENTOS</h4>
-                    </div>
-
-                    <div class="col-sm"><img class="otraimage" src="./img/2-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
-
-                    </div>
-                    <div class="col-sm"><img class="otraimage" src="./img/3-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
-
-                    </div>
-                    <div class="col-sm"><img class="otraimage" src="./img/4-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
-
-                    </div>
-                </div>
-                <!--  Eventos Relacionados -->
+               
 
             </div>
 

@@ -28,10 +28,9 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="navbar  navbar-expand-sm nav1 ">
-                <div class="navbar-brand  " >
-                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo"
-                            alt="logo"></a>
-                           
+                <div class="navbar-brand  ">
+                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
+
                 </div>
                 <div class="col-sm titubarra">
 
@@ -81,7 +80,7 @@
                     </ul>
                 </div>
             </nav>
-
+            <!-- Termina barra de nav -->
             <div class="conta">
 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -135,16 +134,19 @@
                 <div class="carousel-item active">
                     <div class="container-fluid">
                         <div class="row">
+
+
                             <!--Primer fila -->
                             <!-- evento1 -->
                             <div class="col-sm-3">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/1.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Evento</h5>
-                                        <p class="card-text lugar-evento">Lugar
+                                        <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
+                                        <p class="card-text lugar-evento">4 JUNIO | 8PM
                                         </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
@@ -152,23 +154,25 @@
                             <!-- evento2-->
                             <div class="col-sm-3  d-lg-block">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/2.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                         <p class="card-text lugar-evento"> Lugar
                                         </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- evento3-->
                             <div class="col-sm-3 d-lg-block">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/3.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                         <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +182,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                         <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
@@ -193,35 +198,38 @@
                             <!-- evento1 -->
                             <div class="col-sm-3">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/1.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                         <p class="card-text lugar-evento">Lugar
                                         </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- evento2-->
                             <div class="col-sm-3  d-lg-block">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/2.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                         <p class="card-text lugar-evento"> Lugar
                                         </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- evento3-->
                             <div class="col-sm-3 d-lg-block">
                                 <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                    <img src="./img/3.jpg" class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                         <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +239,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                         <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="#!" class="btn btn-primary botton-evento">Ver Evento</a>
+                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                            Evento</a>
                                     </div>
                                 </div>
                             </div>

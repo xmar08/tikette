@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proceso-Compra</title>
+    <title>Preventa boletos</title>
     <!-- Bootstrap link/version -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -29,7 +29,9 @@
         <div class="row">
             <nav class="navbar  navbar-expand-sm nav1 ">
 
-                <div class="navbar-brand  " href="#"><img src="./img/logo.png" class="d-inline-block logo" alt="">
+                <div class="navbar-brand  ">
+                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
+
                 </div>
                 <div class="col-sm titubarra">
 
@@ -48,7 +50,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTOS</option>
+                                    <option selected>EVENTS</option>
                                     <option value="1">CONCIERTO</option>
                                     <option value="2">COMEDIA</option>
                                     <option value="3">DEPORTE</option>
@@ -82,48 +84,104 @@
 
 
             <!-- compras -->
-            <div></div>
-            <div class="row">
-                <div class col>
-                    <h4 class="subtitu2 ">CARLOS RIVERA</h4>
+
+
+            <div class="row  container">
+
+
+                <div class=col-sm-8>
+                    <h4 class="subtitu2 ">PREVENTA DE BOLETOS</h4>
+                   
                     <h4 class="subtitu5 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
                     <h4 class="subtitu5 compra-datos">Estadio Nacional</h4>
+                    <table class="table">
+                        <thead class="subtitu4">
+                            <tr>
+                                <th scope="col ">Tipo</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Precio por Persona</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead >
+                        <tbody class="subtitu6">
+                            <tr>
 
-                    <div class="col-sm-6"><img class=" image" src="./img/1-concierto.png" alt="#">
-                    </div ><!--Fin compras-->
+                                <td>Mayores</td>
+                                <td><a href="#" class="btn3">+</a>2<a href="#" class="btn3">-</a></td>
+                                <td>¢15.000</td>
+                                <td>¢30.000</td>
+                            </tr>
 
+                        </tbody>
+                        <tbody class="subtitu6">
+                            <tr>
 
-                    <!-- Footer -->
+                                <td>Menores</td>
+                                <td><a href="#" class="btn3">+</a>1<a href="#" class="btn3">-</a></td>
+                                <td>¢15.000</td>
+                                <td>¢15.000</td>
+                            </tr>
 
+                        </tbody>
 
-                    <div class="container-fluid">
-                        <!-- Footer -->
-                        <footer class="row footer-back">
-                            <div class=" footer-icon">
-                                <li class="list-inline-item">
-                                    <img class=" face" src="./img/facebook2.png" class="" alt="..." />
-                                </li>
-                                <li class="list-inline-item ">
-                                    <img class="tele" src="./img/telegram3.png" class="" alt="..." />
-                                </li>
+                        
+                        <tbody class="subtitu6">
+                            <tr>
 
-                            </div>
+                                <td>Total</td>
+                                <td>3</td>
+                                <td>¢30.000</td>
+                                <td>¢45.000</td>
+                            </tr>
 
-                            <!-- Copyright -->
-                            <div class="footer-copy">© 2021 Copyright:
-                                <a class="footer-copy" href=""> Virtual Event</a>
-                                <a class="footer-copy"> Todos los Derechos Reservados</a>
-                            </div>
-                            <!-- Copyright -->
-                        </footer>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="col">
+                    <div class="col-sm-4"><img class=" evento1" src="./img/1.jpg" alt="evento1">
+
                     </div>
-
-
-
                 </div>
 
+                <h4 class="subtitu5 subtitu9 ">CARLOS RIVERA</h4>
+            </div><!-- FIN compras -->
+            <!-- BOTONES -->
+
+           
+            <div class="col-sm-3">
+                <a href="./indexregister.php" class="btn btn-primary botton-evento btncontinuar">Continuar</a>
+
+            </div>
+            <div class="col-sm-3">
+                <a href="./index.php" class="btn btn-primary botton-evento btncontinuar">Cancelar</a>
+
+            </div>
+            <!-- FIN BOTONES -->
 
 
+            <!-- Footer -->
+            <div class="container-fluid ">
+                <footer class="row footer-back">
+                    <div class=" footer-icon">
+                        <li class="list-inline-item">
+                            <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                        </li>
+                        <li class="list-inline-item ">
+                            <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                        </li>
+
+                    </div>
+
+                    <!-- Copyright -->
+                    <div class="footer-copy">© 2021 Copyright:
+                        <a class="footer-copy" href=""> Virtual Event</a>
+                        <a class="footer-copy"> Todos los Derechos Reservados</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+            </div>
+        </div>
 </body>
 
 </html>
