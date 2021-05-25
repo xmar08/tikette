@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiquete-Home</title>
+    <title>REGISTRO</title>
     <!-- Bootstrap link/version -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -27,7 +27,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar  navbar-expand-sm nav1 ">
+        <nav class="navbar  navbar-expand-sm nav1 ">
                 <div class="navbar-brand  ">
                     <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
@@ -42,14 +42,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">HOME</a>
+                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ABOUT</a>
+                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTS</option>
+                                    <option selected>EVENTOS</option>
                                     <option value="1">CONCIERTO</option>
                                     <option value="2">COMEDIA</option>
                                     <option value="3">DEPORTE</option>
@@ -61,111 +61,124 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control form" type="search" placeholder="buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
 
                     </div>
-
+                    
                 </div>
-                <div class="col-sm-3">
-                    <a href="./indextiket.php" class="btn btn-primary botton-evento btnregister">Register</a>
-
-                </div>
+                
             </nav><!-- TERMINA NAV -->
-
-            <nav class="navbar   navbar-expand-sm nav2 ">
-                <div class="col-sm">
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">CONCIERTOS</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">COMEDIA</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">DEPORTE</a></li>
-                    </ul>
-                </div>
-
-            </nav>
-
-            <!--SLIDER-->
-
-
-            <!-- eventos detalle -->
            
 
-            <!--  fin container -->
+            <nav class="navbar   navbar-expand-sm nav2 ">
+            <div class="row ">
+                    <div class="ti-event2 ti-event3">
+                        <h3 class="ti-event ">CONFIRMAR REGISTRO</h3>
+                    </div>
+                </div> <!-- titulo evento -->
+            </nav>
+
+            
+
+
+
+
+
             <!--  formulario -->
-            <div class="row  container">
-                <div class="col-sm-6">
-                    <table>
 
-                        <tr>
-                            <td class="titutabla">Evento: </td>
-                            <td class="subtitu7">Carlos Rivera</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Lugar: </td>
-                            <td class="subtitu7">Estadio Nacional</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Fecha: </td>
-                            <td class="subtitu7">04/junio/2021</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Hora: </td>
-                            <td class="subtitu7">8:00 pm</td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Categoría: </td>
-                            <td class="subtitu7">Concierto</td>
-                        </tr>
-
-                        <tr>
-                            <td class="titutabla">Descripcion: </td>
-                            <td class="subtitu7">Guerra de Tour, concierto Carlos Rvera
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Precio: </td>
-                            <td class="subtitu7">¢15.000</td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Clasificación: </td>
-                            <td class="subtitu7">Mayor de Edad</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <!--Eventos Relacionados-->
-                <div class=" contain   row">
-                    <div>
-                        <h4 class="otrosevent">OTROS EVENTOS</h4>
+            <div class="container">
+                <form action="form-horizontal">
+                    <!--  nombre -->
+                    <div class="row">
+                        <div class="col-titulo">
+                            <label for="fname ">Nombre:</label>
+                        </div>
+                        <div class="col-holder">
+                            <input type="text" class="form-control " placeholder="Nombre">
+                        </div>
                     </div>
 
-                    <div class="col-sm"><img class="otraimage" src="./img/2-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
+                    <!--  apellido -->
 
+                    <div class="row">
+                        <div class="col-titulo">
+                            <label for="lname">Apellido:</label>
+                        </div>
+                        <div class="col-holder ">
+                            <input type="text" class="form-control " placeholder="Apellido">
+                        </div>
                     </div>
-                    <div class="col-sm"><img class="otraimage" src="./img/3-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
 
+                    <!--  nacimiento -->
+                    <div class="row">
+                        <div class="col-titulo">
+                            <label for="lname"> Fecha Nacimiento:</label>
+                        </div>
+                        <div class="col-holder">
+                            <input type="date" class="form-control" placeholder="Fecha de NAcimiento">
+                        </div>
                     </div>
-                    <div class="col-sm"><img class="otraimage" src="./img/4-concierto.png" alt="#">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#!" class="btn btn-primary botton-evento">Ver</a>
 
+                    <!--  telefono -->
+                    <div class="row">
+                        <div class="col-titulo">
+                            <label for="Correo">Telefono:</label>
+                        </div>
+                        <div class="col-holder">
+                            <input type="text" class="form-control" placeholder="Telefono">
+                        </div>
                     </div>
-                </div>
-                <!--  Eventos Relacionados -->
+
+                    <!--  provincia -->
+                    <div class="row">
+                        <div class="col-titulo">
+                            <label for="provincia">Provincia:</label>
+                        </div>
+
+                        <div class="col-holder ">
+                            <select id="provincia" class="placeho form-control" name="provincia">
+                                <option value="1">Seleccione la provincia</option>
+                                <option value="2">Puntarenas</option>
+                                <option value="3">San José</option>
+                                <option value="4">Cartago</option>
+                                <option value="5">Heredia</option>
+                                <option value="#">Guanacaste</option>
+                                <option value="#">Limon</option>
+                                <option value="#">Alajuela</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--  correo -->
+
+                    <div class="row">
+                        <div class="col-titulo ">
+                            <label for="Correo">Correo:</label>
+                        </div>
+                        <div class="col-holder">
+                            <input type="text" class="form-control" placeholder="Correo">
+                        </div>
+                    </div>
+
+                    <!--  tarjeta -->
+
+                    <div class="row">
+                        <div class="col-titulo ">
+                            <label for="Correo">Tarjeta de Credito:</label>
+                        </div>
+                        <div class="col-holder">
+                            <input type="text" class="form-control" placeholder="Numero de Tarjeta">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-sm-12 btn-regis">
+                <a href="./indextiket.php" class="btn btn-primary  btnregister">Comprar</a>
 
             </div>
 

@@ -1,7 +1,7 @@
 body {
   font-family: Roboto;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -25,8 +25,8 @@ body {
   height: 9em;
   background-position-y: center;
   background-position-x: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 1%;
+  padding-right: 14%;
 }
 
 .navbar-nav2 {
@@ -114,6 +114,7 @@ body {
 .conta {
   background-color: #002A4A;
   width: 100%;
+  margin-left: 0em;
 }
 
 .container2 {
@@ -157,6 +158,11 @@ body {
 
 .form-control {
   border-radius: 1.25rem;
+  background-color: #fff !important;
+  font-size: 14px;
+  color: #999;
+  opacity: 1;
+  width: 103%;
 }
 
 .form {
@@ -203,10 +209,10 @@ hr {
   border: 0;
   opacity: 0.25;
   size: 6;
-  width: 81em;
+  width: 100em !important;
   height: 1em;
   margin-top: -1em;
-  margin-left: 1%;
+  margin-left: 0%;
 }
 
 .vl2 {
@@ -254,6 +260,13 @@ hr {
   padding-left: 10%;
   padding-right: 10%;
   display: block;
+}
+
+.cod-qr {
+  width: 194px;
+  margin-left: 0em;
+  margin-right: 1em;
+  margin-bottom: 5em;
 }
 
 .logo2 {
@@ -306,28 +319,24 @@ hr {
 
 .ti-event {
   color: #fff;
-  background-color: #000522;
-  text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: 36pt;
+  font-size: 30pt;
   font-weight: 500;
-  margin-left: 0px;
-  width: 100%;
-}
-
-.ti-event2 {
-  margin-left: 14px;
 }
 
 .ti-event2 {
   color: #fff;
   background-color: #003366;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  width: 97.8%;
+  margin-left: 1em;
+}
+
+.ti-event3 {
+  width: 100%;
 }
 
 .titubarra {
@@ -342,12 +351,21 @@ hr {
   list-style: none;
 }
 
+.titupagina {
+  color: #fff;
+  margin-left: 1em;
+  width: 100%;
+  font-size: 21pt;
+  font-weight: 300;
+  text-align: center;
+}
+
 .titutabla {
   color: #000522;
-  font-size: 18pt;
-  font-weight: 700;
-  padding-left: 10%;
-  width: 45%;
+  font-size: 14pt;
+  font-weight: 400;
+  padding-left: 5%;
+  width: 58%;
 }
 
 .nombre-evento {
@@ -372,10 +390,11 @@ hr {
 
 .subtitu2 {
   color: #000522;
-  font-size: 28pt;
+  font-size: 24pt;
   font-weight: 900;
   padding-left: 5%;
   width: 100%;
+  margin-top: 1em;
 }
 
 .subtitu3 {
@@ -413,7 +432,6 @@ hr {
   color: #000522;
   font-size: 18pt;
   font-weight: 300;
-  margin-right: 1em;
   width: 55%;
 }
 
@@ -427,6 +445,20 @@ hr {
   margin-left: 26em;
   width: 37%;
   margin-top: -1em;
+}
+
+.subtiket {
+  color: #000522;
+  font-size: 21pt;
+  font-weight: 700;
+  margin-right: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.tik {
+  margin-left: 7em;
 }
 
 .bar {
@@ -444,7 +476,7 @@ hr {
 
 .btn {
   border: none;
-  border-radius: 1.25rem;
+  border-radius: 1.25rem !important;
   font-size: 18pt;
   font-weight: 300;
   padding-left: 1.5em;
@@ -452,7 +484,7 @@ hr {
 }
 
 .btncontinuar {
-  width: 10em;
+  width: 12em;
   border-radius: 2em;
   margin-left: 3em;
 }
@@ -463,9 +495,16 @@ hr {
 }
 
 .btnregister {
-  width: 7em;
+  width: 16em;
   border-radius: 2em;
-  margin-left: 7em;
+  margin-left: 15em;
+}
+
+.btnregister2 {
+  width: 8em;
+  border-radius: 2em;
+  margin-left: 9em;
+  text-align: center;
 }
 
 .btn3 {
@@ -475,6 +514,10 @@ hr {
   font-size: 18pt;
   font-weight: 300;
   text-decoration: none !important;
+  text-align: center;
+}
+
+.btn-regis {
   text-align: center;
 }
 
@@ -500,6 +543,63 @@ hr {
   margin-top: 3em;
 }
 
+.placeho {
+  height: 4em;
+  width: 106%;
+  border-radius: 13px;
+  border-color: #9185853b;
+  color: #999;
+  opacity: 1;
+  height: 4em;
+}
+
+.holder {
+  height: 3.5em;
+  border-radius: 6px;
+  margin-top: -0.1em;
+  height: 4em;
+  width: 100%;
+}
+
 .lupa {
   margin-left: -5em;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-titulo {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: #000522;
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.col-holder {
+  float: left;
+  width: 75%;
+  margin-top: 9px;
+}
+
+.col-holder2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  height: 4em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

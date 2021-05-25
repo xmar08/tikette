@@ -42,14 +42,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">HOME</a>
+                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ABOUT</a>
+                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTS</option>
+                                    <option selected>EVENTOS</option>
                                     <option value="1">CONCIERTO</option>
                                     <option value="2">COMEDIA</option>
                                     <option value="3">DEPORTE</option>
@@ -61,19 +61,13 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
-                        
                     </div>
-
                 </div>
-                <div class="col-sm-3">
-                            <a href="./indexcompra.php"
-                                class="btn btn-primary botton-evento btnregister">Register</a>
 
-                        </div>
             </nav><!-- TERMINA NAV -->
 
             <nav class="navbar   navbar-expand-sm nav2 ">
@@ -93,12 +87,17 @@
 
                 <div class="col-sm-6"><img class=" image" src="./img/1-concierto.png" alt="#">
                 </div>
-                <div class="row ">
 
-                    <!-- titulo evento -->
-                    <h2 class="ti-event">CONCIERTO </h2>
+                <div class="row ">
+                    <div class="ti-event2 ti-event3">
+                        <h3 class="ti-event ">CONCIERTO</h3>
+                    </div>
                 </div> <!-- titulo evento -->
-            </div> <!-- row -->
+
+
+
+            </div> <!-- titulo evento -->
+
 
             <!-- eventos detalle -->
             <div class="row">
@@ -119,7 +118,7 @@
                 </div>
 
                 <div class="col-sm">
-                    <a href="./indexpreventa.php" class="btn btn-primary botton-evento">Comprar</a>
+                    <a href="./indexpreventa.php" class="btn btn-primary botton-evento">Registrarse</a>
 
                 </div>
 
@@ -128,46 +127,51 @@
             <hr size=3>
             <!--  fin container -->
             <!--  formulario -->
-            <div class="row  container">
-                <div class="col-sm-6">
-                    <table>
 
+            <div class="row  container">
+
+                <div class="col-sm-6">
+
+
+
+                    <table>
+                        <h4 class="subtitu2">GUERRA TOUR</h4>
                         <tr>
                             <td class="titutabla">Evento: </td>
-                            <td class="subtitu7">Carlos Rivera</td>
+                            <td class="subtitu6">Concierto</td>
 
                         </tr>
                         <tr>
                             <td class="titutabla">Lugar: </td>
-                            <td class="subtitu7">Estadio Nacional</td>
+                            <td class="subtitu6">Estadio Nacional</td>
 
                         </tr>
                         <tr>
                             <td class="titutabla">Fecha: </td>
-                            <td class="subtitu7">04/junio/2021</td>
+                            <td class="subtitu6">04/junio/2021</td>
 
                         </tr>
                         <tr>
                             <td class="titutabla">Hora: </td>
-                            <td class="subtitu7">8:00 pm</td>
+                            <td class="subtitu6">8:00 pm</td>
                         </tr>
                         <tr>
                             <td class="titutabla">Categoría: </td>
-                            <td class="subtitu7">Concierto</td>
+                            <td class="subtitu6">Concierto</td>
                         </tr>
 
                         <tr>
                             <td class="titutabla">Descripcion: </td>
-                            <td class="subtitu7">Guerra de Tour, concierto Carlos Rvera
-                            </td>
+                            <td class="subtitu6">Guerra de Tour,concierto Online</td>
+
                         </tr>
                         <tr>
                             <td class="titutabla">Precio: </td>
-                            <td class="subtitu7">¢15.000</td>
+                            <td class="subtitu6">¢15.000</td>
                         </tr>
                         <tr>
                             <td class="titutabla">Clasificación: </td>
-                            <td class="subtitu7">Mayor de Edad</td>
+                            <td class="subtitu6">Todo Público</td>
                         </tr>
                     </table>
 
@@ -176,7 +180,7 @@
                 <!--Eventos Relacionados-->
                 <div class=" contain   row">
                     <div>
-                        <h4 class="otrosevent">OTROS EVENTOS</h4>
+                        <h4 class="otrosevent">EVENTOS RELACIONADOS</h4>
                     </div>
 
                     <div class="col-sm"><img class="otraimage" src="./img/2-concierto.png" alt="#">

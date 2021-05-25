@@ -42,14 +42,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">HOME</a>
+                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ABOUT</a>
+                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTS</option>
+                                    <option selected>EVENTOS</option>
                                     <option value="1">CONCIERTO</option>
                                     <option value="2">COMEDIA</option>
                                     <option value="3">DEPORTE</option>
@@ -61,7 +61,7 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control form" type="search" placeholder="buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
@@ -69,75 +69,128 @@
                     </div>
 
                 </div>
-               
+
             </nav><!-- TERMINA NAV -->
 
+
             <nav class="navbar   navbar-expand-sm nav2 ">
-                <div class="col-sm">
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">CONCIERTOS</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">COMEDIA</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">DEPORTE</a></li>
-                    </ul>
-                </div>
-
+                <div class="row ">
+                    <div class="ti-event2 ti-event3">
+                        <h3 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h3>
+                    </div>
+                </div> <!-- titulo evento -->
             </nav>
+
+
 
             <!--SLIDER-->
 
 
             <!-- eventos detalle -->
-           
 
-            <!--  fin container -->
-            <!--  formulario -->
-            <div class="row  container">
-                <div class="col-sm-6">
-                    <table>
+            <!-- eventos detalle -->
+            <div class="row">
+                <h4 class="subtitu2">CARLOS RIVERA</h4>
+            </div>
+            <div class=" row container ">
+                <!--titulo3-->
+                <div class="col-sm"><img class=" image2" src="./img/1-concierto.png" alt="#">
+                </div>
 
-                        <tr>
-                            <td class="titutabla">Evento: </td>
-                            <td class="subtitu7">Carlos Rivera</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Lugar: </td>
-                            <td class="subtitu7">Estadio Nacional</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Fecha: </td>
-                            <td class="subtitu7">04/junio/2021</td>
-
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Hora: </td>
-                            <td class="subtitu7">8:00 pm</td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Categoría: </td>
-                            <td class="subtitu7">Concierto</td>
-                        </tr>
-
-                        <tr>
-                            <td class="titutabla">Descripcion: </td>
-                            <td class="subtitu7">Guerra de Tour, concierto Carlos Rvera
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Precio: </td>
-                            <td class="subtitu7">¢15.000</td>
-                        </tr>
-                        <tr>
-                            <td class="titutabla">Clasificación: </td>
-                            <td class="subtitu7">Mayor de Edad</td>
-                        </tr>
-                    </table>
+                <div class="col-sm-4 ">
+                    <h6 class="subtitu5 tik">Tiquete</h4>
 
                 </div>
 
-               
+                <div class="col-sm">
+                    <p class="btn btn-primary botton-evento"># 46030</p>
+
+
+                </div><!--  fin container -->
+
+                <hr size=3>
+                <!--  fin container -->
+
+                <div class="row">
+                    <h4 class="subtiket">DETALLE DE LA COMPRA</h4>
+
+
+                    <div class="col-sm">
+
+                        <table>
+
+                            <tr>
+                                <td class="col-sm-6 titutabla">Evento: </td>
+                                <td class="col subtitu6">Concierto</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Lugar: </td>
+                                <td class="subtitu6">Estadio Nacional</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Fecha: </td>
+                                <td class="subtitu6">04/junio/2021</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Hora: </td>
+                                <td class="subtitu6">8:00 pm</td>
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Categoría: </td>
+                                <td class="subtitu6">Concierto</td>
+                            </tr>
+
+                            <tr>
+                                <td class="titutabla">numero de entradas: </td>
+                                <td class="subtitu6">3</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Precio: </td>
+                                <td class="subtitu6">¢15.000</td>
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Clasificación: </td>
+                                <td class="subtitu6">Todo Público</td>
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Nombre: </td>
+                                <td class="subtitu6">Maria Quesada</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Fecha Nacimiento: </td>
+                                <td class="subtitu6">21/05/1992</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Telefono: </td>
+                                <td class="subtitu6">2664-0404</td>
+
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Provincia: </td>
+                                <td class="subtitu6">Heredia</td>
+                            </tr>
+                            <tr>
+                                <td class="titutabla">Correo: </td>
+                                <td class="subtitu6">mariquesada@gmail.com</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="col-sm-4">
+
+                        <img class="cod-qr" src="./img/qrcode.png" alt="#">
+
+                    </div>
+
+                </div>
+                <!--  fin container -->
+                <!--  formulario -->
 
             </div>
 

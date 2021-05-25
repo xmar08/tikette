@@ -42,10 +42,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">HOME</a>
+                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ABOUT</a>
+                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
@@ -61,7 +61,7 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
@@ -116,17 +116,15 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
-
-            <div class="row ">
 
                 <!-- titulo evento -->
-                <div mb-2 class="">
-                    <h2 class="ti-event ti-event2">EVENTOS</h2>
+                <div class="row ">
+                    <div class="ti-event2">
+                        <h3 class="ti-event ">EVENTOS</h3>
+                    </div>
+                </div> <!-- titulo evento -->
 
-                </div>
-
-            </div> <!-- titulo evento -->
+            </div>
             <!-- Galery -->
 
             <div class="carousel-inner ">

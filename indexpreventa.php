@@ -27,8 +27,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar  navbar-expand-sm nav1 ">
-
+        <nav class="navbar  navbar-expand-sm nav1 ">
                 <div class="navbar-brand  ">
                     <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
@@ -43,14 +42,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">HOME</a>
+                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ABOUT</a>
+                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTS</option>
+                                    <option selected>EVENTOS</option>
                                     <option value="1">CONCIERTO</option>
                                     <option value="2">COMEDIA</option>
                                     <option value="3">DEPORTE</option>
@@ -62,27 +61,28 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control form" type="search" placeholder="buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>
-                    </div>
-                </div>
 
+                    </div>
+                    
+                </div>
+                
             </nav><!-- TERMINA NAV -->
+           
 
             <nav class="navbar   navbar-expand-sm nav2 ">
-                <div class="col-sm">
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">CONCIERTOS</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">COMEDIA</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link titubarra">DEPORTE</a></li>
-                    </ul>
-                </div>
+            <div class="row ">
+                    <div class="ti-event2 ti-event3">
+                        <h3 class="ti-event ">REGISTRARSE</h3>
+                    </div>
+                </div> <!-- titulo evento -->
             </nav>
 
-
+            
+           
             <!-- compras -->
 
 
@@ -92,8 +92,8 @@
                 <div class=col-sm-8>
                     <h4 class="subtitu2 ">PREVENTA DE BOLETOS</h4>
                    
-                    <h4 class="subtitu5 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
-                    <h4 class="subtitu5 compra-datos">Estadio Nacional</h4>
+                    <h4 class="subtitu7 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
+                    <h4 class="subtitu7 compra-datos">Estadio Nacional</h4>
                     <table class="table">
                         <thead class="subtitu4">
                             <tr>
@@ -128,9 +128,9 @@
                         <tbody class="subtitu6">
                             <tr>
 
-                                <td>Total</td>
-                                <td>3</td>
-                                <td>¢30.000</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
                                 <td>¢45.000</td>
                             </tr>
 
@@ -150,7 +150,7 @@
 
            
             <div class="col-sm-3">
-                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar">Continuar</a>
+                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar">Confirmar Registro</a>
 
             </div>
             <div class="col-sm-3">
