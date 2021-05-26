@@ -27,8 +27,8 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-        <nav class="navbar  navbar-expand-sm nav1 ">
-                <div class="navbar-brand  ">
+        <nav class="navbar navbar-expand-sm nav1 ">
+                <div class="#">
                     <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
                 </div>
@@ -56,12 +56,11 @@
                                 </select>
                             </li>
                             <li class="nav-item">
-                                <a lass="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
-                                        class="d-inline-block align-top" alt=""></a>
+                                <a  href="#"><img class="carro" src="./img/carro.png"alt=""></a>
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control form" type="search" placeholder="buscar" aria-label="Search">
+                            <input class="form" type="search" placeholder="buscar" aria-label="Search">
                             <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                     alt="#"></button>
                         </form>

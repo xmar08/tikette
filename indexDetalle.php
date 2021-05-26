@@ -85,7 +85,7 @@
             <!--SLIDER-->
             <div class="row conta">
 
-                <div class="col-sm-6"><img class=" image" src="./img/1-concierto.png" alt="#">
+                <div class="col"><img class="image" src="./img/1-concierto.png" alt="#">
                 </div>
 
                 <div class="row ">

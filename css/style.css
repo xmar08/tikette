@@ -53,7 +53,6 @@ body {
   padding-right: 10%;
   display: block;
   margin-bottom: 0px;
-  height: 50%;
   margin-top: -21px;
 }
 
@@ -246,20 +245,23 @@ hr {
   display: flex;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
-  width: 1269px;
+  width: 89vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  padding-left: 10%;
+  padding-left: 5%;
+  height: auto;
 }
 
 .logo {
+  margin-top: -2em;
   padding-left: 10%;
   padding-right: 10%;
   display: block;
+  image-orientation: from-image;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cod-qr {
@@ -280,15 +282,6 @@ hr {
   margin-left: 4em;
   margin-right: 1em;
   margin-bottom: 1em;
-}
-
-.logo {
-  margin-top: -2em;
-  margin-left: 0%;
-  image-orientation: from-image;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .carro {
@@ -317,6 +310,11 @@ hr {
   width: 37%;
 }
 
+.card {
+  width: 94%;
+  margin-top: 1em;
+}
+
 .ti-event {
   color: #fff;
   font-size: 30pt;
@@ -331,7 +329,7 @@ hr {
   padding-bottom: 0.5em;
   margin-top: 0em;
   margin-bottom: 0em;
-  width: 97.8%;
+  width: 100%;
   margin-left: 1em;
 }
 
@@ -424,8 +422,16 @@ hr {
 .subtitu6 {
   color: #000522;
   font-size: 14pt;
+  font-weight: 400;
+  margin-right: 1em;
+}
+
+.sub {
+  color: #fff;
+  font-size: 12pt;
   font-weight: 300;
   margin-right: 1em;
+  background-color: #003366;
 }
 
 .subtitu7 {
@@ -536,9 +542,7 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+  height: auto;
   margin-left: 4em;
   margin-top: 3em;
 }

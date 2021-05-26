@@ -23,9 +23,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-    <div class="container-fluid">
+    <!-- container -->
+    <div class="row menu-nav">
+        <!-- header -->
         <div class="row">
             <nav class="navbar  navbar-expand-sm nav1 ">
                 <div class="navbar-brand  ">
@@ -49,14 +50,14 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTOS</option>
-                                    <option value="1">CONCIERTO</option>
-                                    <option value="2">COMEDIA</option>
-                                    <option value="3">DEPORTE</option>
+                                    <option selected class="sub">EVENTOS</option>
+                                    <option value="1" class="sub">CONCIERTO</option>
+                                    <option value="2" class="sub">COMEDIA</option>
+                                    <option value="3" class="sub">DEPORTE</option>
                                 </select>
                             </li>
                             <li class="nav-item">
-                                <a lass="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
+                                <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
                                         class="d-inline-block align-top" alt=""></a>
                             </li>
                         </ul>
@@ -79,208 +80,210 @@
                         <li class="nav-item "><a href="#" class="nav-link titubarra">DEPORTE</a></li>
                     </ul>
                 </div>
+
             </nav>
-            <!-- Termina barra de nav -->
-            <div class="conta">
 
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="./img/CONCIERTO.png" alt="#">
-                        </div>
-
-                        <div class="item">
-                            <img src="./img/COMEDIA.png" alt="#">
-                        </div>
-
-                        <div class="item">
-                            <img src="./img/DEPORTES.png" alt="#">
-                        </div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./img/CONCIERTO.png" alt="#">
                     </div>
 
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="item">
+                        <img src="./img/COMEDIA.png" alt="#">
+                    </div>
+
+                    <div class="item">
+                        <img src="./img/DEPORTES.png" alt="#">
+                    </div>
                 </div>
 
-                <!-- titulo evento -->
-                <div class="row ">
-                    <div class="ti-event2">
-                        <h3 class="ti-event ">EVENTOS</h3>
-                    </div>
-                </div> <!-- titulo evento -->
-
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <!-- Galery -->
-
-            <div class="carousel-inner ">
-                <!-- Single item -->
-                <div class="carousel-item active">
-                    <div class="container-fluid">
-                        <div class="row">
 
 
-                            <!--Primer fila -->
-                            <!-- evento1 -->
-                            <div class="col-sm-3">
-                                <div class="card">
-                                    <img src="./img/1.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
-                                        <p class="card-text lugar-evento">4 JUNIO | 8PM
-                                        </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- evento2-->
-                            <div class="col-sm-3  d-lg-block">
-                                <div class="card">
-                                    <img src="./img/2.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Evento</h5>
-                                        <p class="card-text lugar-evento"> Lugar
-                                        </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- evento3-->
-                            <div class="col-sm-3 d-lg-block">
-                                <div class="card">
-                                    <img src="./img/3.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Eventos</h5>
-                                        <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 d-lg-block">
-                                <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Eventos</h5>
-                                        <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--Segunda fila-->
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <!--Primer fila -->
-                            <!-- evento1 -->
-                            <div class="col-sm-3">
-                                <div class="card">
-                                    <img src="./img/1.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Evento</h5>
-                                        <p class="card-text lugar-evento">Lugar
-                                        </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- evento2-->
-                            <div class="col-sm-3  d-lg-block">
-                                <div class="card">
-                                    <img src="./img/2.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Evento</h5>
-                                        <p class="card-text lugar-evento"> Lugar
-                                        </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- evento3-->
-                            <div class="col-sm-3 d-lg-block">
-                                <div class="card">
-                                    <img src="./img/3.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Eventos</h5>
-                                        <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 d-lg-block">
-                                <div class="card">
-                                    <img src="./img/11.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title nombre-evento">Nombre Eventos</h5>
-                                        <p class="card-text lugar-evento"> Lugar </p>
-                                        <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
-                                            Evento</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
 
 
+            <!-- titulo evento -->
+            <div class="row ">
+                <div class="ti-event2">
+                    <h3 class="ti-event ">EVENTOS</h3>
                 </div>
-
-            </div>
-            <!--Fin Galery-->
-
-
-            <!-- Footer -->
-
-
-            <div class="container-fluid">
-                <!-- Footer -->
-                <footer class="row footer-back">
-                    <div class=" footer-icon">
-                        <li class="list-inline-item">
-                            <img class=" face" src="./img/facebook2.png" class="" alt="..." />
-                        </li>
-                        <li class="list-inline-item ">
-                            <img class="tele" src="./img/telegram3.png" class="" alt="..." />
-                        </li>
-
-                    </div>
-
-                    <!-- Copyright -->
-                    <div class="footer-copy">© 2021 Copyright:
-                        <a class="footer-copy" href=""> Virtual Event</a>
-                        <a class="footer-copy"> Todos los Derechos Reservados</a>
-                    </div>
-                    <!-- Copyright -->
-                </footer>
-            </div>
-
-
+            </div> <!-- titulo evento -->
 
         </div>
+        <!-- Galery -->
+
+        <div class="carousel-inner ">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <div class="container-fluid">
+                    <div class="row">
+
+
+                        <!--Primer fila -->
+                        <!-- evento1 -->
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img src="./img/1.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
+                                    <p class="card-text lugar-evento">4 JUNIO | 8PM
+                                    </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- evento2-->
+                        <div class="col-sm-3  d-lg-block">
+                            <div class="card">
+                                <img src="./img/2.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                    <p class="card-text lugar-evento"> Lugar
+                                    </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- evento3-->
+                        <div class="col-sm-3 d-lg-block">
+                            <div class="card">
+                                <img src="./img/3.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                    <p class="card-text lugar-evento"> Lugar </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-lg-block">
+                            <div class="card">
+                                <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                    <p class="card-text lugar-evento"> Lugar </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Segunda fila-->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--Primer fila -->
+                        <!-- evento1 -->
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img src="./img/1.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                    <p class="card-text lugar-evento">Lugar
+                                    </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- evento2-->
+                        <div class="col-sm-3  d-lg-block">
+                            <div class="card">
+                                <img src="./img/2.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                    <p class="card-text lugar-evento"> Lugar
+                                    </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- evento3-->
+                        <div class="col-sm-3 d-lg-block">
+                            <div class="card">
+                                <img src="./img/3.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                    <p class="card-text lugar-evento"> Lugar </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 d-lg-block">
+                            <div class="card">
+                                <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                    <p class="card-text lugar-evento"> Lugar </p>
+                                    <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver
+                                        Evento</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--Fin Galery-->
+
+
+        <!-- Footer -->
+
+
+        <div class="container-fluid">
+            <!-- Footer -->
+            <footer class="row footer-back">
+                <div class=" footer-icon">
+                    <li class="list-inline-item">
+                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                    </li>
+                    <li class="list-inline-item ">
+                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                    </li>
+
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copy">© 2021 Copyright:
+                    <a class="footer-copy" href=""> Virtual Event</a>
+                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+
+
+
+    </div>
 
 
 
