@@ -25,52 +25,60 @@
 
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-        <nav class="navbar navbar-expand-sm nav1 ">
-                <div class="#">
-                    <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
+    <!-- container -->
+    <div class="container-fluit ">
+        <!-- header -->
+        <header class="row menu-nav">
+            <div class="col-sm">
+                <div class="row  ">
+                    <!-- nav -->
+                    <nav class=" navbar-static-top navbar navbar-expand-sm  ">
+                        <div class="navbar-brand  ">
+                            <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
+                        </div>
+
+                        <div class="col-sm titubarra">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+
+                            <ul class="col-sm navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <select class="form-select form-select-sm  event ">
+                                        <option selected class="sub">EVENTOS</option>
+                                        <option value="1" class="sub">CONCIERTO</option>
+                                        <option value="2" class="sub">COMEDIA</option>
+                                        <option value="3" class="sub">DEPORTE</option>
+                                    </select>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
+                                            class="d-inline-block align-top" alt=""></a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
+                                        alt="#"></button>
+                            </form>
+                        </div>
                 </div>
-                <div class="col-sm titubarra">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <select class="form-select form-select-sm  event ">
-                                    <option selected>EVENTOS</option>
-                                    <option value="1">CONCIERTO</option>
-                                    <option value="2">COMEDIA</option>
-                                    <option value="3">DEPORTE</option>
-                                </select>
-                            </li>
-                            <li class="nav-item">
-                                <a  href="#"><img class="carro" src="./img/carro.png"alt=""></a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form" type="search" placeholder="buscar" aria-label="Search">
-                            <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                    alt="#"></button>
-                        </form>
-
-                    </div>
-                    
-                </div>
-                
-            </nav><!-- TERMINA NAV -->
-           
+                </nav>
+                <!-- FIN NAV-->
+            </div>
+        </header>
 
             <nav class="navbar   navbar-expand-sm nav2 ">
             <div class="row ">
@@ -89,7 +97,7 @@
 
 
                 <div class=col-sm-8>
-                    <h4 class="subtitu2 ">PREVENTA DE BOLETOS</h4>
+                    <h4 class="subtitu2 ti-preve">PREVENTA DE BOLETOS</h4>
                    
                     <h4 class="subtitu7 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
                     <h4 class="subtitu7 compra-datos">Estadio Nacional</h4>

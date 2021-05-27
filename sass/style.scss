@@ -1,20 +1,486 @@
-$blue-bg:#000522;
-$light-blue:#003366;
-$badground:#002A4A;
-$texto:#fff;
-$font: Roboto;
-$ligh:#85c7d7;
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
 
 body{
-    font-family:$font;
-    padding-left: 2%;
-    padding-right: 2%;
-    height: max-content;
+  font-family:$font;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: max-content;
 }
 .row{
-    --bs-gutter-x: 0rem; 
+  --bs-gutter-x: 0rem; 
+  margin-left: 0em;
+  margin-right: 0em;
 }
 
+.menu-nav{
+  color: $white-copy;
+  background-color:$blue-bg;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-position-y: center;
+  background-position-x: center;
+  width: 95vw;
+  padding-top: 1.5vw;
+  padding-bottom: 0.5vw;
+
+  @include respond-to($phone){
+        background-position-y: center;
+      background-position-x: center;
+      width: 100%;
+       position: relative;
+   
+  }
+}
+
+.logo{
+  margin-top: -1em;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: -1em;
+  display: block;
+  image-orientation: from-image;
+  align-items: center;
+  height: auto;
+  @include respond-to($phone){
+        margin-left:-15em;
+        margin-top: 0em;
+        width: 23vw; 
+    }
+  
+}
+  
+.titubarra{
+  color:$texto;
+  margin-left: 1em;
+  text-decoration: NONE;
+  font-size: 21pt;
+  font-weight: 300;
+  border: none;
+  display: inline-block;
+  list-style: none;
+  
+  
+  @include respond-to($phone){
+    font-size: 14pt;
+    margin-top: 0em;
+   }
+  }
+  
+  .carousel-inner>.item>img{
+        @include respond-to($phone){
+        height: 172px !important;
+      }
+    }
+ 
+
+.form-control{
+  border-radius:1.25rem ;
+  font-size: 14px;
+  color: #999;
+  opacity: 1;
+  width: 100%;
+
+  @include respond-to($phone){
+        width: 54%!important;
+    }
+  
+}
+
+.form {
+  background-color: $blue-bg;
+    height: auto;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid $texto;
+    width: 58vw;
+    @include respond-to($phone){
+      margin-left: 0em;
+  }
+  }
+
+
+.event{
+  color:$texto;
+  background-color: $blue-bg;
+  text-align: center;
+  width:7em;
+  border: 1px solid $blue-bg;
+  font-size: 21pt;
+  font-weight: 300;
+
+  @include respond-to($phone){
+    font-size: 14pt;
+    margin-left: 0.5em;
+    text-align: left;
+   
+    }
+}
+
+.sub{
+  color: $texto;
+  font-size: 8pt;
+  font-weight: 300;
+  margin-right: 1em;
+  background-color:$light-blue;
+  @include respond-to($phone){
+    
+}
+}
+.carro{
+  width:30px;
+  
+}
+
+
+.navbar-nav{
+  margin: 0px 0px;
+  @include respond-to($phone){
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+     padding-bottom: 0px;
+  }
+}
+     .navbar-nav > li > a {
+      @include respond-to($phone){
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 20px;
+    }
+  }
+
+.ti-event{
+  color:$texto;
+ 
+  font-size: 25pt;
+  font-weight: 500;
+  @include respond-to($phone){
+    font-size: 21pt; 
+  }
+}
+
+// ***********body***INDEX DETALLE******************************
+
+.subtitu2{
+  color: $blue-bg;
+  font-size: 24pt;
+  font-weight: 900;
+  padding-left: 5%;
+  width: 100%;
+  margin-top: 1em;
+  @include respond-to($phone){
+    font-size: 18pt; 
+   
+  }
+}
+
+.image2{
+  width: 296px;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  @include respond-to($phone){
+    margin-left: 1.5em; 
+    margin-top: -1em;
+    margin-bottom: 0em;
+}
+}
+.subtitu4{
+  color: $blue-bg;
+  font-size: 16pt;
+  font-weight: 700;
+  margin-right: 1em;
+  text-align: center;
+  width: 50%;
+  @include respond-to($phone){
+    font-size: 12pt;
+    width: 100%;  
+}
+}
+.subtitu5{
+  color: $blue-bg;
+  font-size: 24pt;
+  font-weight: 500;
+  margin-right: 1em;
+  width: 100%;
+  @include respond-to($phone){
+    font-size: 18pt;
+    width: 100%;
+  }
+}
+
+.subtitu6{
+  color: $blue-bg;
+  font-size: 14pt;
+  font-weight: 400;
+  margin-right: 1em;
+  @include respond-to($phone){
+    font-size: 10pt;
+  }
+}
+///EVENTOS RELACIONADOS
+.otrosevent{
+  color: $blue-bg;
+  font-size: 24pt;
+  font-weight: 900;
+  padding-left: 2.5em;
+  width: 100%;
+  @include respond-to($phone){
+    width:12em;
+    font-size: 18pt;
+    margin-left: -2.5em;
+  }
+}
+.otraimage{
+  width: 296px;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  @include respond-to($phone){
+margin-left: 0;
+width: 283px;
+  }
+}
+
+.botton-evento{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  @include respond-to($phone){
+    margin-bottom: 0.5em;
+    width: 100%;
+  }
+}
+
+.titutabla{
+  color: $blue-bg;
+  font-size: 14pt;
+  font-weight: 400;
+  
+  padding-left: 5%;
+  width: 58%;
+  @include respond-to($phone){
+    font-size: 12pt;
+  }
+}
+.subtabla{
+  color: $blue-bg;
+  font-size: 14pt;
+  font-weight: 400;
+  margin-right: 1em;
+  @include respond-to($phone){
+    font-size: 10pt;
+  }
+}
+.pro-event{
+    @include respond-to($phone){
+    margin-bottom: 0.5em;
+    width: 12em;
+  }
+}
+.h4{
+  @include respond-to($phone){
+  width: 80%;
+}
+}
+
+//FIN INDEX DETALLE
+
+//*********************INDEX PREVENTA*******************
+.ti-preve{
+margin-left: 0em; 
+}
+.subtitu7{
+  color: $blue-bg;
+  font-size: 18pt;
+  font-weight: 300;
+   width: 55%;
+   @include respond-to($phone){
+    font-size: 15pt;
+   }
+}
+.btn3{
+  
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  color:$blue-bg ;
+  font-size: 18pt;
+   font-weight: 300;
+   text-decoration:none !important;
+   text-align: center;
+   @include respond-to($phone){
+font-size: 12pt;
+   }
+}
+.evento1{
+  display: flex;
+  padding-bottom: 0.5em;
+  
+  width: 222px;
+  align-items: center;
+  height: auto;
+  margin-left: 4em;
+  margin-top: 3em;
+
+@include respond-to($phone){
+  margin-top: 0em;
+  padding-top: 0em;
+}
+}
+
+.subtitu9{
+  margin-left: 26em;
+  width:37%;
+  margin-top: -1em;
+  @include respond-to($phone){
+    margin-left: 0em;
+    width:100%;
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+.btncontinuar{
+  width: 12em;
+  border-radius: 2em;
+  margin-left: 3em;
+  @include respond-to($phone){
+    margin-left: 1.5em;
+  }
+}
+
+
+
+
+
+
+//FIN INDEX PREVENTA
+
+//****************************INDEX REGISTER************************
+
+.col-titulo {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: $blue-bg;
+  font-size: 14pt;
+  font-weight: 400;
+  @include respond-to($phone){
+    font-size: 12pt;
+  }
+}
+
+.col-holder {
+  float: left;
+  width: 75%;
+  margin-top: 9px;
+  @include respond-to($phone){
+    width: 58%;
+    margin-top: 4px;
+    margin-left: 1em;
+  }
+}
+.form-reg{
+  width: 16em !important;
+}
+
+.form-control:disabled, .form-control:read-only {
+  @include respond-to($phone){
+  background-color: $texto;
+  opacity: 1;
+}
+}
+
+.placeho{
+  height: 4em;
+width: 100%;
+border-radius: 13px;
+border-color: #ccc;
+color: #a3a1a1;
+opacity: 1;
+height: 4em;
+@include respond-to($phone){
+  height: 3.5em;
+  width: 18em !important;
+
+}
+}
+
+.btn-regis{
+  
+  text-align: center;
+ 
+}
+
+.btnregister{
+  width: 16em;
+  border-radius: 2em;
+  margin-left: 15em;
+  @include respond-to($phone){
+    margin-left: 0em;
+    width: 13em;
+  }
+}
+//**************footer
+.footer-back{
+  background-color: $blue-bg;
+  margin-left: 0em;
+  margin-right: 1em;
+  width: 100%;
+  margin-top: 2em;
+  @include respond-to($phone){
+    margin-top: 4em;
+  }
+}
+
+//FIN INDEX REGISTER
+
+//**********************************INDEX COMPRAR
+.ti-event2{
+  color:$texto;
+  background-color: $light-blue;
+  text-align: center;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  width:100%;
+  margin-left:0em;
+}
+
+.ti-event3{
+
+  width: 100%;
+}
+.tik{
+  margin-left: 7em;
+  @include respond-to($phone){
+    margin-left: 0em;
+    text-align: center;
+  }
+}
+.cod-qr{
+  width: 194px;
+  margin-left: 0em;
+  margin-right: 1em;
+  margin-bottom: 5em;
+  @include respond-to($phone){
+    width: 154px;
+    margin-left: 8em;
+    margin-bottom: 0em;
+    margin-top: 5em!important;
+    position: relative;
+  }
+  }
+
+
+//FIN INDEX COMPRAR
 .navbarm {
   position: relative;
   min-height: 50px;
@@ -43,6 +509,8 @@ body{
 }
 
 
+
+ 
 .mb-3{
   margin-bottom: 1rem !important;
 }
@@ -68,13 +536,7 @@ body{
 
 //******************************Footer********************
 
-.footer-back{
-  background-color: $blue-bg;
-  margin-left: 0em;
-  margin-right: 1em;
-  width: 100%;
-  margin-top: 2em;
-}
+
 .footer-copy{
   background-color: $light-blue;
   color:$texto;
@@ -93,13 +555,7 @@ body{
   margin-top: 5%;
 
 }
-.otrosevent{
-  color: $blue-bg;
-  font-size: 24pt;
-  font-weight: 900;
-  padding-left: 2.5em;
-  width: 100%;
-}
+
 
 .footer-end{
   margin-left: 1em;
@@ -152,26 +608,8 @@ margin-left: 0em;
     display: contents;
   }
  
-.form-control{
-    border-radius:1.25rem ;
-    background-color:$texto!important;
-    font-size: 14px;
-    color: #999;
-    opacity: 1;
-    width: 103%;
-}
 
-.form {
-  background-color: $blue-bg;
-    width: 300px;
-    height: 44px;
-    border-radius: 22px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid $texto;
-    margin-left: 3em;
-  }
+
   input  {
     all: unset;
     font: 16px system-ui;
@@ -181,17 +619,7 @@ margin-left: 0em;
   }
   
 
-  .event{
-    color:$texto;
-    background-color: $blue-bg;
-    text-align: center;
-    width: 100%;
-    border: 1px solid $blue-bg;
-    
-    font-size: 21pt;
-    font-weight: 300;
-}
-
+  
 //*************LINEAS*******************
 hr {
   margin: 2rem 0;
@@ -200,7 +628,7 @@ hr {
   border: 0;
   opacity: .25;
   size: 6;
-  width: 100em !important;
+  width: 100% !important;
   height: 1em;
   margin-top: -1em;
   margin-left: 0%;
@@ -217,12 +645,7 @@ hr {
   align-self: auto;
   margin-right: 2em;
 }
-.image2{
-  width: 296px;
-  margin-left: 4em;
-  margin-right: 1em;
-  margin-bottom: 2em;
-}
+
 .image3{
    width: 320px;
    margin-left: 5em;
@@ -236,21 +659,7 @@ hr {
   padding-left: 5%;
   height: auto;
 }
-.logo{
-  margin-top: -2em;
-  padding-left: 10%;
-  padding-right: 10%;
-  display: block;
-  image-orientation: from-image;
-  align-items: center;
-}
 
-.cod-qr{
-  width: 194px;
-  margin-left: 0em;
-  margin-right: 1em;
-  margin-bottom: 5em;
-}
 
 
   .logo2{
@@ -259,17 +668,8 @@ hr {
     margin-left: 2em;
   }
  
-  .otraimage{
-    width: 296px;
-    margin-left: 4em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-  }
+ 
   
-  .carro{
-    width:30px;
-    
-}
 .footer-icon{
   display: inline-flex;
   align-items: center;
@@ -288,43 +688,14 @@ hr {
 //*********TAbla*****
 
 .card{
-  width: 94%;
+  width: 100%;
   margin-top: 1em;
+ 
 }
 //************************TITULOS
-.ti-event{
-  color:$texto;
- 
-  font-size: 30pt;
-  font-weight: 500;
-  
-}
-.ti-event2{
-  color:$texto;
-  background-color: $light-blue;
-  text-align: center;
-   padding-top:0.5em;
-  padding-bottom:0.5em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  width: 100%;
-  margin-left:1em;
-}
 
-.ti-event3{
 
-  width: 100%;
-}
-.titubarra{
-  color:$texto;
-  margin-left: 1em;
-  text-decoration: NONE;
-  font-size: 21pt;
-  font-weight: 300;
-  border: none;
-  display: inline-block;
-  list-style: none
-}
+
 .titupagina{
   color:$texto;
   margin-left: 1em;
@@ -333,14 +704,7 @@ hr {
   font-weight: 300;
   text-align: center;
 }
-.titutabla{
-  color: $blue-bg;
-  font-size: 14pt;
-  font-weight: 400;
-  
-  padding-left: 5%;
-  width: 58%;
-}
+
 //***************SUBTITULOS***********
 .nombre-evento{
   color: $blue-bg;
@@ -360,67 +724,25 @@ hr {
     font-weight: 300;
     
   }
-  .subtitu2{
-    color: $blue-bg;
-    font-size: 24pt;
-    font-weight: 900;
-    padding-left: 5%;
-    width: 100%;
-    margin-top: 1em;
-  }
+  
   .subtitu3{
     color: $blue-bg;
     font-size: 10pt;
     font-weight: 300;
     margin-right: 1em;
   }
-  .subtitu4{
-    color: $blue-bg;
-    font-size: 16pt;
-    font-weight: 700;
-    margin-right: 1em;
-    text-align: center;
-    width: 50%;
-  }
-  .subtitu5{
-    color: $blue-bg;
-    font-size: 24pt;
-    font-weight: 500;
-    margin-right: 1em;
-    width: 100%;
-    
-  }
-  .subtitu6{
-    color: $blue-bg;
-    font-size: 14pt;
-    font-weight: 400;
-    margin-right: 1em;
-  }
-  .sub{
-    color: $texto;
-    font-size: 12pt;
-    font-weight: 300;
-    margin-right: 1em;
-    background-color:$light-blue;
-  }
-  .subtitu7{
-    color: $blue-bg;
-    font-size: 18pt;
-    font-weight: 300;
-    
-    width: 55%;
-  }
+  
+  
+  
+  
+ 
   .subtitu8{
     color: $texto;
     font-size: 35pt;
     font-weight: 700;
     
   }
-  .subtitu9{
-    margin-left: 26em;
-    width:37%;
-    margin-top: -1em;
-  }
+  
   .subtiket{
     color: $blue-bg;
     font-size: 21pt;
@@ -430,9 +752,7 @@ hr {
     margin-bottom: 1em;
     margin-top: 1em;
   }
-  .tik{
-    margin-left: 7em;
-  }
+  
 //*************************Carusel
 .bar{
   margin-bottom: 0px !important;
@@ -441,14 +761,7 @@ hr {
 //*******************TARJETAS
 
 //********************BOTONES********************
-.botton-evento{
-  color: $texto;
-  font-size: 12pt;
-  font-weight: 400;
-  text-align: center;
-  width: 100%;
-  
-}
+
 .btn{
   border:none ;
    border-radius: 1.25rem!important;
@@ -458,37 +771,19 @@ hr {
    padding-right: 1.5em;
   
  }
-.btncontinuar{
-  width: 12em;
-  border-radius: 2em;
-  margin-left: 3em;
-}
+
 .btn2{
   margin-left: 56em;
   width: 22em;
 }
-.btnregister{
-  width: 16em;
-  border-radius: 2em;
-  margin-left: 15em;
-}
+
 .btnregister2{
   width: 8em;
   border-radius: 2em;
   margin-left: 9em;
   text-align: center;
 }
-.btn3{
-  
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  color:$blue-bg ;
-  font-size: 18pt;
-   font-weight: 300;
-   text-decoration:none !important;
-   text-align: center;
-   
-}
+
 .btn-regis{
   
   text-align: center;
@@ -499,27 +794,8 @@ hr {
     padding-left: 5%;
     width: 100%;   
 }
-.evento1{
-  display: flex;
-  padding-bottom: 0.5em;
-  padding-top: 2.5em;
-  width: 222px;
-  align-items: center;
-  height: auto;
-  margin-left: 4em;
-  margin-top: 3em;
-}
-.placeho{
-  height: 4em;
-width: 106%;
-border-radius: 13px;
-border-color: #9185853b;
-color: #999;
-opacity: 1;
-height: 4em;
 
 
-}
 .holder{
 height: 3.5em;
 border-radius: 6px;
@@ -552,20 +828,9 @@ label {
   padding: 20px;
 }
 
-.col-titulo {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-  color: $blue-bg;
-  font-size: 14pt;
-  font-weight: 400;
-}
 
-.col-holder {
-  float: left;
-  width: 75%;
-  margin-top: 9px;
-}
+
+
 .col-holder2 {
   float: left;
   width: 75%;
