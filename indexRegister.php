@@ -105,7 +105,7 @@
                 <!--  nombre -->
                 <div class="row">
                     <div class="col-titulo">
-                        <label for="fname ">Nombre:</label>
+                        <label class="tabla-ti" for="fname ">Nombre:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-control form-reg " placeholder="Nombre">
@@ -116,7 +116,7 @@
 
                 <div class="row">
                     <div class="col-titulo">
-                        <label for="lname">Apellido:</label>
+                        <label class="tabla-ti" for="lname">Apellido:</label>
                     </div>
                     <div class="col-holder ">
                         <input type="text" class="form-control form-reg " placeholder="Apellido">
@@ -126,7 +126,7 @@
                 <!--  nacimiento -->
                 <div class="row">
                     <div class="col-titulo">
-                        <label for="lname"> Fecha Nacimiento:</label>
+                        <label class="tabla-ti" for="lname"> Fecha Nacimiento:</label>
                     </div>
                     <div class="col-holder">
                         <input type="date" class="form-control form-reg" placeholder="Fecha de NAcimiento">
@@ -136,7 +136,7 @@
                 <!--  telefono -->
                 <div class="row">
                     <div class="col-titulo">
-                        <label for="Correo">Telefono:</label>
+                        <label class="tabla-ti" for="Correo">Telefono:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-control form-reg" placeholder="Telefono">
@@ -146,7 +146,7 @@
                 <!--  provincia -->
                 <div class="row">
                     <div class="col-titulo">
-                        <label for="provincia">Provincia:</label>
+                        <label class="tabla-ti" for="provincia">Provincia:</label>
                     </div>
 
                     <div class="col-holder ">
@@ -167,7 +167,7 @@
 
                 <div class="row">
                     <div class="col-titulo ">
-                        <label for="Correo">Correo:</label>
+                        <label class="tabla-ti" for="Correo">Correo:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-control form-reg " placeholder="Correo">
@@ -178,7 +178,7 @@
 
                 <div class="row">
                     <div class="col-titulo ">
-                        <label for="Correo">Tarjeta Credito:</label>
+                        <label class="tabla-ti" for="Correo">Tarjeta Credito:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-control form-reg" placeholder="Numero de Tarjeta">

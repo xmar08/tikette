@@ -61,7 +61,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
-                                                class="d-inline-block align-top" alt=""></a>
+                                                class="d-inline-block " alt=""></a>
                                     </li>
                                 </ul>
                                 <form class="d-flex">
@@ -95,7 +95,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner carou">
                     <div class="item active ">
-                        <img class="" src="./img/CONCIERTO.png" alt="#">
+                        <img class="carou" src="./img/CONCIERTO.png" alt="#">
                     </div>
 
                     <div class="item">
@@ -178,6 +178,7 @@
                                     </div>
                                 </div>
                             </div>
+                             <!-- evento4-->
                             <div class="col-sm-3 d-lg-block">
                                 <div class="card">
                                     <img src="./img/11.jpg" class="card-img-top" alt="..." />
@@ -235,6 +236,7 @@
                                     </div>
                                 </div>
                             </div>
+                             <!-- evento4-->
                             <div class="col-sm-3 d-lg-block">
                                 <div class="card">
                                     <img src="./img/11.jpg" class="card-img-top" alt="..." />

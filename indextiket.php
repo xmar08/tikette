@@ -105,7 +105,7 @@
         </div>
         <div class=" row container ">
             <!--titulo3-->
-            <div class="col-sm"><img class=" image2" src="./img/1-concierto.png" alt="#">
+            <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="#">
             </div>
 
             <div class="col-sm-4 ">
@@ -114,7 +114,7 @@
             </div>
 
             <div class="col-sm">
-                <p class="btn btn-primary botton-evento"># 46030</p>
+                <p class="btn btn-primary botton-tik"># 46030</p>
 
 
             </div><!--  fin container -->

@@ -13,27 +13,39 @@ body{
   margin-left: 0em;
   margin-right: 0em;
 }
-
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+ }
 .menu-nav{
   color: $white-copy;
   background-color:$blue-bg;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
   background-position-y: center;
   background-position-x: center;
-  width: 95vw;
+  width: 100%;
   padding-top: 1.5vw;
   padding-bottom: 0.5vw;
-
+  @include respond-to($tablet-landscape){
+    padding-top: 0.5vw;
+    padding-left:11% ;
+  }
   @include respond-to($phone){
-        background-position-y: center;
-      background-position-x: center;
-      width: 100%;
-       position: relative;
-   
+    background-position-y: center;
+    background-position-x: center;
+    width: 100%;
+    position: relative;
   }
 }
-
+.navbar-nav{
+  margin: 0px 0px;
+  @include respond-to($phone){
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
 .logo{
   margin-top: -1em;
   padding-left: 0%;
@@ -43,66 +55,41 @@ body{
   image-orientation: from-image;
   align-items: center;
   height: auto;
-  @include respond-to($phone){
-        margin-left:-15em;
-        margin-top: 0em;
-        width: 23vw; 
-    }
+  @include respond-to($tablet-landscape){
+    width: 132px !important;
+    margin-top: -2em;
+  }
+  @include respond-to($tablet-portrait){
+    margin-top: -4em;
+  }
   
+    @include respond-to($phone){
+      margin-left:-22em;
+      margin-top: 3em;
+      width: 170px; 
+    }
 }
   
 .titubarra{
   color:$texto;
-  margin-left: 1em;
+  margin-left: 0em;
   text-decoration: NONE;
   font-size: 21pt;
   font-weight: 300;
   border: none;
   display: inline-block;
   list-style: none;
-  
-  
+  margin-top: 1em;
+  @include respond-to($tablet-landscape){
+    font-size: 18pt;
+  }
   @include respond-to($phone){
     font-size: 14pt;
     margin-top: 0em;
-   }
+    margin-left:6.5em;
+    width: 100%;
   }
-  
-  .carousel-inner>.item>img{
-        @include respond-to($phone){
-        height: 172px !important;
-      }
-    }
- 
-
-.form-control{
-  border-radius:1.25rem ;
-  font-size: 14px;
-  color: #999;
-  opacity: 1;
-  width: 100%;
-
-  @include respond-to($phone){
-        width: 54%!important;
-    }
-  
 }
-
-.form {
-  background-color: $blue-bg;
-    height: auto;
-    border-radius: 22px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid $texto;
-    width: 58vw;
-    @include respond-to($phone){
-      margin-left: 0em;
-  }
-  }
-
-
 .event{
   color:$texto;
   background-color: $blue-bg;
@@ -111,60 +98,211 @@ body{
   border: 1px solid $blue-bg;
   font-size: 21pt;
   font-weight: 300;
-
+  margin-top: 1em !important;
+  @include respond-to($tablet-landscape){
+    font-size: 18pt!important;
+    margin-top: 1.2em !important;
+    width:6em!important;
+  }
   @include respond-to($phone){
     font-size: 14pt;
-    margin-left: 0.5em;
-    text-align: left;
+    margin-left: 6em;
    
-    }
+    margin-top: 0em !important;
+  }
 }
-
 .sub{
   color: $texto;
   font-size: 8pt;
   font-weight: 300;
   margin-right: 1em;
   background-color:$light-blue;
-  @include respond-to($phone){
-    
-}
-}
+  }
 .carro{
   width:30px;
-  
+  margin-top: 0.5em;
+  margin-left: -0.5em;
+  @include respond-to($tablet-landscape){
+    margin-top: 1em;
+  }
+  @include respond-to($tablet-portrait){
+    margin-top: 1em;
+    margin-left: 6em;
+  }
+   
 }
-
-
-.navbar-nav{
-  margin: 0px 0px;
+.form-control{
+  border-radius:1.25rem ;
+  font-size: 14px;
+  color: #999;
+  opacity: 1;
+  width: 97%!important;
+  margin-top: 2em;
+  @include respond-to($tablet-landscape){
+    margin-left: -29em;
+    margin-top: 6em;
+    width: 273% !important;
+  }
   @include respond-to($phone){
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-     padding-bottom: 0px;
+    width: 54%!important;
   }
 }
-     .navbar-nav > li > a {
-      @include respond-to($phone){
-      padding-top: 0px;
-      padding-bottom: 0px;
-      line-height: 20px;
-    }
+.form {
+  background-color: $blue-bg;
+  height: 3em;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid $texto;
+  width: 58vw;
+  @include respond-to($tablet-landscape){
+    display: inline-block;
   }
-
+  @include respond-to($phone){
+    margin-left: -4em;
+  }
+}
+.btn{
+  border:none ;
+  border-radius: 1.25rem!important;
+  font-size: 18pt;
+  font-weight: 300;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 2em;
+}
+.imagebusca{
+  width:25px; 
+  align-self: auto;
+  margin-right: 4em;
+  margin-top: 1.5em;
+  @include respond-to($tablet-landscape){
+    margin-top: 3em;
+    margin-left: 0em;
+  }
+  @include respond-to($phone){
+    margin-left: 0em;
+    margin-top: 1em;
+  }
+}
+.navbar-nav > li > a {
+  @include respond-to($phone){
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 20px;
+  }
+}
+.carousel-inner>.item>img{
+  @include respond-to($phone){
+    height: 172px !important;
+  }
+}
+.ti-event2{
+  color:$texto;
+  background-color: $light-blue;
+  text-align: center;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  width:100%;
+  margin-left:0em;
+}
 .ti-event{
   color:$texto;
- 
   font-size: 25pt;
   font-weight: 500;
   @include respond-to($phone){
     font-size: 21pt; 
   }
 }
+.card{
+  width: 100%;
+  margin-top: 1em;
+}
+.nombre-evento{
+  color: $blue-bg;
+  font-size: 13pt;
+  font-weight: 400;
+  text-align: center;
+}
+.lugar-evento{
+  color: $blue-bg;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+}
+.botton-evento{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.5em;
+  @include respond-to($tablet-portrait){
+    width: 9.5em;
+    font-size: 10pt;
+  }  
+    @include respond-to($phone){
+      margin-bottom: 0.5em;
+      width: 100%;
+    }
+}
+.footer-icon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.footer-back{
+  background-color: $blue-bg;
+  margin-left: 0em;
+  margin-right: 1em;
+  width: 100%;
+  margin-top: 2em;
+  @include respond-to($phone){
+    margin-top: 4em;
+  }
+}
+.face{
+  width: 40%;
+}
+.tele{
+  width: 37%;
+}
+.footer-copy{
+  background-color: $light-blue;
+  color:$texto;
+  text-align: center;
+  text-decoration: none;
+}
+//FIN INDEX
+//************************************************************************************************
+//************************************************************************************************
+//************************************************************************************************
+/* **********************INDEX DETALLE********************************************************* */
+//nav y Footer igual a Index
+//SLIDER
 
-// ***********body***INDEX DETALLE******************************
-
+.conta{
+  background-color:$badground;
+  width: 100%;
+  margin-left: 0em;
+  }
+  .image{
+    display: flex;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    width: 89vw;
+    align-items: center;
+    padding-left: 5%;
+    height: auto;
+    @include respond-to($tablet-landscape){
+      padding-left: 7%;
+    }
+  }
 .subtitu2{
   color: $blue-bg;
   font-size: 24pt;
@@ -172,92 +310,145 @@ body{
   padding-left: 5%;
   width: 100%;
   margin-top: 1em;
+  @include respond-to($tablet-landscape){
+    margin-top: 0em;
+  }
+  @include respond-to($tablet-portrait){
+    font-size: 21pt; 
+    width:24em;
+    margin-top: 0.5em;
+  }
+ 
   @include respond-to($phone){
     font-size: 18pt; 
-   
+    padding-left: 5%;
+  }
+  
+}
+.container{
+  background-color: $texto;
+  @include respond-to($tablet-portrait){
+    width: 100%;
+
   }
 }
-
-.image2{
+.tit_art{
+  color: $blue-bg;
+  font-size: 24pt;
+  font-weight: 900;
+  padding-left: 5%;
+  width: 100%;
+  margin-top: 1em;
+  @include respond-to($tablet-landscape){
+    padding-left: 10%;
+  }
+  @include respond-to($tablet-portrait){
+    font-size: 21pt; 
+    width:24em;
+  }
+  
+  @include respond-to($phone){
+    font-size: 18pt; 
+    padding-left: 10%;
+  }
+  
+}
+.image_conci{
   width: 296px;
   margin-left: 4em;
   margin-right: 1em;
-  margin-bottom: 2em;
+  margin-bottom: -3em;
+  @include respond-to($tablet-portrait){
+    width: 234px!important;
+    margin-left: 2em!important;
+  }
   @include respond-to($phone){
-    margin-left: 1.5em; 
+    margin-left: 3.5em; 
     margin-top: -1em;
     margin-bottom: 0em;
 }
 }
-.subtitu4{
+.tit-det-event{
   color: $blue-bg;
   font-size: 16pt;
   font-weight: 700;
   margin-right: 1em;
   text-align: center;
   width: 50%;
+  @include respond-to($tablet-portrait){
+    font-size: 12pt;
+    margin-top: 0em;
+  }  
   @include respond-to($phone){
     font-size: 12pt;
-    width: 100%;  
+    width: 100%; 
+    margin-left: -8em; 
+    margin-top: -0.5em;
 }
+
 }
-.subtitu5{
+.tit_Lugar{
   color: $blue-bg;
   font-size: 24pt;
   font-weight: 500;
   margin-right: 1em;
   width: 100%;
+  @include respond-to($tablet-landscape){
+    font-size: 16pt;
+    text-align: center;
+  }
+  @include respond-to($tablet-portrait){
+    width: 15em;
+    margin-top: 0.1em;
+    font-size: 16pt;
+  }  
+  
   @include respond-to($phone){
     font-size: 18pt;
-    width: 100%;
+    margin-left: 0.5em;
   }
+ 
 }
 
-.subtitu6{
+.tit_nom_event{
   color: $blue-bg;
   font-size: 14pt;
   font-weight: 400;
   margin-right: 1em;
+  @include respond-to($tablet-landscape){
+    font-size: 9pt;
+    text-align: center;
+  }
+  @include respond-to($tablet-portrait){
+    width: 15em;
+    font-size: 10pt;
+  }  
   @include respond-to($phone){
     font-size: 10pt;
+    margin-left: 1em;
   }
+ 
 }
-///EVENTOS RELACIONADOS
-.otrosevent{
-  color: $blue-bg;
-  font-size: 24pt;
-  font-weight: 900;
-  padding-left: 2.5em;
-  width: 100%;
-  @include respond-to($phone){
-    width:12em;
-    font-size: 18pt;
-    margin-left: -2.5em;
-  }
-}
-.otraimage{
-  width: 296px;
-  margin-left: 4em;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  @include respond-to($phone){
-margin-left: 0;
-width: 283px;
-  }
-}
-
-.botton-evento{
+.btnregistro{
   color: $texto;
   font-size: 12pt;
   font-weight: 400;
   text-align: center;
   width: 100%;
-  @include respond-to($phone){
-    margin-bottom: 0.5em;
-    width: 100%;
+  margin-top: 0.5em;
+  @include respond-to($tablet-landscape){
+    margin-left: 3em;
+    width: 45%;
   }
+  @include respond-to($tablet-portrait){
+    width: 90%!important;
+    text-align: center;
+    margin-left: 3em;
+      } 
+      @include respond-to($phone){
+         margin-left: 1em;
+      } 
 }
-
 .titutabla{
   color: $blue-bg;
   font-size: 14pt;
@@ -265,36 +456,167 @@ width: 283px;
   
   padding-left: 5%;
   width: 58%;
+  @include respond-to($tablet-portrait){
+    font-size: 10pt; 
+  }
   @include respond-to($phone){
     font-size: 12pt;
   }
+  
 }
 .subtabla{
   color: $blue-bg;
   font-size: 14pt;
   font-weight: 400;
   margin-right: 1em;
+  @include respond-to($tablet-portrait){
+    font-size: 10pt; 
+  }
   @include respond-to($phone){
     font-size: 10pt;
   }
+ 
+}
+.contain{
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  margin-left:2em;
+  
+  width: 44%;
+}
+
+.otrosevent{
+  color: $blue-bg;
+  font-size: 24pt;
+  font-weight: 900;
+  padding-left: 2.5em;
+  width: 100%;
+  @include respond-to($tablet-landscape){
+    padding-left: 0em;
+    font-size: 16pt;
+    margin-left: 1em;
+  }
+  @include respond-to($tablet-portrait){
+    font-size: 18pt;
+    width: 20em;
+    margin-top: 0.5em;
+  }
+ 
+  @include respond-to($phone){
+    width:17em;
+    font-size: 18pt;
+    margin-left: -1em;
+  }
+  
+}
+.imag_even_rel{
+  width: 296px;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  @include respond-to($tablet-landscape){
+    width: 209px;
+    margin-left: 0em !important;
+  }
+  @include respond-to($tablet-portrait){
+    width: 234px !important;
+    margin-left: 7em !important;
+  }
+ 
+  @include respond-to($phone){
+margin-left: 0;
+width: 357px;
+  }
+  
 }
 .pro-event{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.5em;
+  @include respond-to($tablet-portrait){
+    width: 100%;
+    margin-left: 6.5em;
+    margin-bottom: 1em;
+  }
     @include respond-to($phone){
     margin-bottom: 0.5em;
-    width: 12em;
+    width: 14em;
+  }
+  
+}
+.btn2{
+  width: 100%;
+  @include respond-to($tablet-portrait){
+    margin-left: 0em;
+    width: 24em;
+  
   }
 }
+//FIN INDEX-DETALLE
+//************************************************************************************************
+//************************************************************************************************
+//************************************************************************************************
+/* **********************INDEX PREVENTA********************************************************* */
+//nav y Footer igual a Index
+
+
+
+
+
+
+
+///EVENTOS RELACIONADOS
+
+
+
+
+
+
+
+
+
+.botton-tik{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 11em;
+  margin-top: 0.5em;
+  @include respond-to($tablet-portrait){
+    width: 5.5em;
+    font-size: 10pt;
+  }  
+  @include respond-to($phone){
+    margin-bottom: 0.5em;
+    width: 75%;
+    margin-left: 2em;
+      }
+     
+}
+
+
 .h4{
   @include respond-to($phone){
   width: 80%;
 }
 }
 
+
 //FIN INDEX DETALLE
+
+
+
+
 
 //*********************INDEX PREVENTA*******************
 .ti-preve{
-margin-left: 0em; 
+  @include respond-to($phone){
+text-align: center;
+}
 }
 .subtitu7{
   color: $blue-bg;
@@ -327,11 +649,18 @@ font-size: 12pt;
   height: auto;
   margin-left: 4em;
   margin-top: 3em;
+  @include respond-to($tablet-portrait){
+    margin-left: 14em;
+  margin-top: 2em;
+  }
 
 @include respond-to($phone){
+
   margin-top: 0em;
   padding-top: 0em;
+  margin-left: 6em;
 }
+
 }
 
 .subtitu9{
@@ -347,15 +676,29 @@ font-size: 12pt;
 }
 
 .btncontinuar{
-  width: 12em;
+  width: 11em;
   border-radius: 2em;
   margin-left: 3em;
+  @include respond-to($tablet-portrait){
+    margin-left: 8em;
+    margin-top: -1em;
+  }
   @include respond-to($phone){
     margin-left: 1.5em;
   }
+  
 }
-
-
+.anchfila{
+  @include respond-to($tablet-portrait){
+    width: 30em;   
+  }
+ 
+}
+.table{
+  @include respond-to($tablet-portrait){
+    margin-left: 7em;
+  }
+}
 
 
 
@@ -370,10 +713,22 @@ font-size: 12pt;
   margin-top: 6px;
   color: $blue-bg;
   font-size: 14pt;
-  font-weight: 400;
+  font-weight: 300!important;
   @include respond-to($phone){
     font-size: 12pt;
   }
+}
+.tabla-ti{
+  max-width: 13em;
+margin-bottom: 4px;
+font-weight: 400;
+margin-left: 3em;
+margin-top: 2em;
+  @include respond-to($tablet-portrait){
+
+margin-left: -3em;
+
+}
 }
 
 .col-holder {
@@ -387,7 +742,11 @@ font-size: 12pt;
   }
 }
 .form-reg{
+  width: 55em !important;
+  @include respond-to($phone){
   width: 16em !important;
+  }
+  width: 24em !important;
 }
 
 .form-control:disabled, .form-control:read-only {
@@ -417,42 +776,43 @@ height: 4em;
   text-align: center;
  
 }
+.btnconfir{
+  @include respond-to($phone){
+    margin-left: 4em;
+  }
 
+}
 .btnregister{
-  width: 16em;
+  width: 11em;
   border-radius: 2em;
   margin-left: 15em;
+  @include respond-to($tablet-portrait){
+    margin-left: -1em;
+    margin-top: 1em;
+  }
   @include respond-to($phone){
     margin-left: 0em;
-    width: 13em;
+    width: 11em;
   }
-}
-//**************footer
-.footer-back{
-  background-color: $blue-bg;
-  margin-left: 0em;
-  margin-right: 1em;
-  width: 100%;
-  margin-top: 2em;
+  
+  }
+
+
+
+.compra-datos{
+  padding-left: 5%;
+  width: 100%;   
   @include respond-to($phone){
-    margin-top: 4em;
+    width: 100%;
+    text-align: center;
   }
 }
+
+//**************footer
 
 //FIN INDEX REGISTER
 
 //**********************************INDEX COMPRAR
-.ti-event2{
-  color:$texto;
-  background-color: $light-blue;
-  text-align: center;
-  padding-top:0.5em;
-  padding-bottom:0.5em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  width:100%;
-  margin-left:0em;
-}
 
 .ti-event3{
 
@@ -460,10 +820,17 @@ height: 4em;
 }
 .tik{
   margin-left: 7em;
+  width: 100%;
+  @include respond-to($tablet-portrait){
+    margin-left: 4em;
+    width: 100%;
+  }
   @include respond-to($phone){
     margin-left: 0em;
     text-align: center;
+    width: 100%;
   }
+  
 }
 .cod-qr{
   width: 194px;
@@ -481,6 +848,17 @@ height: 4em;
 
 
 //FIN INDEX COMPRAR
+
+//***********************************INDEX TIKET******************
+.btn-tik{
+  @include respond-to($tablet-portrait){
+    margin-left: 6em;
+    margin-top: 0em;
+}
+  }
+
+
+//FIN INDEX TIKET
 .navbarm {
   position: relative;
   min-height: 50px;
@@ -534,15 +912,27 @@ height: 4em;
   border: 1px solid transparent;
 }
 
+.imaeven1{
+  width: 296px;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  @include respond-to($tablet-portrait){
+    width: 385px;
+    margin-left: 7.5em;
+  }  
+  @include respond-to($phone){
+    width: 367px;
+    margin-left: 1.5em;  
+  }
+ 
+  
+}
+
 //******************************Footer********************
 
 
-.footer-copy{
-  background-color: $light-blue;
-  color:$texto;
-  text-align: center;
-  text-decoration: none;
-}
+
 .footer-margen{
    padding-left:36%;
    
@@ -564,15 +954,8 @@ height: 4em;
   margin-top: 2em;
 }
 //**********************CONTAINER**********************
-.container-fluid{
- padding-right: 0px;
- padding-left: 0px;
-}
-.conta{
-background-color:$badground;
-width: 100%;
-margin-left: 0em;
-}
+
+
 .container2 {
  display: flex;
  padding-left: 10%;
@@ -581,20 +964,9 @@ margin-left: 0em;
  
 }
 
-.container{
-  background-color: $texto;
-}
-.container{
-  background-color: $texto;
-}
-.contain{
-  display: flex;
-  align-items: center;
-  -webkit-box-pack: center;
-  margin-left:2em;
-  
-  width: 44%;
-}
+
+
+
 .vl {
     border-left: 6px solid $blue-bg;
     height: 100px;
@@ -640,25 +1012,13 @@ hr {
 }
 
 //************************IMAGENES*********************
-.imagebusca{
-  width:25px; 
-  align-self: auto;
-  margin-right: 2em;
-}
+
 
 .image3{
    width: 320px;
    margin-left: 5em;
 }
-.image{
-  display: flex;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  width: 89vw;
-  align-items: center;
-  padding-left: 5%;
-  height: auto;
-}
+
 
 
 
@@ -670,28 +1030,11 @@ hr {
  
  
   
-.footer-icon{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2em;
-  padding-top: 2em;
-}
 
-.face{
-  width: 40%;
-}
 
-.tele{
-  width: 37%;
-}
 //*********TAbla*****
 
-.card{
-  width: 100%;
-  margin-top: 1em;
- 
-}
+
 //************************TITULOS
 
 
@@ -706,18 +1049,8 @@ hr {
 }
 
 //***************SUBTITULOS***********
-.nombre-evento{
-  color: $blue-bg;
-  font-size: 14pt;
-  font-weight: 400;
-  text-align: center;
-}
-.lugar-evento{
-  color: $blue-bg;
-  font-size: 12pt;
-  font-weight: 400;
-  text-align: center;
-}
+
+
 .subtitu{
     color: $texto;
     font-size: 24pt;
@@ -762,20 +1095,9 @@ hr {
 
 //********************BOTONES********************
 
-.btn{
-  border:none ;
-   border-radius: 1.25rem!important;
-   font-size: 18pt;
-   font-weight: 300;
-   padding-left: 1.5em;
-   padding-right: 1.5em;
-  
- }
 
-.btn2{
-  margin-left: 56em;
-  width: 22em;
-}
+
+
 
 .btnregister2{
   width: 8em;
@@ -790,10 +1112,6 @@ hr {
 
 }
 //**********Seccion Compras********
-.compra-datos{
-    padding-left: 5%;
-    width: 100%;   
-}
 
 
 .holder{
@@ -813,10 +1131,6 @@ margin-left:-5em;
 
 
 
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
 
 
 

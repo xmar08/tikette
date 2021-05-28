@@ -96,7 +96,7 @@
             <div class="row  container">
 
 
-                <div class=col-sm-8>
+                <div class=col-sm>
                     <h4 class="subtitu2 ti-preve">PREVENTA DE BOLETOS</h4>
                    
                     <h4 class="subtitu7 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
@@ -104,10 +104,10 @@
                     <table class="table">
                         <thead class="subtitu4">
                             <tr>
-                                <th scope="col ">Tipo</th>
-                                <th scope="col">Cantidad</th>
-                                <th scope="col">Precio por Persona</th>
-                                <th scope="col">Total</th>
+                                <th class="anchfila" scope="col ">Tipo</th>
+                                <th class="anchfila" scope="col">Cantidad</th>
+                                <th class="anchfila" scope="col">Precio por Persona</th>
+                                <th class="anchfila" scope="col">Total</th>
                             </tr>
                         </thead >
                         <tbody class="subtitu6">
@@ -157,11 +157,11 @@
 
            
             <div class="col-sm-3">
-                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar">Confirmar Registro</a>
+                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar btnconfir">Confirmar Registro</a>
 
             </div>
             <div class="col-sm-3">
-                <a href="./index.php" class="btn btn-primary botton-evento btncontinuar">Cancelar</a>
+                <a href="./index.php" class="btn btn-primary botton-evento btncontinuar btnconfir">Cancelar</a>
 
             </div>
             <!-- FIN BOTONES -->

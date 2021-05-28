@@ -25,63 +25,67 @@
 
 
 <body>
-    <!-- container -->
-    <div class="container-fluit ">
-        <!-- header -->
-        <header class="row menu-nav">
-            <div class="col-sm">
-                <div class="row  ">
-                    <!-- nav -->
-                    <nav class=" navbar-static-top navbar navbar-expand-sm  ">
-                        <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
-                        </div>
+    <body>
+        <!-- container -->
+        <div class="container-fluit ">
+            <!-- header -->
+            <header class="row menu-nav">
+                <div class="col-sm">
+                    <div class="row  ">
+                        <!-- nav -->
+                        <nav class=" navbar-static-top navbar navbar-expand-sm  ">
+                            <div class="navbar-brand  ">
+                                <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo"
+                                        alt="logo"></a>
 
-                        <div class="col-sm titubarra">
+                            </div>
 
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                            <div class="col-sm titubarra">
+
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
 
 
-                            <ul class="col-sm navbar-nav ">
-                                <li class="nav-item">
-                                    <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <select class="form-select form-select-sm  event ">
-                                        <option selected class="sub">EVENTOS</option>
-                                        <option value="1" class="sub">CONCIERTO</option>
-                                        <option value="2" class="sub">COMEDIA</option>
-                                        <option value="3" class="sub">DEPORTE</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
-                                            class="d-inline-block align-top" alt=""></a>
-                                </li>
-                            </ul>
-                            <form class="d-flex">
-                                <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
-                                <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                        alt="#"></button>
-                            </form>
-                        </div>
+                                <ul class="col-sm navbar-nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <select class="form-select form-select-sm  event ">
+                                            <option selected class="sub">EVENTOS</option>
+                                            <option value="1" class="sub">CONCIERTO</option>
+                                            <option value="2" class="sub">COMEDIA</option>
+                                            <option value="3" class="sub">DEPORTE</option>
+                                        </select>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
+                                                class="d-inline-block " alt=""></a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control form" type="search" placeholder="Buscar"
+                                        aria-label="Search">
+                                    <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
+                                            alt="#"></button>
+                                </form>
+                            </div>
+                    </div>
+
+                    </nav>
+                    <!-- FIN NAV-->
+
+
+
                 </div>
-
-                </nav>
-                <!-- FIN NAV-->
-
-
-
-            </div>
-        </header>
+            </header>
 
 
 
@@ -92,7 +96,7 @@
             </div>
 
             <div class="row ">
-                <div class="ti-event2 ti-event3">
+                <div class="ti-event2">
                     <h3 class="ti-event ">CONCIERTO</h3>
                 </div>
             </div> <!-- titulo evento -->
@@ -104,24 +108,24 @@
 
         <!-- eventos detalle -->
         <div class="row">
-            <h4 class="subtitu2">CARLOS RIVERA</h4>
+            <h4 class="tit_art">CARLOS RIVERA</h4>
         </div>
         <div class=" row container ">
             <!--titulo3-->
-            <div class="col-sm"><img class=" image2" src="./img/1-concierto.png" alt="#">
+            <div class="col-sm"><img class="image_conci" src="./img/1-concierto.png" alt="#">
             </div>
             <div class="col">
-                <h4 class="subtitu4">04 </h4>
-                <h4 class="subtitu4">Junio </h4>
-                <h4 class="subtitu4">2021 </h4>
+                <h4 class="tit-det-event">04 </h4>
+                <h4 class="tit-det-event">Junio </h4>
+                <h4 class="tit-det-event">2021 </h4>
             </div>
             <div class="col-sm-4 ">
-                <h6 class="subtitu5">ESTADIO NACIONAL </h4>
-                    <h4 class="subtitu6">CARLOS RIVERA-GUERRA TOUR </h4>
+                <h6 class="tit_Lugar">ESTADIO NACIONAL </h4>
+                    <h4 class="tit_nom_event">CARLOS RIVERA-GUERRA TOUR </h4>
             </div>
 
             <div class="col-sm">
-                <a href="./indexpreventa.php" class="btn btn-primary botton-evento">Registrarse</a>
+                <a href="./indexpreventa.php" class="btn btn-primary btnregistro">Registrarse</a>
 
             </div>
 
@@ -132,11 +136,7 @@
         <!--  formulario -->
 
         <div class="row  container">
-
             <div class="col-sm-6">
-
-
-
                 <table>
                     <h4 class="subtitu2">GUERRA TOUR</h4>
                     <tr>
@@ -181,27 +181,27 @@
             </div>
 
             <!--Eventos Relacionados-->
-            <div class=" contain   row">
+            <div class=" contain row">
                 <div>
                     <h4 class="otrosevent">EVENTOS RELACIONADOS</h4>
                 </div>
 
-                <div class="col-sm"><img class="otraimage" src="./img/2-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/2-concierto.png" alt="#">
                 </div>
                 <div class="col-sm">
-                    <a href="./index.php" class="btn btn-primary botton-event pro-event">PROXIMAMENTE</a>
+                    <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
 
                 </div>
-                <div class="col-sm"><img class="otraimage" src="./img/3-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/3-concierto.png" alt="#">
                 </div>
                 <div class="col-sm">
-                    <a href="./index.php" class="btn btn-primary botton-event pro-event">PROXIMAMENTE</a>
+                    <a href="./index.php" class="btn btn-primary pro-event">Ver</a>
 
                 </div>
-                <div class="col-sm"><img class="otraimage" src="./img/4-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/4-concierto.png" alt="#">
                 </div>
                 <div class="col-sm">
-                    <a href="./index.php" class="btn btn-primary botton-event pro-event">PROXIMAMENTE</a>
+                    <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
 
                 </div>
             </div>
