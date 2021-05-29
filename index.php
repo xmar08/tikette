@@ -71,6 +71,7 @@
                     </nav>
                     <!-- FIN NAV-->
                 </div>
+            </div>
         </header>
         <!-- CARROUSEL-->
 
@@ -224,11 +225,11 @@
             <!-- Footer -->
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li >
+                    <li>
                         <img class=" face" src="./img/facebook2.png" alt="face" />
                     </li>
-                    <li >
-                        <img class="tele" src="./img/telegram3.png"alt="tele" />
+                    <li>
+                        <img class="tele" src="./img/telegram3.png" alt="tele" />
                     </li>
                 </div>
                 <!-- Copyright -->
