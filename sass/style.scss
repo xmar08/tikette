@@ -433,10 +433,9 @@ display: flex;
     margin-left: 2em!important;
   }
   @include respond-to($phone){
-    margin-left: 3.5em; 
     margin-top: -1em;
     margin-bottom: 0em;
-    width: 220px!important;
+    width: 224px!important;
   }
 }
 .tit-det-event{
@@ -452,9 +451,9 @@ display: flex;
   }  
   @include respond-to($phone){
     font-size: 12pt;
-    width: 100%; 
-    margin-left: -8em; 
-    margin-top: -0.5em;
+    width: 71%; 
+    margin-left: 2em; 
+    margin-top: 0.5em;
   }
 }
 .tit_Lugar{
