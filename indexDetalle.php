@@ -25,69 +25,63 @@
 
 
 <body>
+    <!-- container -->
+    <div class="container-fluit">
+        <!-- header -->
+        <header class="row menu-nav">
+            <div class="col-sm">
+                <div class="row  ">
+                    <!-- nav -->
+                    <nav class=" navbar-static-top navbar navbar-expand-sm  ">
+                        <span>
+                            <img class="menu" src="./img/menu.png" alt="menu">
+                        </span>
+                        <div class="navbar-brand  ">
+                            <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
-    <body>
-        <!-- container -->
-        <div class="container-fluit ">
-            <!-- header -->
-            <header class="row menu-nav">
-                <div class="col-sm">
-                    <div class="row  ">
-                        <!-- nav -->
-                        <nav class=" navbar-static-top navbar navbar-expand-sm  ">
-                            <div class="navbar-brand  ">
-                                <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo"
-                                        alt="logo"></a>
+                        </div>
 
-                            </div>
+                        <div class="col-sm titubarra">
 
-                            <div class="col-sm titubarra">
+                            <ul class="col-sm navbar-nav ">
+                                <li class="nav-item">
+                                <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <select class="form-select form-select-sm  event ">
+                                        <option selected class="sub">EVENTOS</option>
+                                        <option value="1" class="sub">CONCIERTO</option>
+                                        <option value="2" class="sub">COMEDIA</option>
+                                        <option value="3" class="sub">DEPORTE</option>
+                                    </select>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
+                                            class="d-inline-block align-top" alt=""></a>
+                                </li>
+                                <li class="nav-item">
+                                    <form class="d-flex">
+                                        <input class="form-control form" type="search" placeholder="Buscar"
+                                            aria-label="Search">
+                                        <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
+                                                alt="#"></button>
+                                    </form>
+                                </li>
+                            </ul>
 
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-
-
-                                <ul class="col-sm navbar-nav ">
-                                    <li class="nav-item">
-                                        <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <select class="form-select form-select-sm  event ">
-                                            <option selected class="sub">EVENTOS</option>
-                                            <option value="1" class="sub">CONCIERTO</option>
-                                            <option value="2" class="sub">COMEDIA</option>
-                                            <option value="3" class="sub">DEPORTE</option>
-                                        </select>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
-                                                class="d-inline-block " alt=""></a>
-                                    </li>
-                                </ul>
-                                <form class="d-flex">
-                                    <input class="form-control form" type="search" placeholder="Buscar"
-                                        aria-label="Search">
-                                    <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                            alt="#"></button>
-                                </form>
-                            </div>
-                    </div>
-
-                    </nav>
-                    <!-- FIN NAV-->
-
-
-
+                        </div>
                 </div>
-            </header>
 
-
+                </nav>
+                <!-- FIN NAV-->
+            </div>
+        </header>
 
         <!--SLIDER-->
         <div class="row conta">

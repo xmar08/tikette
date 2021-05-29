@@ -23,7 +23,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
     <!-- container -->
     <div class="container-fluit">
@@ -33,6 +32,9 @@
                 <div class="row  ">
                     <!-- nav -->
                     <nav class=" navbar-static-top navbar navbar-expand-sm  ">
+                        <span>
+                            <img class="menu" src="./img/menu.png" alt="menu">
+                        </span>
                         <div class="navbar-brand  ">
                             <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
 
@@ -40,14 +42,10 @@
 
                         <div class="col-sm titubarra">
 
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-
                             <ul class="col-sm navbar-nav ">
+                                <li class="nav-item">
+                                <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
                                 </li>
@@ -66,12 +64,16 @@
                                     <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
                                             class="d-inline-block align-top" alt=""></a>
                                 </li>
+                                <li class="nav-item">
+                                    <form class="d-flex">
+                                        <input class="form-control form" type="search" placeholder="Buscar"
+                                            aria-label="Search">
+                                        <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
+                                                alt="#"></button>
+                                    </form>
+                                </li>
                             </ul>
-                            <form class="d-flex">
-                                <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
-                                <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                        alt="#"></button>
-                            </form>
+
                         </div>
                 </div>
 

@@ -72,14 +72,22 @@ body {
 
 .navbar-nav {
   margin: 0px 0px;
+  margin-top: 0em;
+  margin-left: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media only screen and (max-width: 480px) {
   .navbar-nav {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    position: absolute;
     width: 100%;
+    height: auto;
+    z-index: 2;
+    background-color: red;
+    display: block;
+    left: -25em;
+    top: 0em;
   }
 }
 
@@ -90,8 +98,8 @@ body {
 
 .logo {
   margin-top: -1em;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 0;
+  padding-right: 0;
   margin-left: -1em;
   display: block;
   image-orientation: from-image;
@@ -114,9 +122,18 @@ body {
 @media only screen and (max-width: 480px) {
   .logo {
     margin-left: -1em;
-    margin-top: -9em;
+    margin-top: -1em;
     width: 128px;
   }
+}
+
+.cerrar {
+  width: 25px;
+  margin-top: 1em;
+}
+
+.menu {
+  width: 30px;
 }
 
 .titubarra {
@@ -1028,10 +1045,10 @@ body {
   font-size: 12pt;
   font-weight: 400;
   color: #000522;
-  width: 97% !important;
+  width: 99% !important;
   margin-top: 2em;
   border: 2px solid #abc5d4;
-  height: 2em;
+  height: 3em;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .form-registro {
@@ -1380,9 +1397,8 @@ hr {
 
 .cod-qr {
   width: 194px;
-  margin-left: 0em;
-  margin-right: 1em;
-  margin-bottom: 5em;
+  margin-left: 1em;
+  margin-top: 0em;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .cod-qr {

@@ -20,6 +20,7 @@ body{
   padding-left: 0px;
   width: 100%;
  }
+ 
 .menu-nav{
   color: $white-copy;
   background-color:$blue-bg;
@@ -43,12 +44,19 @@ body{
 
 .navbar-nav{
   margin: 0px 0px;
-  @include respond-to($phone){
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 100%;
+  margin-top: 0em;
+  margin-left: 0em;
+display: flex;
+
+@include respond-to($phone){
+   position: absolute;
+  width: 100%;
+    height: auto;
+    z-index: 2;
+   background-color: red;
+   display: block;
+   left: -25em;
+   top:0em
   }
 }
 .navbar {
@@ -59,8 +67,8 @@ body{
 
 .logo{
   margin-top: -1em;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 0;
+  padding-right: 0;
   margin-left: -1em;
   display: block;
   image-orientation: from-image;
@@ -77,11 +85,17 @@ body{
   
     @include respond-to($phone){
       margin-left:-1em;
-      margin-top: -9em;
+      margin-top: -1em;
       width: 128px; 
     }
 }
-  
+  .cerrar{
+    width: 25px;
+    margin-top: 1em;
+  }
+  .menu{
+    width:30px;
+  }
 .titubarra{
   color:$texto;
   margin-left: 0em;
@@ -797,10 +811,10 @@ body{
   font-size: 12pt;
   font-weight: 400;
   color: $blue-bg;
-  width: 97%!important;
+  width: 99%!important;
   margin-top: 2em;
   border: 2px solid $dark-light-bg;
-  height: 2em;
+  height: 3em;
   @include respond-to($tablet-landscape){
     margin-top: 1em;
     width: 85% !important;
@@ -1080,9 +1094,9 @@ hr {
 }
 .cod-qr{
   width: 194px;
-  margin-left: 0em;
-  margin-right: 1em;
-  margin-bottom: 5em;
+  margin-left: 1em;
+  margin-top: 0em;
+
   @include respond-to($tablet-landscape){
     width: 144px;
     margin-top: -20em;
