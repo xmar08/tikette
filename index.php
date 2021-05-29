@@ -59,16 +59,18 @@
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"aria-label="Search">
-                                        <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"  alt="#"></button>
+                                        <input class="form-control form" type="search" placeholder="Buscar"
+                                            aria-label="buscar">
+                                        <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
+                                                alt="#"></button>
                                     </form>
                                 </li>
                             </ul>
                         </div>
+
+                    </nav>
+                    <!-- FIN NAV-->
                 </div>
-                </nav>
-                <!-- FIN NAV-->
-            </div>
         </header>
         <!-- CARROUSEL-->
 
@@ -121,7 +123,7 @@
                                 <img src="./img/1.jpg" class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
-                                    <p class="card-text lugar-evento">4 JUNIO | 8PM  </p>
+                                    <p class="card-text lugar-evento">4 JUNIO | 8PM </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver evento</a>
                                 </div>
                             </div>
@@ -222,16 +224,16 @@
             <!-- Footer -->
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                    <li >
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
                     </li>
-                    <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                    <li >
+                        <img class="tele" src="./img/telegram3.png"alt="tele" />
                     </li>
                 </div>
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy" href=""> Virtual Event</a>
+                    <a class="footer-copy"> Virtual Event</a>
                     <a class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
@@ -240,4 +242,5 @@
     </div> <!-- Fin container -->
     <script src="./js/main.js"></script>
 </body>
+
 </html>
