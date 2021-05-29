@@ -26,7 +26,7 @@
 
 <body>
     <!-- container -->
-    <div class="container-fluit ">
+    <div class="container-fluit">
         <!-- header -->
         <header class="row menu-nav">
             <div class="col-sm">
@@ -80,115 +80,111 @@
             </div>
         </header>
 
-            <nav class="navbar   navbar-expand-sm nav2 ">
-            <div class="row ">
-                    <div class="ti-event2 ti-event3">
-                        <h3 class="ti-event ">REGISTRARSE</h3>
-                    </div>
-                </div> <!-- titulo evento -->
-            </nav>
-
-            
-           
-            <!-- compras -->
-
-
-            <div class="row  container">
-
-
-                <div class=col-sm>
-                    <h4 class="subtitu2 ti-preve">PREVENTA DE BOLETOS</h4>
-                   
-                    <h4 class="subtitu7 compra-datos">Viernes,04 de junio de 2021 - 8pm</h4>
-                    <h4 class="subtitu7 compra-datos">Estadio Nacional</h4>
-                    <table class="table">
-                        <thead class="subtitu4">
-                            <tr>
-                                <th class="anchfila" scope="col ">Tipo</th>
-                                <th class="anchfila" scope="col">Cantidad</th>
-                                <th class="anchfila" scope="col">Precio por Persona</th>
-                                <th class="anchfila" scope="col">Total</th>
-                            </tr>
-                        </thead >
-                        <tbody class="subtitu6">
-                            <tr>
-
-                                <td>Mayores</td>
-                                <td><a href="#" class="btn3">+</a>2<a href="#" class="btn3">-</a></td>
-                                <td>¢15.000</td>
-                                <td>¢30.000</td>
-                            </tr>
-
-                        </tbody>
-                        <tbody class="subtitu6">
-                            <tr>
-
-                                <td>Menores</td>
-                                <td><a href="#" class="btn3">+</a>1<a href="#" class="btn3">-</a></td>
-                                <td>¢15.000</td>
-                                <td>¢15.000</td>
-                            </tr>
-
-                        </tbody>
-
-                        
-                        <tbody class="subtitu6">
-                            <tr>
-
-                                <td>.</td>
-                                <td>.</td>
-                                <td>.</td>
-                                <td>¢45.000</td>
-                            </tr>
-
-                        </tbody>
-
-                    </table>
+          <!-- titulo evento -->
+          <div class="row ">
+                <div class="ti-event2">
+                    <h3 class="ti-event ">REGISTRAR EVENTO</h3>
                 </div>
-                <div class="col">
-                    <div class="col-sm-4"><img class=" evento1" src="./img/1.jpg" alt="evento1">
+            </div> <!-- titulo evento -->
 
-                    </div>
+
+
+        <!-- compras -->
+
+
+        <div class="row  container-fluit">
+
+
+            <div class=col-sm>
+                <h4 class="ti-preve">PREVENTA DE BOLETOS</h4>
+
+                <h4 class="inf_event">Viernes,04 de junio de 2021 - 8pm</h4>
+                <h4 class="inf_event">Estadio Nacional</h4>
+                <table class="table">
+                    <thead class="tit-tabl-event">
+                        <tr>
+                            <th class="anchfila" scope="col ">Tipo</th>
+                            <th class="anchfila" scope="col">Cantidad</th>
+                            <th class="anchfila" scope="col">Precio por Persona</th>
+                            <th class="anchfila" scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tit_det_tabla">
+                        <tr>
+
+                            <td>Mayores</td>
+                            <td><a href="#" class="mas-menos">+</a>2<a href="#" class="mas-menos">-</a></td>
+                            <td>¢15.000</td>
+                            <td>¢30.000</td>
+                        </tr>
+
+                    </tbody>
+                    <tbody class="tit_det_tabla">
+                        <tr>
+
+                            <td>Menores</td>
+                            <td><a href="#" class="mas-menos">+</a>1<a href="#" class="mas-menos">-</a></td>
+                            <td>¢15.000</td>
+                            <td>¢15.000</td>
+                        </tr>
+
+                    </tbody>
+
+
+                    <tbody class="tit_det_tabla">
+                        <tr>
+
+                            <td>.</td>
+                            <td>.</td>
+                            <td>.</td>
+                            <td>¢45.000</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+
+            <div class="col">
+                <div class="col-sm"><img class=" evento1" src="./img/1.jpg" alt="evento1">
+
+                    <h4 class="art_event">CARLOS RIVERA</h4>
+
+                    <!-- BOTONES -->
+
+                </div><!-- FIN compras -->
+                <div class="col-sm-3">
+                    <a href="./indexRegister.php" class="btn btn-primary  btnconfir">Confirmar</a>
+
                 </div>
-
-                <h4 class="subtitu5 subtitu9 ">CARLOS RIVERA</h4>
-            </div><!-- FIN compras -->
-            <!-- BOTONES -->
-
-           
-            <div class="col-sm-3">
-                <a href="./indexRegister.php" class="btn btn-primary botton-evento btncontinuar btnconfir">Confirmar Registro</a>
-
-            </div>
-            <div class="col-sm-3">
-                <a href="./index.php" class="btn btn-primary botton-evento btncontinuar btnconfir">Cancelar</a>
-
-            </div>
-            <!-- FIN BOTONES -->
-
-
-            <!-- Footer -->
-            <div class="container-fluid ">
-                <footer class="row footer-back">
-                    <div class=" footer-icon">
-                        <li class="list-inline-item">
-                            <img class=" face" src="./img/facebook2.png" class="" alt="..." />
-                        </li>
-                        <li class="list-inline-item ">
-                            <img class="tele" src="./img/telegram3.png" class="" alt="..." />
-                        </li>
-
-                    </div>
-
-                    <!-- Copyright -->
-                    <div class="footer-copy">© 2021 Copyright:
-                        <a class="footer-copy" href=""> Virtual Event</a>
-                        <a class="footer-copy"> Todos los Derechos Reservados</a>
-                    </div>
-                    <!-- Copyright -->
-                </footer>
+                
+                <!-- FIN BOTONES -->
             </div>
         </div>
+
+        <!-- Footer -->
+        <div class="container-fluid ">
+            <footer class="row footer-back">
+                <div class=" footer-icon">
+                    <li class="list-inline-item">
+                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                    </li>
+                    <li class="list-inline-item ">
+                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                    </li>
+
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copy">© 2021 Copyright:
+                    <a class="footer-copy" href=""> Virtual Event</a>
+                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+    </div>
 </body>
 
 </html>

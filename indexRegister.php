@@ -84,74 +84,69 @@
         </header>
 
 
-        <nav class="navbar   navbar-expand-sm nav2 ">
-            <div class="row ">
-                <div class="ti-event2 ti-event3">
-                    <h3 class="ti-event ">CONFIRMAR REGISTRO</h3>
-                </div>
-            </div> <!-- titulo evento -->
-        </nav>
-
-
-
-
+        <!-- titulo evento -->
+        <div class="row ">
+            <div class="ti-event2">
+                <h3 class="ti-event ">CONFIRMAR REGISTRO</h3>
+            </div>
+        </div> <!-- titulo evento -->
 
 
 
         <!--  formulario -->
 
-        <div class="container">
+        <div class="container fluid">
             <form action="form-horizontal">
                 <!--  nombre -->
                 <div class="row">
-                    <div class="col-titulo">
-                        <label class="tabla-ti" for="fname ">Nombre:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="fname ">Nombre:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-control form-reg " placeholder="Nombre">
+                        <input type="text" class="form-registro " placeholder="">
                     </div>
                 </div>
 
                 <!--  apellido -->
 
                 <div class="row">
-                    <div class="col-titulo">
-                        <label class="tabla-ti" for="lname">Apellido:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="lname">Apellido:</label>
                     </div>
                     <div class="col-holder ">
-                        <input type="text" class="form-control form-reg " placeholder="Apellido">
+                        <input type="text" class="form-registro" placeholder="">
                     </div>
                 </div>
 
                 <!--  nacimiento -->
                 <div class="row">
-                    <div class="col-titulo">
-                        <label class="tabla-ti" for="lname"> Fecha Nacimiento:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="lname"> Fecha Nacimiento:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="date" class="form-control form-reg" placeholder="Fecha de NAcimiento">
+                        <input type="date" class="form-registro" placeholder="">
                     </div>
                 </div>
 
                 <!--  telefono -->
                 <div class="row">
-                    <div class="col-titulo">
-                        <label class="tabla-ti" for="Correo">Telefono:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="Correo">Telefono:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-control form-reg" placeholder="Telefono">
+                        <input type="text" class="form-registro" placeholder="">
                     </div>
                 </div>
 
                 <!--  provincia -->
                 <div class="row">
-                    <div class="col-titulo">
-                        <label class="tabla-ti" for="provincia">Provincia:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="provincia">Provincia:</label>
                     </div>
 
                     <div class="col-holder ">
-                        <select id="provincia" class="placeho form-control " name="provincia">
-                            <option value="1">Seleccione la provincia</option>
+                        <select id="provincia" class="placeho" name="provincia">
+                            <option value="1"></option>
                             <option value="2">Puntarenas</option>
                             <option value="3">San José</option>
                             <option value="4">Cartago</option>
@@ -166,22 +161,22 @@
                 <!--  correo -->
 
                 <div class="row">
-                    <div class="col-titulo ">
-                        <label class="tabla-ti" for="Correo">Correo:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="Correo">Correo:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-control form-reg " placeholder="Correo">
+                        <input type="text" class="form-registro" placeholder="">
                     </div>
                 </div>
 
                 <!--  tarjeta -->
 
                 <div class="row">
-                    <div class="col-titulo ">
-                        <label class="tabla-ti" for="Correo">Tarjeta Credito:</label>
+                    <div class="tit_col_regi">
+                        <label class="tit_regis" for="Correo">Tarjeta Credito:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-control form-reg" placeholder="Numero de Tarjeta">
+                        <input type="text" class="form-registro" placeholder="">
                     </div>
                 </div>
             </form>
@@ -189,8 +184,7 @@
         </div>
 
         <div class="col-sm-12 btn-regis">
-            <a href="./indextiket.php" class="btn btn-primary  btnregister">Comprar</a>
-
+            <a href="./indextiket.php" class="btn btn-primary btn_compra">Comprar</a>
         </div>
 
         <!-- Footer -->

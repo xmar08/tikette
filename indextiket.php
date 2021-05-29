@@ -84,32 +84,28 @@
         </header>
 
 
-        <nav class="navbar   navbar-expand-sm nav2 ">
-            <div class="row ">
-                <div class="ti-event2 ti-event3">
-                    <h3 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h3>
-                </div>
-            </div> <!-- titulo evento -->
-        </nav>
-
-
-
-        <!--SLIDER-->
+        <!-- titulo evento -->
+        <div class="row ">
+            <div class="ti-event2">
+                <h3 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h3>
+            </div>
+        </div> <!-- titulo evento -->
 
 
         <!-- eventos detalle -->
 
         <!-- eventos detalle -->
         <div class="row">
-            <h4 class="subtitu2">CARLOS RIVERA</h4>
+            <h4 class="nom_art">CARLOS RIVERA</h4>
         </div>
+
         <div class=" row container ">
             <!--titulo3-->
             <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="#">
             </div>
 
             <div class="col-sm-4 ">
-                <h3 class="subtitu5 tik">Tiquete</h3>
+                <h3 class="tit_tique tik">Tiquete</h3>
 
             </div>
 
@@ -131,75 +127,75 @@
                     <table>
 
                         <tr>
-                            <td class="col-sm-6 titutabla">Evento: </td>
-                            <td class="col subtitu6">Concierto</td>
+                            <td class="col-sm-6 evento_tik">Evento: </td>
+                            <td class="col det_tik">Concierto</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Lugar: </td>
-                            <td class="subtitu6">Estadio Nacional</td>
+                            <td class="evento_tik">Lugar: </td>
+                            <td class="det_tik">Estadio Nacional</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Fecha: </td>
-                            <td class="subtitu6">04/junio/2021</td>
+                            <td class="evento_tik">Fecha: </td>
+                            <td class="det_tik">04/junio/2021</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Hora: </td>
-                            <td class="subtitu6">8:00 pm</td>
+                            <td class="evento_tik">Hora: </td>
+                            <td class="det_tik">8:00 pm</td>
                         </tr>
                         <tr>
-                            <td class="titutabla">Categoría: </td>
-                            <td class="subtitu6">Concierto</td>
+                            <td class="evento_tik">Categoría: </td>
+                            <td class="det_tik">Concierto</td>
                         </tr>
 
                         <tr>
-                            <td class="titutabla">numero de entradas: </td>
-                            <td class="subtitu6">3</td>
+                            <td class="evento_tik">numero de entradas: </td>
+                            <td class="det_tik">3</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Precio: </td>
-                            <td class="subtitu6">¢15.000</td>
+                            <td class="evento_tik">Precio: </td>
+                            <td class="det_tik">¢15.000</td>
                         </tr>
                         <tr>
-                            <td class="titutabla">Clasificación: </td>
-                            <td class="subtitu6">Todo Público</td>
+                            <td class="evento_tik">Clasificación: </td>
+                            <td class="det_tik">Todo Público</td>
                         </tr>
                         <tr>
-                            <td class="titutabla">Nombre: </td>
-                            <td class="subtitu6">Maria Quesada</td>
+                            <td class="evento_tik">Nombre: </td>
+                            <td class="det_tik">Maria Quesada</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Fecha Nacimiento: </td>
-                            <td class="subtitu6">21/05/1992</td>
+                            <td class="evento_tik">Fecha Nacimiento: </td>
+                            <td class="det_tik">21/05/1992</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Telefono: </td>
-                            <td class="subtitu6">2664-0404</td>
+                            <td class="evento_tik">Telefono: </td>
+                            <td class="det_tik">2664-0404</td>
 
                         </tr>
                         <tr>
-                            <td class="titutabla">Provincia: </td>
-                            <td class="subtitu6">Heredia</td>
+                            <td class="evento_tik">Provincia: </td>
+                            <td class="det_tik">Heredia</td>
                         </tr>
                         <tr>
-                            <td class="titutabla">Correo: </td>
-                            <td class="subtitu6">mariquesada@gmail.com</td>
+                            <td class="evento_tik">Correo: </td>
+                            <td class="det_tik">mariquesada@gmail.com</td>
                         </tr>
                     </table>
-
                 </div>
-                <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
 
-                    <img class="cod-qr" src="./img/qrcode.png" alt="#">
-
-                </div>
+                <img class="cod-qr" src="./img/qrcode.png" alt="#">
 
             </div>
+
+
             <!--  fin container -->
             <!--  formulario -->
 
