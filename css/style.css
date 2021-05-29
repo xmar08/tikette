@@ -124,6 +124,7 @@ body {
   display: inline-block;
   list-style: none;
   margin-top: 1em;
+  width: 20em !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .titubarra {
@@ -141,7 +142,7 @@ body {
     font-size: 14pt;
     margin-top: 0em;
     margin-left: 4.5em;
-    width: 100%;
+    width: 64% !important;
   }
 }
 
@@ -170,7 +171,8 @@ body {
 @media only screen and (max-width: 480px) {
   .event {
     font-size: 14pt;
-    margin-left: 3.5em;
+    margin-left: 4em;
+    width: 66%;
     margin-top: 0em !important;
   }
 }
@@ -293,6 +295,18 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+  .nav-item {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-nav > li > a {
+    width: 64%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
   .carousel-inner > .item > img {
     height: 172px !important;
   }
@@ -357,7 +371,7 @@ body {
 @media only screen and (max-width: 480px) {
   .botton-evento {
     margin-bottom: 0.5em;
-    width: 100%;
+    width: 99%;
   }
 }
 
@@ -415,6 +429,7 @@ body {
   color: #fff;
   text-align: center;
   text-decoration: none;
+  width: 100%;
 }
 
 /* **********************INDEX DETALLE********************************************************* */
@@ -481,6 +496,7 @@ body {
   .subtitu2 {
     font-size: 18pt;
     padding-left: 5%;
+    width: 15em;
   }
 }
 
@@ -536,6 +552,7 @@ body {
     margin-left: 3.5em;
     margin-top: -1em;
     margin-bottom: 0em;
+    width: 220px !important;
   }
 }
 
@@ -738,8 +755,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .imag_even_rel {
-    margin-left: 0em !important;
-    width: 357px !important;
+    margin-left: 2em !important;
+    width: 300px !important;
   }
 }
 
@@ -762,7 +779,7 @@ body {
   .pro-event {
     margin-bottom: 1.5em;
     width: 11em;
-    margin-left: 7em;
+    margin-left: 5em;
   }
 }
 

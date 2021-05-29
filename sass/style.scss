@@ -86,6 +86,7 @@ body{
   display: inline-block;
   list-style: none;
   margin-top: 1em;
+  width: 20em!important;
   @include respond-to($tablet-landscape){
     font-size: 18pt;
   }
@@ -97,7 +98,7 @@ body{
     font-size: 14pt;
     margin-top: 0em;
     margin-left:4.5em;
-    width: 100%;
+    width: 64%!important;
   }
 }
 .event{
@@ -119,8 +120,8 @@ body{
   }
   @include respond-to($phone){
     font-size: 14pt;
-    margin-left: 3.5em;
-   
+    margin-left: 4em;
+   width: 66%;
     margin-top: 0em !important;
   }
 }
@@ -209,6 +210,17 @@ body{
     line-height: 20px;
   }
 }
+.nav-item{
+  @include respond-to($phone){
+  width: 80%!important;
+  }
+}
+.navbar-nav > li > a {
+  @include respond-to($phone){
+  width: 64%;
+  }
+}
+
 .carousel-inner>.item>img{
   @include respond-to($phone){
     height: 172px !important;
@@ -262,7 +274,7 @@ body{
   }  
     @include respond-to($phone){
       margin-bottom: 0.5em;
-      width: 100%;
+      width: 99%;
     }
 }
 .footer-icon{
@@ -304,6 +316,7 @@ body{
   color:$texto;
   text-align: center;
   text-decoration: none;
+  width: 100%;
 }
 //FIN INDEX
 //************************************************************************************************
@@ -357,6 +370,7 @@ body{
   @include respond-to($phone){
     font-size: 18pt; 
     padding-left: 5%;
+    width: 15em;
   }
   
 }
@@ -398,6 +412,7 @@ body{
     margin-left: 3.5em; 
     margin-top: -1em;
     margin-bottom: 0em;
+    width: 220px!important;
   }
 }
 .tit-det-event{
@@ -545,8 +560,8 @@ body{
     margin-left: 7em !important;
   }
   @include respond-to($phone){
-    margin-left: 0em!important;
-    width: 357px !important;
+    margin-left: 2em!important;
+    width: 300px !important;
   }
 }
 .pro-event{
@@ -564,7 +579,7 @@ body{
     @include respond-to($phone){
     margin-bottom: 1.5em;
     width: 11em;
-    margin-left: 7em;
+    margin-left: 5em;
   }
 }
 .btn2{
