@@ -393,7 +393,7 @@ display: flex;
   @include respond-to($phone){
     font-size: 18pt; 
     padding-left: 5%;
-    width: 15em;
+    width: 12em;
   }
   
 }
@@ -419,7 +419,8 @@ display: flex;
   }
   @include respond-to($phone){
     font-size: 18pt; 
-    padding-left: 10%;
+    padding-left: 12%;
+    width: 13em;
   }
 }
 .image_conci{
@@ -470,6 +471,7 @@ display: flex;
     width: 15em;
     margin-top: 0.1em;
     font-size: 16pt;
+    width: 50%;
   }  
   @include respond-to($phone){
     font-size: 18pt;
@@ -511,7 +513,7 @@ display: flex;
     margin-left: 3em;
   } 
   @include respond-to($phone){
-    margin-left: 1em;
+    margin-left: 2em;
   } 
 }
 .titutabla{
@@ -564,8 +566,8 @@ display: flex;
   }
   @include respond-to($phone){
     width:15em;
-    font-size: 16pt;
-    margin-left: -1em;
+    font-size: 14pt;
+    margin-left: -2.5em;
     margin-top:2em ;
   }
 }
@@ -583,8 +585,8 @@ display: flex;
     margin-left: 7em !important;
   }
   @include respond-to($phone){
-    margin-left: 3em!important;
-    width: 255px !important;
+    margin-left: 0em!important;
+    width: 230px !important;
   }
 }
 .pro-event{
@@ -602,7 +604,7 @@ display: flex;
     @include respond-to($phone){
     margin-bottom: 1.5em;
     width: 11em;
-    margin-left: 5em;
+    margin-left: 2em;
   }
 }
 .btn2{

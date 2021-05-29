@@ -513,7 +513,7 @@ body {
   .subtitu2 {
     font-size: 18pt;
     padding-left: 5%;
-    width: 15em;
+    width: 12em;
   }
 }
 
@@ -548,7 +548,8 @@ body {
 @media only screen and (max-width: 480px) {
   .tit_art {
     font-size: 18pt;
-    padding-left: 10%;
+    padding-left: 12%;
+    width: 13em;
   }
 }
 
@@ -614,6 +615,7 @@ body {
     width: 15em;
     margin-top: 0.1em;
     font-size: 16pt;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -671,7 +673,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .btnregistro {
-    margin-left: 1em;
+    margin-left: 2em;
   }
 }
 
@@ -746,8 +748,8 @@ body {
 @media only screen and (max-width: 480px) {
   .otrosevent {
     width: 15em;
-    font-size: 16pt;
-    margin-left: -1em;
+    font-size: 14pt;
+    margin-left: -2.5em;
     margin-top: 2em;
   }
 }
@@ -772,8 +774,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .imag_even_rel {
-    margin-left: 3em !important;
-    width: 255px !important;
+    margin-left: 0em !important;
+    width: 230px !important;
   }
 }
 
@@ -796,7 +798,7 @@ body {
   .pro-event {
     margin-bottom: 1.5em;
     width: 11em;
-    margin-left: 5em;
+    margin-left: 2em;
   }
 }
 
