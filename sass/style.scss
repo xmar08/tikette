@@ -53,10 +53,12 @@ display: flex;
   width: 100%;
     height: auto;
     z-index: 2;
-   background-color: red;
+   background-color: $blue-bg;
    display: block;
    left: -25em;
-   top:0em
+   top:0em;
+   padding: 1em;
+   
   }
 }
 .navbar {
@@ -84,18 +86,30 @@ display: flex;
   }
   
     @include respond-to($phone){
-      margin-left:-3em;
       margin-top: -0.5em;
       width: 128px; 
+      margin-left: 1.5em;
     }
 }
   .cerrar{
+    display: none;
+    @include respond-to($phone){
+    display: block; 
     width: 25px;
     margin-top: 1em;
+    float: right;
   }
+}
   .menu{
-    width:30px;
+    display: none;
+    @include respond-to($phone){
+    width: 30px;
+    display: block;
+    position: absolute;
+    top: 2em;
+    left: 0em;
   }
+}
 .titubarra{
   color:$texto;
   margin-left: 0em;
