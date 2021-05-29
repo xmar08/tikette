@@ -563,8 +563,8 @@ display: flex;
     margin-top: 0.5em;
   }
   @include respond-to($phone){
-    width:17em;
-    font-size: 18pt;
+    width:15em;
+    font-size: 16pt;
     margin-left: -1em;
     margin-top:2em ;
   }
@@ -583,8 +583,8 @@ display: flex;
     margin-left: 7em !important;
   }
   @include respond-to($phone){
-    margin-left: 2em!important;
-    width: 300px !important;
+    margin-left: 3em!important;
+    width: 255px !important;
   }
 }
 .pro-event{

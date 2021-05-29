@@ -745,8 +745,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .otrosevent {
-    width: 17em;
-    font-size: 18pt;
+    width: 15em;
+    font-size: 16pt;
     margin-left: -1em;
     margin-top: 2em;
   }
@@ -772,8 +772,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .imag_even_rel {
-    margin-left: 2em !important;
-    width: 300px !important;
+    margin-left: 3em !important;
+    width: 255px !important;
   }
 }
 
