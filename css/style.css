@@ -121,8 +121,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .logo {
-    margin-left: -1em;
-    margin-top: -1em;
+    margin-left: -3em;
+    margin-top: -0.5em;
     width: 128px;
   }
 }
@@ -593,6 +593,7 @@ body {
     width: 71%;
     margin-left: 2em;
     margin-top: 0.5em;
+    text-align: left;
   }
 }
 
@@ -961,7 +962,7 @@ body {
   .evento1 {
     margin-top: 0em;
     padding-top: 0em;
-    margin-left: 6em;
+    margin-left: 3em;
   }
 }
 
@@ -1036,7 +1037,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .btnconfir {
-    margin-left: 4em;
+    margin-left: 2em;
+    margin-bottom: -1em;
   }
 }
 
@@ -1065,7 +1067,8 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .form-registro {
-    width: 100% !important;
+    width: 84% !important;
+    margin-left: 1em;
   }
 }
 
@@ -1121,9 +1124,9 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .col-holder {
-    width: 58%;
-    margin-top: 4px;
-    margin-left: 1em;
+    width: 74%;
+    margin-top: -58px;
+    margin-left: 7em;
   }
 }
 
@@ -1148,12 +1151,19 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .placeho {
-    width: 16em !important;
+    width: 13em !important;
+    margin-left: 1em;
+    height: 3.5em;
   }
 }
 
 .btn-regis {
   text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .btn-regis {
+    margin-bottom: -5em;
+  }
 }
 
 .btn_compra {
@@ -1211,7 +1221,8 @@ body {
 @media only screen and (max-width: 480px) {
   .nom_art {
     font-size: 18pt;
-    padding-left: 8%;
+    padding-left: 11%;
+    width: 13em;
   }
 }
 
@@ -1235,7 +1246,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .imaeven1 {
-    width: 367px;
+    width: 275px;
     margin-left: 1.5em;
     margin-bottom: 8em;
   }
@@ -1419,7 +1430,7 @@ hr {
 @media only screen and (max-width: 480px) {
   .cod-qr {
     width: 154px;
-    margin-left: 8em;
+    margin-left: 5em;
     margin-bottom: 0em;
     margin-top: 5em !important;
     position: relative;
