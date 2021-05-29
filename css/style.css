@@ -107,9 +107,9 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .logo {
-    margin-left: -22em;
-    margin-top: 3em;
-    width: 170px;
+    margin-left: -18em;
+    margin-top: 0em;
+    width: 136px;
   }
 }
 
@@ -140,7 +140,7 @@ body {
   .titubarra {
     font-size: 14pt;
     margin-top: 0em;
-    margin-left: 6.5em;
+    margin-left: 4.5em;
     width: 100%;
   }
 }
@@ -170,7 +170,7 @@ body {
 @media only screen and (max-width: 480px) {
   .event {
     font-size: 14pt;
-    margin-left: 6em;
+    margin-left: 3.5em;
     margin-top: 0em !important;
   }
 }
@@ -201,7 +201,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .carro {
-    margin-left: 6em !important;
+    margin-left: 4em !important;
   }
 }
 
