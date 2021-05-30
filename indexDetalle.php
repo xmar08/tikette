@@ -32,26 +32,25 @@
             <div class="col-sm">
                 <div class="row  ">
                     <!-- nav -->
-                    <nav class=" navbar-static-top navbar navbar-expand-sm  ">
-                        <span>
+                    <nav class=" navbar navbar-expand-sm  ">
+                        <span onclick="abrirMenu()">
                             <img class="menu" src="./img/menu.png" alt="menu">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="d-inline-block logo" alt="logo"></a>
-
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
                         </div>
-
                         <div class="col-sm titubarra">
-
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
-                                <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                    <span onclick="cerrarMenu()">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                    </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra  " aria-current="page" href="#" class="">INICIO</a>
+                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" href="#" class="titubarra ">ACERCA DE</a>
+                                    <a class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select form-select-sm  event ">
@@ -62,27 +61,25 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand" href="#"><img class="carro" src="./img/carro.png"
-                                            class="d-inline-block align-top" alt=""></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt=""></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar"
-                                            aria-label="Search">
+                                            aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="#"></button>
                                     </form>
                                 </li>
                             </ul>
-
                         </div>
-                </div>
 
-                </nav>
-                <!-- FIN NAV-->
+                    </nav>
+                    <!-- FIN NAV-->
+                </div>
             </div>
         </header>
-
+        
         <!--SLIDER-->
         <div class="row conta">
 

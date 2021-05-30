@@ -85,13 +85,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner carou">
                 <div class="item active ">
-                    <img class="carou" src="./img/CONCIERTO.png" alt="#">
+                    <img class="carou" src="./img/CONCIERTO.jpg" alt="#">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/COMEDIA.png" alt="#">
+                    <img class="carou" src="./img/COMEDIA.jpg" alt="#">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/DEPORTES.png" alt="#">
+                    <img class="carou" src="./img/DEPORTES.jpg" alt="#">
                 </div>
             </div>
             <!-- Left and right controls -->
