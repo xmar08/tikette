@@ -89,7 +89,7 @@
 
             <div class="row ">
                 <div class="ti-event2">
-                    <h3 class="ti-event ">CONCIERTO</h3>
+                    <h2 class="ti-event ">CONCIERTO</h2>
                 </div>
             </div> <!-- titulo evento -->
 
@@ -100,7 +100,7 @@
 
         <!-- eventos detalle -->
         <div class="row">
-            <h4 class="tit_art">CARLOS RIVERA</h4>
+            <h3 class="tit_art">CARLOS RIVERA</h3>
         </div>
         <div class=" row container ">
             <!--titulo3-->

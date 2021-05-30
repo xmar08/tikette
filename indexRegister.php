@@ -82,7 +82,7 @@
            <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h3 class="ti-event ">CONFIRMAR REGISTRO</h3>
+                <h2 class="ti-event ">CONFIRMAR REGISTRO</h2>
             </div>
         </div> <!-- titulo evento -->
 

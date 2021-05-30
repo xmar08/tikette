@@ -82,7 +82,7 @@
           <!-- titulo evento -->
           <div class="row ">
                 <div class="ti-event2">
-                    <h3 class="ti-event ">REGISTRAR EVENTO</h3>
+                    <h2 class="ti-event ">REGISTRAR EVENTO</h2>
                 </div>
             </div> <!-- titulo evento -->
 
@@ -95,10 +95,10 @@
 
 
             <div class=col-sm>
-                <h4 class="ti-preve">PREVENTA DE BOLETOS</h4>
+                <h3 class="ti-preve">PREVENTA DE BOLETOS</h3>
 
-                <h4 class="inf_event">Viernes,04 de junio de 2021 - 8pm</h4>
-                <h4 class="inf_event">Estadio Nacional</h4>
+                <h3 class="inf_event">Viernes,04 de junio de 2021 - 8pm</h3>
+                <h3 class="inf_event">Estadio Nacional</h3>
                 <table class="table">
                     <thead class="tit-tabl-event">
                         <tr>
@@ -148,7 +148,7 @@
             <div class="col">
                 <div class="col-sm"><img class=" evento1" src="./img/1.jpg" alt="evento1">
 
-                    <h4 class="art_event">CARLOS RIVERA</h4>
+                    <h3 class="art_event">CARLOS RIVERA</h3>
 
                     <!-- BOTONES -->
 

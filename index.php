@@ -27,26 +27,26 @@
                     <!-- nav -->
                     <nav class=" navbar navbar-expand-sm  ">
                         <span onclick="abrirMenu()">
-                            <img class="menu" src="./img/menu.png" alt="menu">
+                            <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
-                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar menu">
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
+                                    <a class="nav-link titubarra" >INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select form-select-sm  event ">
+                                    <select class="form-select form-select-sm  event "alt="seleccionar eventos">
                                         <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
@@ -54,14 +54,14 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="CARRO"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carrito de compras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"
+                                        <input class="form-control form" type="search" placeholder="imagen Buscar"
                                             aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                                alt="buscar"></button>
+                                                alt="botton buscar"></button>
                                     </form>
                                 </li>
                             </ul>
@@ -76,11 +76,11 @@
 
         <div id="myCarousel" class="carousel slide " data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+            <ul class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </ul>
             <!-- Wrapper for slides -->
             <div class="carousel-inner carou">
                 <div class="item active ">
@@ -99,7 +99,7 @@
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h3 class="ti-event ">EVENTOS</h3>
+                <h2 class="ti-event ">EVENTOS</h2>
             </div>
         </div> <!-- titulo evento -->
         <!-- Galery -->
@@ -112,9 +112,9 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="imagen1" />
+                                <img src="./img/1.jpg" class="card-img-top" alt="imaagen evento 1" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
+                                    <h3 class="card-title nombre-evento">CARLOS RIVERA</h3>
                                     <p class="card-text lugar-evento">4 JUNIO | 8PM </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver evento</a>
                                 </div>
@@ -125,7 +125,7 @@
                             <div class="card">
                                 <img src="./img/2.jpg" class="card-img-top" alt="imagen2" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
                                     </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
@@ -135,9 +135,9 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="imagen3" />
+                                <img src="./img/3.jpg" class="card-img-top" alt="imagen evento3" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -146,9 +146,9 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="imagen4" />
+                                <img src="./img/11.jpg" class="card-img-top" alt="imagen evento4" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -163,9 +163,9 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="imagen5" />
+                                <img src="./img/1.jpg" class="card-img-top" alt="imagen evento 5" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento">Lugar
                                     </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
@@ -175,9 +175,9 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="card-img-top" alt="imagen6" />
+                                <img src="./img/2.jpg" class="card-img-top" alt="imagen evento6" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Evento</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
                                     </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
@@ -187,9 +187,9 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="imagen7" />
+                                <img src="./img/3.jpg" class="card-img-top" alt="imagen evento7" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -198,9 +198,9 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="imagen8" />
+                                <img src="./img/11.jpg" class="card-img-top" alt="imagen evento 8" />
                                 <div class="card-body">
-                                    <h5 class="card-title nombre-evento">Nombre Eventos</h5>
+                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -217,10 +217,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li>
-                        <img class=" face" src="./img/facebook2.png" alt="face" />
+                        <img class=" face" src="./img/facebook2.png" alt="logo face" />
                     </li>
                     <li>
-                        <img class="tele" src="./img/telegram3.png" alt="tele" />
+                        <img class="tele" src="./img/telegram3.png" alt="logo tele" />
                     </li>
                 </div>
                 <!-- Copyright -->

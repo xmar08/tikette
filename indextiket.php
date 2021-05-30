@@ -81,12 +81,12 @@
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h3 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h3>
+                <h2 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h2>
             </div>
         </div> <!-- titulo evento -->
         <!-- eventos detalle -->
         <div class="row">
-            <h4 class="nom_art">CARLOS RIVERA</h4>
+            <h2 class="nom_art">CARLOS RIVERA</h2>
         </div>
         <div class=" row container ">
             <!--titulo3-->
@@ -101,7 +101,7 @@
             <hr size=3>
             <!--  fin container -->
             <div class="row">
-                <h4 class="subtiket">DETALLE DE LA COMPRA</h4>
+                <h3 class="subtiket">DETALLE DE LA COMPRA</h3>
                 <div class="col-sm">
                     <table>
                         <tr>
