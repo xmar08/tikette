@@ -11,7 +11,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
     <!-- Main stylesheet -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,7 +43,7 @@
                                     <a class="nav-link titubarra" aria-current="page">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">ACERCA DE</a>
+                                    <a class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select form-select-sm  event ">
@@ -55,14 +54,14 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt=""></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="CARRO"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar"
                                             aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                                alt="#"></button>
+                                                alt="buscar"></button>
                                     </form>
                                 </li>
                             </ul>
@@ -85,24 +84,16 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner carou">
                 <div class="item active ">
-                    <img class="carou" src="./img/CONCIERTO.jpg" alt="#">
+                    <img class="carou" src="./img/CONCIERTO.jpg" alt="concierto">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/COMEDIA.jpg" alt="#">
+                    <img class="carou" src="./img/COMEDIA.jpg" alt="comedia">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/DEPORTES.jpg" alt="#">
+                    <img class="carou" src="./img/DEPORTES.jpg" alt="deportes">
                 </div>
             </div>
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
         </div>
         <!-- FIN CARROUSEL-->
         <!-- titulo evento -->
@@ -121,7 +112,7 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/1.jpg" class="card-img-top" alt="imagen1" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">CARLOS RIVERA</h5>
                                     <p class="card-text lugar-evento">4 JUNIO | 8PM </p>
@@ -132,7 +123,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/2.jpg" class="card-img-top" alt="imagen2" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                     <p class="card-text lugar-evento"> Lugar
@@ -144,7 +135,7 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/3.jpg" class="card-img-top" alt="imagen3" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -155,7 +146,7 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/11.jpg" class="card-img-top" alt="imagen4" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -172,7 +163,7 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/1.jpg" class="card-img-top" alt="imagen5" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                     <p class="card-text lugar-evento">Lugar
@@ -184,7 +175,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/2.jpg" class="card-img-top" alt="imagen6" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Evento</h5>
                                     <p class="card-text lugar-evento"> Lugar
@@ -196,7 +187,7 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/3.jpg" class="card-img-top" alt="imagen7" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -207,7 +198,7 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="..." />
+                                <img src="./img/11.jpg" class="card-img-top" alt="imagen8" />
                                 <div class="card-body">
                                     <h5 class="card-title nombre-evento">Nombre Eventos</h5>
                                     <p class="card-text lugar-evento"> Lugar </p>

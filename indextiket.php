@@ -59,14 +59,14 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt=""></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar"
                                             aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                                alt="#"></button>
+                                                alt="buscar"></button>
                                     </form>
                                 </li>
                             </ul>
@@ -90,7 +90,7 @@
         </div>
         <div class=" row container ">
             <!--titulo3-->
-            <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="#">
+            <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="imagen">
             </div>
             <div class="col-sm-4 ">
                 <h3 class="tit_tique tik">Tiquete</h3>
@@ -160,7 +160,7 @@
                     </table>
                 </div>
                 <div class="col-sm-4">
-                    <img class="cod-qr" src="./img/qrcode.png" alt="#">
+                    <img class="cod-qr" src="./img/qrcode.png" alt="qr">
                 </div>
             </div>
             <!--  fin container -->
@@ -171,10 +171,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li >
-                        <img class=" face" src="./img/facebook2.png"  alt="..." />
+                        <img class=" face" src="./img/facebook2.png"  alt="face" />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" alt="..." />
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
                     </li>
                 </div>
                 <!-- Copyright -->

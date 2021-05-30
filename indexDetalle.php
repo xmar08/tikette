@@ -61,14 +61,14 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt=""></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="imagen"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar"
                                             aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                                alt="#"></button>
+                                                alt="buscar"></button>
                                     </form>
                                 </li>
                             </ul>
@@ -84,7 +84,7 @@
         <!--SLIDER-->
         <div class="row conta">
 
-            <div class="col"><img class="image" src="./img/1-concierto.png" alt="#">
+            <div class="col"><img class="image" src="./img/1-concierto.png" alt="concierto2">
             </div>
 
             <div class="row ">
@@ -104,7 +104,7 @@
         </div>
         <div class=" row container ">
             <!--titulo3-->
-            <div class="col-sm"><img class="image_conci" src="./img/1-concierto.png" alt="#">
+            <div class="col-sm"><img class="image_conci" src="./img/1-concierto.png" alt="concierto2">
             </div>
             <div class="col">
                 <h4 class="tit-det-event">04 </h4>
@@ -178,19 +178,19 @@
                     <h4 class="otrosevent">EVENTOS RELACIONADOS</h4>
                 </div>
 
-                <div class="col-sm"><img class="imag_even_rel" src="./img/2-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/2-concierto.png" alt="imagen2">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
 
                 </div>
-                <div class="col-sm"><img class="imag_even_rel" src="./img/3-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/3-concierto.png" alt="imagen3">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary pro-event">Ver</a>
 
                 </div>
-                <div class="col-sm"><img class="imag_even_rel" src="./img/4-concierto.png" alt="#">
+                <div class="col-sm"><img class="imag_even_rel" src="./img/4-concierto.png" alt="imagen4">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
@@ -206,10 +206,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                        <img class=" face" src="./img/facebook2.png" class="" alt="face" />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                        <img class="tele" src="./img/telegram3.png" class="" alt="telegran" />
                     </li>
 
                 </div>

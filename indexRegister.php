@@ -61,14 +61,14 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt=""></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar"
                                             aria-label="buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
-                                                alt="#"></button>
+                                                alt="buscar"></button>
                                     </form>
                                 </li>
                             </ul>
@@ -187,10 +187,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                        <img class=" face" src="./img/facebook2.png" class="" alt="face" />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                        <img class="tele" src="./img/telegram3.png" class="" alt="telegran" />
                     </li>
 
                 </div>
