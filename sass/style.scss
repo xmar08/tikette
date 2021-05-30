@@ -162,7 +162,7 @@ margin-left: -0.5em;
   @include respond-to($phone){
     font-size: 14pt;
     margin-left: 0em;
-   width: 31%;
+   width: 50%;
     margin-top: 0em !important;
     text-align: left;
   }
@@ -225,7 +225,7 @@ margin-left: -0.5em;
     display: inline-block;
   }
   @include respond-to($phone){
-    margin-left: -18em;
+    margin-left: -13em;
     margin-top: 4em;
   }
 }
@@ -239,6 +239,9 @@ margin-left: -0.5em;
   margin-bottom: 2em;
   @include respond-to($tablet-portrait){
     font-size: 3pt;
+  }
+  @include respond-to($phone){
+    font-size: 12pt;
   }
 }
 .imagebusca{
@@ -295,7 +298,7 @@ margin-left: -0.5em;
   font-size: 25pt;
   font-weight: 500;
   @include respond-to($phone){
-    font-size: 21pt; 
+    font-size: 18pt; 
   }
 }
 .card{
@@ -666,7 +669,7 @@ margin-left: -0.5em;
   }
 
   @include respond-to($phone){
-  
+    font-size: 18pt;
   }
 }
 .inf_event{
@@ -829,8 +832,9 @@ margin-left: -0.5em;
     margin-left:7.5em;
   }
   @include respond-to($phone){
-    margin-left: 2em;
-    margin-bottom: -1em;
+    margin-left: 5em;
+    margin-bottom: -2em;
+    width: 10em;
   }
 }
 //FIN INDEX-PREVENTA
@@ -1096,6 +1100,9 @@ hr {
   text-align: center;
   margin-bottom: 1em;
   margin-top: 1em;
+  @include respond-to($phone){
+    font-size: 18pt;
+  }
 }
 .evento_tik{
   color: $blue-bg;
@@ -1149,7 +1156,7 @@ hr {
     margin-top: -44em;
   }  
   @include respond-to($phone){
-    width: 154px;
+    width: 138px;
     margin-left: 5em;
     margin-bottom: 0em;
     margin-top: 5em!important;

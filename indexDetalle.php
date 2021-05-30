@@ -79,6 +79,7 @@
                 </div>
             </div>
         </header>
+       
         
         <!--SLIDER-->
         <div class="row conta">
@@ -213,15 +214,16 @@
 
                 </div>
 
-                <!-- Copyright -->
-                <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy" href=""> Virtual Event</a>
+                 <!-- Copyright -->
+                 <div class="footer-copy">© 2021 Copyright:
+                    <a class="footer-copy"> Virtual Event</a>
                     <a class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
             </footer>
         </div>
-    </div>
+    </div> <!-- Fin container -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
