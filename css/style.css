@@ -102,6 +102,10 @@ body {
   }
 }
 
+.carou {
+  width: 100%;
+}
+
 .logo {
   margin-top: -2em;
   padding-left: 0;
