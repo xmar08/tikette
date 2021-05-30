@@ -22,7 +22,7 @@ body{
  }
  
 .menu-nav{
-  color: $white-copy;
+  color: $texto;
   background-color:$blue-bg;
   padding-left: 5%;
   background-position-y: center;
@@ -68,7 +68,9 @@ display: flex;
     width: 98%;
     }
 }
-
+.carou{
+  width: 100%;
+}
 
 .logo{
   margin-top: -2em;
