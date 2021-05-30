@@ -105,56 +105,56 @@
                 <div class="col-sm">
                     <table>
                         <tr>
-                            <td class="col-sm-6 evento_tik">Evento: </td>
+                            <th class="col-sm-6 evento_tik">Evento: </th>
                             <td class="col det_tik">Concierto</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Lugar: </td>
+                            <th class="evento_tik">Lugar: </th>
                             <td class="det_tik">Estadio Nacional</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Fecha: </td>
+                            <th class="evento_tik">Fecha: </th>
                             <td class="det_tik">04/junio/2021</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Hora: </td>
+                            <th class="evento_tik">Hora: </th>
                             <td class="det_tik">8:00 pm</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Categoría: </td>
+                            <th class="evento_tik">Categoría: </th>
                             <td class="det_tik">Concierto</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">numero de entradas: </td>
+                            <th class="evento_tik">numero de entradas: </th>
                             <td class="det_tik">3</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Precio: </td>
+                            <th class="evento_tik">Precio: </th>
                             <td class="det_tik">¢15.000</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Clasificación: </td>
+                            <th class="evento_tik">Clasificación: </th>
                             <td class="det_tik">Todo Público</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Nombre: </td>
+                            <th class="evento_tik">Nombre: </th>
                             <td class="det_tik">Maria Quesada</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Fecha Nacimiento: </td>
+                            <th class="evento_tik">Fecha Nacimiento: </th>
                             <td class="det_tik">21/05/1992</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Telefono: </td>
+                            <th class="evento_tik">Telefono: </th>
                             <td class="det_tik">2664-0404</td>
 
                         </tr>
                         <tr>
-                            <td class="evento_tik">Provincia: </td>
+                            <th class="evento_tik">Provincia: </th>
                             <td class="det_tik">Heredia</td>
                         </tr>
                         <tr>
-                            <td class="evento_tik">Correo: </td>
+                            <th class="evento_tik">Correo: </th>
                             <td class="det_tik">mariquesada@gmail.com</td>
                         </tr>
                     </table>

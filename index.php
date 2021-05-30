@@ -58,8 +58,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="imagen Buscar"
-                                            aria-label="buscar">
+                                        <input class="form-control form" type="search" placeholder="imagen Buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="botton buscar"></button>
                                     </form>

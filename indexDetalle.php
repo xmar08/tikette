@@ -34,20 +34,20 @@
                     <!-- nav -->
                     <nav class=" navbar navbar-expand-sm  ">
                         <span onclick="abrirMenu()">
-                            <img class="menu" src="./img/menu.png" alt="menu">
+                            <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
-                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar menu hamburguesa">
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
+                                    <a class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">ACERCA DE</a>
@@ -61,12 +61,11 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="imagen"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="icono carrito"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"
-                                            aria-label="buscar">
+                                        <input class="form-control form" type="search" placeholder="Buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -112,7 +111,7 @@
                 <h4 class="tit-det-event">2021 </h4>
             </div>
             <div class="col-sm-4 ">
-                <h6 class="tit_Lugar">ESTADIO NACIONAL </h4>
+                <h4 class="tit_Lugar">ESTADIO NACIONAL </h4>
                     <h4 class="tit_nom_event">CARLOS RIVERA-GUERRA TOUR </h4>
             </div>
 
@@ -132,40 +131,40 @@
                 <table>
                     <h4 class="subtitu2">GUERRA TOUR</h4>
                     <tr>
-                        <td class="titutabla">Evento: </td>
+                        <th class="titutabla">Evento: </th>
                         <td class="subtabla">Concierto</td>
 
                     </tr>
                     <tr>
-                        <td class="titutabla">Lugar: </td>
+                        <th class="titutabla">Lugar: </th>
                         <td class="subtabla">Estadio Nacional</td>
 
                     </tr>
                     <tr>
-                        <td class="titutabla">Fecha: </td>
+                        <th class="titutabla">Fecha: </th>
                         <td class="subtabla">04/junio/2021</td>
 
                     </tr>
                     <tr>
-                        <td class="titutabla">Hora: </td>
+                        <th class="titutabla">Hora: </th>
                         <td class="subtabla">8:00 pm</td>
                     </tr>
                     <tr>
-                        <td class="titutabla">Categoría: </td>
+                        <th class="titutabla">Categoría: </th>
                         <td class="subtabla">Concierto</td>
                     </tr>
 
                     <tr>
-                        <td class="titutabla">Descripcion: </td>
+                        <th class="titutabla">Descripcion: </th>
                         <td class="subtabla">Guerra de Tour,concierto Online</td>
 
                     </tr>
                     <tr>
-                        <td class="titutabla">Precio: </td>
+                        <th class="titutabla">Precio: </th>
                         <td class="subtabla">¢15.000</td>
                     </tr>
                     <tr>
-                        <td class="titutabla">Clasificación: </td>
+                        <th class="titutabla">Clasificación: </th>
                         <td class="subtabla">Todo Público</td>
                     </tr>
                 </table>

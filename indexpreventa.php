@@ -33,20 +33,20 @@
                     <!-- nav -->
                     <nav class=" navbar navbar-expand-sm  ">
                         <span onclick="abrirMenu()">
-                            <img class="menu" src="./img/menu.png" alt="menu">
+                            <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
-                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar menu hamburguesa">
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
+                                    <a class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">ACERCA DE</a>
@@ -60,12 +60,11 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carrito de copras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"
-                                            aria-label="buscar">
+                                        <input class="form-control form" type="search" placeholder="Buscar">
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
