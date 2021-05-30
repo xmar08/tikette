@@ -16,13 +16,11 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap"
         rel="stylesheet">
     <!-- Main stylesheet -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
 
 <body>
     <!-- container -->
@@ -86,56 +84,37 @@
                 <h3 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h3>
             </div>
         </div> <!-- titulo evento -->
-
-
-        <!-- eventos detalle -->
-
         <!-- eventos detalle -->
         <div class="row">
             <h4 class="nom_art">CARLOS RIVERA</h4>
         </div>
-
         <div class=" row container ">
             <!--titulo3-->
             <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="#">
             </div>
-
             <div class="col-sm-4 ">
                 <h3 class="tit_tique tik">Tiquete</h3>
-
             </div>
-
             <div class="col-sm">
                 <p class="btn btn-primary botton-tik"># 46030</p>
-
-
             </div><!--  fin container -->
-
             <hr size=3>
             <!--  fin container -->
-
             <div class="row">
                 <h4 class="subtiket">DETALLE DE LA COMPRA</h4>
-
-
                 <div class="col-sm">
-
                     <table>
-
                         <tr>
                             <td class="col-sm-6 evento_tik">Evento: </td>
                             <td class="col det_tik">Concierto</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Lugar: </td>
                             <td class="det_tik">Estadio Nacional</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Fecha: </td>
                             <td class="det_tik">04/junio/2021</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Hora: </td>
@@ -145,11 +124,9 @@
                             <td class="evento_tik">Categoría: </td>
                             <td class="det_tik">Concierto</td>
                         </tr>
-
                         <tr>
                             <td class="evento_tik">numero de entradas: </td>
                             <td class="det_tik">3</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Precio: </td>
@@ -162,12 +139,10 @@
                         <tr>
                             <td class="evento_tik">Nombre: </td>
                             <td class="det_tik">Maria Quesada</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Fecha Nacimiento: </td>
                             <td class="det_tik">21/05/1992</td>
-
                         </tr>
                         <tr>
                             <td class="evento_tik">Telefono: </td>
@@ -184,30 +159,23 @@
                         </tr>
                     </table>
                 </div>
-
                 <div class="col-sm-4">
-
                     <img class="cod-qr" src="./img/qrcode.png" alt="#">
-
                 </div>
-
             </div>
             <!--  fin container -->
             <!--  formulario -->
-
         </div>
-
         <!-- Footer -->
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="..." />
+                    <li >
+                        <img class=" face" src="./img/facebook2.png"  alt="..." />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="..." />
+                        <img class="tele" src="./img/telegram3.png" alt="..." />
                     </li>
-
                 </div>
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
