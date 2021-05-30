@@ -3,6 +3,8 @@
 <html lang="en">
 
 <head>
+    <meta name="I parte del Proyecto Desarrolo de Aplicaciones Interactivas II  " content="Xinia Aguilar">
+    <meta name="Virtual Event" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,14 +56,15 @@
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select  event ">
-                                        <option selected ="0"class="sub">EVENTOS</option>
+                                        <option selected="0" class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="icono carrito"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                            alt="icono carrito"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
@@ -79,8 +82,8 @@
                 </div>
             </div>
         </header>
-       
-        
+
+
         <!--SLIDER-->
         <div class="row conta">
 
@@ -113,7 +116,7 @@
             </div>
             <div class="col-sm-4 ">
                 <h4 class="tit_Lugar">ESTADIO NACIONAL </h4>
-                    <h4 class="tit_nom_event">CARLOS RIVERA-GUERRA TOUR </h4>
+                <h4 class="tit_nom_event">CARLOS RIVERA-GUERRA TOUR </h4>
             </div>
 
             <div class="col-sm">
@@ -214,8 +217,8 @@
 
                 </div>
 
-                 <!-- Copyright -->
-                 <div class="footer-copy">© 2021 Copyright:
+                <!-- Copyright -->
+                <div class="footer-copy">© 2021 Copyright:
                     <a class="footer-copy"> Virtual Event</a>
                     <a class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>

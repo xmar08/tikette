@@ -3,6 +3,8 @@
 <html lang="en">
 
 <head>
+    <meta name="I parte del Proyecto Desarrolo de Aplicaciones Interactivas II  " content="Xinia Aguilar">
+    <meta name="Virtual Event" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +62,8 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carrito de copras"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                            alt="carrito de copras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
@@ -78,13 +81,13 @@
                 </div>
             </div>
         </header>
-        
-          <!-- titulo evento -->
-          <div class="row ">
-                <div class="ti-event2">
-                    <h2 class="ti-event ">REGISTRAR EVENTO</h2>
-                </div>
-            </div> <!-- titulo evento -->
+
+        <!-- titulo evento -->
+        <div class="row ">
+            <div class="ti-event2">
+                <h2 class="ti-event ">REGISTRAR EVENTO</h2>
+            </div>
+        </div> <!-- titulo evento -->
 
 
 
@@ -157,7 +160,7 @@
                     <a href="./indexRegister.php" class="btn btn-primary  btnconfir">Confirmar</a>
 
                 </div>
-                
+
                 <!-- FIN BOTONES -->
             </div>
         </div>
@@ -175,8 +178,8 @@
 
                 </div>
 
-                 <!-- Copyright -->
-                 <div class="footer-copy">© 2021 Copyright:
+                <!-- Copyright -->
+                <div class="footer-copy">© 2021 Copyright:
                     <a class="footer-copy"> Virtual Event</a>
                     <a class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
