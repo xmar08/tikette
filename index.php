@@ -3,6 +3,8 @@
 <html lang="en">
 
 <head>
+    <meta name="I parte del Proyecto Desarrolo de Aplicaciones Interactivas II  " content="Xinia Aguilar">
+    <meta name="Virtual Event" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,21 +42,22 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" >INICIO</a>
+                                    <a class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select  event "alt="seleccionar eventos">
-                                        <option selected ="0" class="sub">EVENTOS</option>
+                                    <select class="form-select  event " alt="seleccionar eventos">
+                                        <option selected="0" class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carrito de compras"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                            alt="carrito de compras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
@@ -137,7 +140,7 @@
                             <div class="card">
                                 <img src="./img/3.jpg" class="card-img-top" alt="imagen evento3" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -148,7 +151,7 @@
                             <div class="card">
                                 <img src="./img/11.jpg" class="card-img-top" alt="imagen evento4" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -165,7 +168,7 @@
                             <div class="card">
                                 <img src="./img/1.jpg" class="card-img-top" alt="imagen evento 5" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento">Lugar
                                     </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
@@ -177,7 +180,7 @@
                             <div class="card">
                                 <img src="./img/2.jpg" class="card-img-top" alt="imagen evento6" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
                                     </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
@@ -189,7 +192,7 @@
                             <div class="card">
                                 <img src="./img/3.jpg" class="card-img-top" alt="imagen evento7" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>
@@ -200,7 +203,7 @@
                             <div class="card">
                                 <img src="./img/11.jpg" class="card-img-top" alt="imagen evento 8" />
                                 <div class="card-body">
-                                <h3 class="card-title nombre-evento">Nombre Evento</h3>
+                                    <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver Evento</a>
                                 </div>

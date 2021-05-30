@@ -5,8 +5,6 @@
 <head>
     <meta name="I parte del Proyecto Desarrolo de Aplicaciones Interactivas II  " content="Xinia Aguilar">
     <meta name="Virtual Event" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
-    <meta name="I parte del Proyecto Desarrolo de Aplicaciones Interactivas II  " content="Xinia Aguilar">
-    <meta name="Virtual Event" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
