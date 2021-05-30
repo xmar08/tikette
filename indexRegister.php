@@ -34,39 +34,39 @@
                     <!-- nav -->
                     <nav class=" navbar navbar-expand-sm  ">
                         <span onclick="abrirMenu()">
-                            <img class="menu" src="./img/menu.png" alt="menu">
+                            <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
-                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar menu">
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
+                                    <a class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select form-select-sm  event ">
-                                        <option selected class="sub">EVENTOS</option>
+                                    <select class="form-select event ">
+                                        <option selected ="0" class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
+                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro de compras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"
-                                            aria-label="buscar">
+                                        <input class="form-control form" type="search" placeholder="Buscar">
+                                        <label for="buscar"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -95,10 +95,11 @@
                 <!--  nombre -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="fname ">Nombre:</label>
+                     <label class="tit_regis" for="nombre ">Nombre:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-registro " placeholder="">
+                        <input type="text" class="form-registro ">
+                        <label for="nombre"></label>
                     </div>
                 </div>
 
@@ -106,20 +107,22 @@
 
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="lname">Apellido:</label>
+                        <label class="tit_regis" for="apellido">Apellido:</label>
                     </div>
                     <div class="col-holder ">
-                        <input type="text" class="form-registro" placeholder="">
+                        <input type="text" class="form-registro" >
+                        <label for="apellidor"></label>
                     </div>
                 </div>
 
                 <!--  nacimiento -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="lname"> Fecha Nacimiento:</label>
+                        <label class="tit_regis" for="fecha nacimiento"> Fecha Nacimiento:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="date" class="form-registro" placeholder="">
+                        <input type="date" class="form-registro" >
+                        <label for="fecha nacimiento"></label>
                     </div>
                 </div>
 
@@ -129,7 +132,8 @@
                         <label class="tit_regis" for="Correo">Telefono:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-registro" placeholder="">
+                        <input type="text" class="form-registro" >
+                        <label for="correo"></label>
                     </div>
                 </div>
 
@@ -160,7 +164,8 @@
                         <label class="tit_regis" for="Correo">Correo:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-registro" placeholder="">
+                        <input type="text" class="form-registro">
+                        <label for="correo"></label>
                     </div>
                 </div>
 
@@ -168,10 +173,11 @@
 
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="Correo">Tarjeta Credito:</label>
+                        <label class="tit_regis" for="tarjeta de credito">Tarjeta Credito:</label>
                     </div>
                     <div class="col-holder">
-                        <input type="text" class="form-registro" placeholder="">
+                        <input type="text" class="form-registro">
+                        <label for="tarjeta de credito"></label>
                     </div>
                 </div>
             </form>
@@ -187,10 +193,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="face" />
+                        <img class=" face" src="./img/facebook2.png" class="" alt="logo face" />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="telegran" />
+                        <img class="tele" src="./img/telegram3.png" class="" alt="logo telegran" />
                     </li>
 
                 </div>

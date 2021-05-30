@@ -46,8 +46,8 @@
                                     <a class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select form-select-sm  event "alt="seleccionar eventos">
-                                        <option selected class="sub">EVENTOS</option>
+                                    <select class="form-select  event "alt="seleccionar eventos">
+                                        <option selected ="0" class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
@@ -59,6 +59,7 @@
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="imagen Buscar">
+                                        <label for="buscar"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="botton buscar"></button>
                                     </form>

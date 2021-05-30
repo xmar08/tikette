@@ -32,27 +32,27 @@
                     <!-- nav -->
                     <nav class=" navbar navbar-expand-sm  ">
                         <span onclick="abrirMenu()">
-                            <img class="menu" src="./img/menu.png" alt="menu">
+                            <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
-                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar">
+                                        <img class="cerrar" src="./img/cancel.png" alt="cerrar menu">
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra" aria-current="page">INICIO</a>
+                                    <a class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select form-select-sm  event ">
-                                        <option selected class="sub">EVENTOS</option>
+                                    <select class="form-select event">
+                                        <option selected ="0" class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
@@ -63,8 +63,8 @@
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar"
-                                            aria-label="buscar">
+                                        <input class="form-control form" type="search" placeholder="Buscar">
+                                        <label for="buscar"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -171,10 +171,10 @@
             <footer class="row footer-back">
                 <div class=" footer-icon">
                     <li >
-                        <img class=" face" src="./img/facebook2.png"  alt="face" />
+                        <img class=" face" src="./img/facebook2.png"  alt="logo face" />
                     </li>
                     <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                        <img class="tele" src="./img/telegram3.png" alt="logo telegran" />
                     </li>
                 </div>
                 <!-- Copyright -->
