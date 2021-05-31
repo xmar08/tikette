@@ -935,6 +935,12 @@ body {
   }
 }
 
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-left: 2em;
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .table {
     margin-left: 3em;
@@ -1125,7 +1131,7 @@ body {
   text-align: center;
   width: 10em;
   border-radius: 2em;
-  margin-left: 6em;
+  margin-left: 11em;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btnconfir {

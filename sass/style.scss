@@ -43,18 +43,17 @@ body{
   margin: 0px 0px;
   margin-top: 0em;
   margin-left: 0em;
-display: flex;
+  display: flex;
 @include respond-to($phone){
-   position: absolute;
+  position: absolute;
   width: 100%;
-    height: auto;
-    z-index: 2;
-   background-color: $blue-bg;
-   display: block;
-   left: -25em;
-   top:0em;
-   padding: 1em;
-   
+  height: auto;
+  z-index: 2;
+  background-color: $blue-bg;
+  display: block;
+  left: -25em;
+  top:0em;
+  padding: 1em;
   }
 }
 .navbar {
@@ -281,7 +280,6 @@ display: flex;
   width: 64%;
   }
 }
-
 .carousel-inner>.item>img{
   @include respond-to($phone){
     width: 100%;
@@ -436,7 +434,7 @@ display: flex;
   padding-left: 5%;
   height: auto;
   @include respond-to($tablet-landscape){
-      padding-left: 7%;
+    padding-left: 7%;
   }
 }
 .subtitu2{
@@ -718,6 +716,10 @@ display: flex;
   }
 }
 .table{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-left: 2em;
   @include respond-to($tablet-landscape){
     margin-left: 3em;
     width: 85%;
@@ -861,7 +863,7 @@ display: flex;
   text-align: center;
   width: 10em;
   border-radius: 2em;
-  margin-left: 6em;
+  margin-left:11em;
   @include respond-to($tablet-landscape){
     margin-left:12em;
   }
