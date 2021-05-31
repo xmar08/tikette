@@ -122,7 +122,7 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="imaagen evento 1" />
+                                <img src="./img/1.jpg" class="tarjeta" alt="imaagen evento 1" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">CARLOS RIVERA</h3>
                                     <p class="card-text lugar-evento">4 JUNIO | 8PM </p>
@@ -133,7 +133,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="card-img-top" alt="imagen2" />
+                                <img src="./img/2.jpg" class="tarjeta" alt="imagen2" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
@@ -145,7 +145,7 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="imagen evento3" />
+                                <img src="./img/3.jpg" class="tarjeta" alt="imagen evento3" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -156,7 +156,7 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="imagen evento4" />
+                                <img src="./img/11.jpg" class="tarjeta" alt="imagen evento4" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -173,7 +173,7 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="card-img-top" alt="imagen evento 5" />
+                                <img src="./img/1.jpg" class="tarjeta" alt="imagen evento 5" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento">Lugar
@@ -185,7 +185,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="card-img-top" alt="imagen evento6" />
+                                <img src="./img/2.jpg" class="tarjeta" alt="imagen evento6" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
@@ -197,7 +197,7 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="card-img-top" alt="imagen evento7" />
+                                <img src="./img/3.jpg" class="tarjeta" alt="imagen evento7" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -208,7 +208,7 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="card-img-top" alt="imagen evento 8" />
+                                <img src="./img/11.jpg" class="tarjeta" alt="imagen evento 8" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>

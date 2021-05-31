@@ -316,6 +316,11 @@ display: flex;
   margin-top: 1em;
   height: auto;
 }
+.tarjeta{
+  width: 100%;
+  height: auto;
+
+}
 .nombre-evento{
   color: $blue-bg;
   font-size: 12pt;
@@ -1162,6 +1167,7 @@ hr {
   width: 194px;
   margin-left: 1em;
   margin-top: 0em;
+  height: auto;
 
   @include respond-to($tablet-landscape){
     width: 144px;
