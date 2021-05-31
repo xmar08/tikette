@@ -123,11 +123,11 @@
                 <!--  telefono -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label for="Correo" class="tit_regis">Telefono:</label>
+                        <label for="Correo" class="tit_regis">Télefono:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
-                        <label for="Escriba su telegono"></label>
+                        <label for="Escriba su telefono"></label>
                     </div>
                 </div>
                 <!--  provincia -->
@@ -160,7 +160,7 @@
                 <!--  tarjeta -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label for="tarjeta de credito" class="tit_regis">Tarjeta Credito:</label>
+                        <label for="tarjeta de credito" class="tit_regis">Tarjeta Crédito:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">

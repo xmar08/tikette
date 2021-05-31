@@ -141,7 +141,7 @@
                     </tr>
                     <tr>
                         <th class="titutabla">Descripcion: </th>
-                        <td class="subtabla">Guerra de Tour,concierto Online</td>
+                        <td class="subtabla">Guerra de Tour|Concierto Online</td>
                     </tr>
                     <tr>
                         <th class="titutabla">Precio: </th>

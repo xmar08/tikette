@@ -129,7 +129,7 @@
                             <td class="det_tik">Concierto</td>
                         </tr>
                         <tr>
-                            <th class="evento_tik">numero de entradas: </th>
+                            <th class="evento_tik">Número Entradas: </th>
                             <td class="det_tik">3</td>
                         </tr>
                         <tr>
@@ -142,14 +142,14 @@
                         </tr>
                         <tr>
                             <th class="evento_tik">Nombre: </th>
-                            <td class="det_tik">Maria Quesada</td>
+                            <td class="det_tik">María Quesada</td>
                         </tr>
                         <tr>
                             <th class="evento_tik">Fecha Nacimiento: </th>
                             <td class="det_tik">21/05/1992</td>
                         </tr>
                         <tr>
-                            <th class="evento_tik">Telefono: </th>
+                            <th class="evento_tik">Teléfono: </th>
                             <td class="det_tik">2664-0404</td>
                         </tr>
                         <tr>

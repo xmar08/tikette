@@ -307,6 +307,8 @@ body {
   padding-left: 0.5em;
   padding-right: 0.5em;
   margin-bottom: 2em;
+  color: #fff;
+  background-color: #000522;
 }
 @media only screen and (max-width: 767px) {
   .btn {
@@ -429,6 +431,7 @@ body {
   text-align: center;
   width: 100%;
   margin-top: 0.5em;
+  background-color: #000522;
 }
 @media only screen and (max-width: 767px) {
   .botton-evento {
@@ -504,7 +507,7 @@ body {
 
 .tele {
   height: auto;
-  width: 37%;
+  width: 34%;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .tele {
@@ -737,6 +740,7 @@ body {
   text-align: center;
   width: 100%;
   margin-top: 0.5em;
+  background-color: #000522;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btnregistro {
@@ -885,6 +889,7 @@ body {
 
 .btn2 {
   width: 100%;
+  background-color: #000522;
 }
 @media only screen and (max-width: 767px) {
   .btn2 {
@@ -1110,6 +1115,7 @@ body {
   width: 8em;
   border-radius: 2em;
   margin-left: -4em;
+  background-color: #000522;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btncancelar {
@@ -1136,6 +1142,7 @@ body {
   width: 10em;
   border-radius: 2em;
   margin-left: 11em;
+  background-color: #000522;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btnconfir {
@@ -1277,6 +1284,7 @@ body {
 @media only screen and (max-width: 480px) {
   .btn-regis {
     margin-bottom: -5em;
+    background-color: #000522;
   }
 }
 
@@ -1289,6 +1297,7 @@ body {
   border-radius: 2em;
   margin-left: 12em;
   margin-top: 1em;
+  background-color: #000522;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btn_compra {
@@ -1433,6 +1442,7 @@ body {
   text-align: center;
   width: 11em;
   margin-top: 0.5em;
+  background-color: #000522;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .botton-tik {
