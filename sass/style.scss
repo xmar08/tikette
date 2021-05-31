@@ -79,7 +79,7 @@ body{
   height: auto;
   @include respond-to($tablet-landscape){
     width: 132px !important;
-    margin-top: -2em;
+    margin-top: -1.5em;
   }
   @include respond-to($tablet-portrait){
     margin-top: -1em;
@@ -88,7 +88,7 @@ body{
     @include respond-to($phone){
       margin-top: -0.5em;
       width: 128px; 
-      margin-left: 1.5em;
+      margin-left: -2.5em;
     }
 }
   .cerrar{
@@ -108,7 +108,7 @@ body{
     display: block;
     position: absolute;
     top: 2em;
-    left: 0em;
+    left: 19em;
     height: auto;
   }
 }
