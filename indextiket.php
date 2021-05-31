@@ -92,7 +92,7 @@
         <div class="row">
             <h2 class="nom_art">CARLOS RIVERA</h2>
         </div>
-        <div class=" row container ">
+        <div class=" row container fluid">
             <!--titulo3-->
             <div class="col-sm"><img class="imaeven1" src="./img/1-concierto.png" alt="imagen">
             </div>
