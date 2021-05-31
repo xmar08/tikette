@@ -98,7 +98,7 @@
                         <tr>
                             <th class="anchfila">Tipo</th>
                             <th class="anchfila">Cantidad</th>
-                            <th class="anchfila">Precio por Persona</th>
+                            <th class="anchfila">Precio x Persona</th>
                             <th class="anchfila">Total</th>
                         </tr>
                     </thead>
@@ -120,9 +120,9 @@
                     </tbody>
                     <tbody class="tit_det_tabla">
                         <tr>
-                            <td>.</td>
-                            <td>.</td>
-                            <td>.</td>
+                            <td class="punto">.</td>
+                            <td class="punto">.</td>
+                            <td class="punto">.</td>
                             <td>¢45.000</td>
                         </tr>
                     </tbody>

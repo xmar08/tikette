@@ -690,7 +690,7 @@ body{
   padding-left: 5%;
   width: 100%;
   margin-top: 1em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
   @include respond-to($tablet-portrait){
     font-size: 20pt;
@@ -706,7 +706,7 @@ body{
   font-size: 18pt;
   font-weight: 300;
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
   @include respond-to($tablet-portrait){
     font-size: 15pt;
@@ -751,6 +751,9 @@ body{
   @include respond-to($tablet-portrait){
     width: 30em;   
   }
+}
+.punto{
+  color:rgba(0,0,0,0);
 }
 .tit_det_tabla{
   color: $blue-bg;
