@@ -3,13 +3,14 @@
 <html lang="en">
 
 <head>
-    <meta name="desciption" content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
+    <meta name="desciption"
+        content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
     <meta name="desciption" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-   
+
+
     <!-- Bootstrap link/version -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -42,6 +43,7 @@
                             <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
+
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
@@ -76,14 +78,12 @@
                                 </li>
                             </ul>
                         </div>
-
                     </nav>
                     <!-- FIN NAV-->
                 </div>
             </div>
         </header>
         <!-- CARROUSEL-->
-
         <div id="myCarousel" class="carousel slide " data-ride="carousel">
             <!-- Indicators -->
             <ul class="carousel-indicators">
@@ -94,24 +94,23 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner carou">
                 <div class="item active ">
-                    <img class="carou" src="./img/CONCIERTO.jpg" alt="concierto">
+                    <img class="carou" src="./img/CONCIERTO.png" alt="concierto">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/COMEDIA.jpg" alt="comedia">
+                    <img class="carou" src="./img/COMEDIA.png" alt="comedia">
                 </div>
                 <div class="item">
-                    <img class="carou" src="./img/DEPORTES.jpg" alt="deportes">
+                    <img class="carou" src="./img/DEPORTES.png" alt="deportes">
                 </div>
             </div>
-
         </div>
         <!-- FIN CARROUSEL-->
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h2 class="ti-event ">EVENTOS</h2>
+                <h1 class="ti-event ">EVENTOS</h1>
             </div>
-        </div> <!-- titulo evento -->
+        </div>
         <!-- Galery -->
         <div class="carousel-inner ">
             <!-- Single item -->
@@ -122,9 +121,9 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="tarjeta" alt="imaagen evento 1" />
+                                <img src="./img/1.jpg" class="tarjeta" alt="imagen evento 1" />
                                 <div class="card-body">
-                                    <h3 class="card-title nombre-evento">CARLOS RIVERA</h3>
+                                    <h2 class="card-title nombre-evento">CARLOS RIVERA</h2>
                                     <p class="card-text lugar-evento">4 JUNIO | 8PM </p>
                                     <a href="./indexDetalle.php" class="btn btn-primary botton-evento">Ver evento</a>
                                 </div>
@@ -133,7 +132,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="tarjeta" alt="imagen2" />
+                                <img src="./img/2.jpg" class="tarjeta" alt="imagen evento2" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
@@ -173,7 +172,7 @@
                         <!-- evento1 -->
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src="./img/1.jpg" class="tarjeta" alt="imagen evento 5" />
+                                <img src="./img/2.jpg" class="tarjeta" alt="imagen evento 5" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento">Lugar
@@ -185,7 +184,7 @@
                         <!-- evento2-->
                         <div class="col-sm-3  d-lg-block">
                             <div class="card">
-                                <img src="./img/2.jpg" class="tarjeta" alt="imagen evento6" />
+                                <img src="./img/11.jpg" class="tarjeta" alt="imagen evento6" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar
@@ -197,7 +196,7 @@
                         <!-- evento3-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/3.jpg" class="tarjeta" alt="imagen evento7" />
+                                <img src="./img/1.jpg" class="tarjeta" alt="imagen evento7" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -208,7 +207,7 @@
                         <!-- evento4-->
                         <div class="col-sm-3 d-lg-block">
                             <div class="card">
-                                <img src="./img/11.jpg" class="tarjeta" alt="imagen evento 8" />
+                                <img src="./img/3.jpg" class="tarjeta" alt="imagen evento 8" />
                                 <div class="card-body">
                                     <h3 class="card-title nombre-evento">Nombre Evento</h3>
                                     <p class="card-text lugar-evento"> Lugar </p>
@@ -222,16 +221,15 @@
         </div>
         <!--Fin Galery-->
         <!-- Footer -->
-        <div class="container-fluid">
-            <!-- Footer -->
+        <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li>
-                        <img class=" face" src="./img/facebook2.png" alt="logo face" />
-                    </li>
-                    <li>
-                        <img class="tele" src="./img/telegram3.png" alt="logo tele" />
-                    </li>
+                    <spam>
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
+                    </spam>
+                    <spam>
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                    </spam>
                 </div>
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:

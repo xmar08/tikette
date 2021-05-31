@@ -3,13 +3,12 @@
 <html lang="en">
 
 <head>
-    <meta name="desciption" content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
+    <meta name="desciption"
+        content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
     <meta name="desciption" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-   
     <!-- Bootstrap link/version -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -76,7 +75,6 @@
                                 </li>
                             </ul>
                         </div>
-
                     </nav>
                     <!-- FIN NAV-->
                 </div>
@@ -85,29 +83,23 @@
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h2 class="ti-event ">CONFIRMAR REGISTRO</h2>
+                <h1 class="ti-event ">CONFIRMAR REGISTRO</h1>
             </div>
         </div> <!-- titulo evento -->
-
-
-
         <!--  formulario -->
-
         <div class="container fluid">
             <form action="form-horizontal">
                 <!--  nombre -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label  for="nombre "class="tit_regis">Nombre:</label>
+                        <label for="nombre " class="tit_regis">Nombre:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro ">
                         <label for="Escriba su nombre"></label>
                     </div>
                 </div>
-
                 <!--  apellido -->
-
                 <div class="row">
                     <div class="tit_col_regi">
                         <label for="apellido" class="tit_regis">Apellido:</label>
@@ -117,7 +109,6 @@
                         <label for="Escriba su apellidor"></label>
                     </div>
                 </div>
-
                 <!--  nacimiento -->
                 <div class="row">
                     <div class="tit_col_regi">
@@ -128,27 +119,23 @@
                         <label for="seleccione su fecha nacimiento"></label>
                     </div>
                 </div>
-
                 <!--  telefono -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label for="Correo" class="tit_regis" >Telefono:</label>
+                        <label for="Correo" class="tit_regis">Telefono:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
                         <label for="Escriba su telegono"></label>
                     </div>
                 </div>
-
                 <!--  provincia -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label  for="provincia" class="tit_regis">Provincia:</label>
+                        <label for="provincia" class="tit_regis">Provincia:</label>
                     </div>
-
                     <div class="col-holder ">
                         <select id="provincia" class="placeho" name="provincia">
-                           
                             <option value="1">Puntarenas</option>
                             <option value="2">San José</option>
                             <option value="3">Cartago</option>
@@ -159,24 +146,20 @@
                         </select>
                     </div>
                 </div>
-
                 <!--  correo -->
-
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label for="Correo"class="tit_regis" >Correo:</label>
+                        <label for="Correo" class="tit_regis">Correo:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
                         <label for="digite un correo"></label>
                     </div>
                 </div>
-
                 <!--  tarjeta -->
-
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label for="tarjeta de credito" class="tit_regis" >Tarjeta Credito:</label>
+                        <label for="tarjeta de credito" class="tit_regis">Tarjeta Credito:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
@@ -184,26 +167,21 @@
                     </div>
                 </div>
             </form>
-
         </div>
-
         <div class="col-sm-12 btn-regis">
             <a href="./indextiket.php" class="btn btn-primary btn_compra">Comprar</a>
         </div>
-
         <!-- Footer -->
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li >
-                        <img class=" face" src="./img/facebook2.png" alt="logo face" />
-                    </li>
-                    <li>
-                        <img class="tele" src="./img/telegram3.png"alt="logo telegran" />
-                    </li>
-
+                    <spam>
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
+                    </spam>
+                    <spam>
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                    </spam>
                 </div>
-
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
                     <a href="#" class="footer-copy"> Virtual Event</a>

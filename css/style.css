@@ -1,30 +1,3 @@
-@font-face {
-  font-family: "NotoBold";
-  src: url("../fonts/notosans-bold-webfont.eot");
-  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "NotoItalic";
-  src: url("../fonts/notosans-italic-webfont.eot");
-  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "NotoRegular";
-  src: url("../fonts/notosans-regular-webfont.eot");
-  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "NotoLight";
-  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   font-family: roboto;
   padding-left: 2%;
@@ -178,6 +151,7 @@ body {
   list-style: none;
   margin-top: 1em;
   width: 6em;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .titubarra {
@@ -198,6 +172,7 @@ body {
     margin-top: 0em;
     margin-left: 0.5em;
     width: 50% !important;
+    text-align: left;
   }
 }
 
@@ -222,7 +197,8 @@ body {
 @media only screen and (max-width: 767px) {
   .event {
     font-size: 14pt;
-    margin-left: -1em;
+    margin-left: 1em;
+    text-align: left;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -335,6 +311,11 @@ body {
 @media only screen and (max-width: 767px) {
   .btn {
     font-size: 3pt;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .btn {
+    width: 6em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -502,6 +483,18 @@ body {
   width: 40%;
   height: auto;
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .face {
+    width: 24%;
+    margin-left: 5em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .face {
+    margin-left: 5em;
+    width: 26%;
+  }
+}
 @media only screen and (max-width: 480px) {
   .face {
     width: 30%;
@@ -512,6 +505,18 @@ body {
 .tele {
   height: auto;
   width: 37%;
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .tele {
+    width: 67%;
+    margin-left: -4em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tele {
+    width: 71%;
+    margin-left: -4em;
+  }
 }
 
 .footer-copy {
@@ -816,7 +821,7 @@ body {
 @media only screen and (max-width: 767px) {
   .otrosevent {
     font-size: 18pt;
-    width: 20em;
+    width: 15em;
     margin-top: 0.5em;
   }
 }
@@ -1041,6 +1046,11 @@ body {
     margin-top: 2em;
   }
 }
+@media only screen and (max-width: 767px) {
+  .evento1 {
+    margin-left: 3.5em;
+  }
+}
 @media only screen and (max-width: 480px) {
   .evento1 {
     margin-top: 0em;
@@ -1072,7 +1082,7 @@ body {
     width: 78%;
     margin-top: 0.1em;
     font-size: 16pt;
-    margin-left: 0em;
+    margin-left: 3em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1109,13 +1119,23 @@ body {
 }
 
 .btnconfir {
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
   width: 10em;
   border-radius: 2em;
   margin-left: 6em;
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .btnconfir {
-    margin-left: 7.5em;
+    margin-left: 12em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .btnconfir {
+    font-size: 13pt;
+    margin-left: 6em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1129,7 +1149,7 @@ body {
 /* **********************INDEX REGISTER********************************************************* */
 .form-registro {
   border-radius: 1.25rem;
-  font-size: 12pt;
+  font-size: 13pt;
   font-weight: 400;
   color: #000522;
   width: 99% !important;
@@ -1251,7 +1271,11 @@ body {
 }
 
 .btn_compra {
-  width: 11em;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 10em;
   border-radius: 2em;
   margin-left: 12em;
   margin-top: 1em;
@@ -1260,12 +1284,13 @@ body {
   .btn_compra {
     margin-top: 1em;
     width: 12em;
-    margin-left: 6.5em;
+    margin-left: 11em;
   }
 }
 @media only screen and (max-width: 767px) {
   .btn_compra {
-    margin-left: 6em;
+    margin-left: 8em;
+    font-size: 13pt;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1319,7 +1344,7 @@ body {
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .imaeven1 {
-    margin-left: 1em;
+    margin-left: 4em;
     width: 280px;
   }
 }
@@ -1461,6 +1486,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .evento_tik {
     font-size: 12pt;
+    padding-left: 5em;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1507,16 +1533,15 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .cod-qr {
     width: 144px;
-    margin-top: -20em;
-    margin-left: 33em;
+    margin-top: 3em;
+    margin-left: 2em;
   }
 }
 @media only screen and (max-width: 767px) {
   .cod-qr {
     width: 118px;
-    margin-left: 31em;
-    margin-bottom: -16em;
-    margin-top: -44em;
+    margin-left: 8em;
+    margin-top: 1em;
   }
 }
 @media only screen and (max-width: 480px) {

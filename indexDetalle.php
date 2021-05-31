@@ -25,7 +25,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
     <!-- container -->
     <div class="container-fluit">
@@ -76,34 +75,24 @@
                                 </li>
                             </ul>
                         </div>
-
                     </nav>
                     <!-- FIN NAV-->
                 </div>
             </div>
         </header>
-
-
         <!--SLIDER-->
         <div class="row conta">
-
             <div class="col"><img class="image" src="./img/1-concierto.png" alt="concierto2">
             </div>
-
             <div class="row ">
                 <div class="ti-event2">
-                    <h2 class="ti-event ">CONCIERTO</h2>
+                    <h1 class="ti-event ">CONCIERTO</h1   >
                 </div>
             </div> <!-- titulo evento -->
-
-
-
         </div> <!-- titulo evento -->
-
-
         <!-- eventos detalle -->
         <div class="row">
-            <h3 class="tit_art">CARLOS RIVERA</h3>
+            <h2 class="tit_art">CARLOS RIVERA</h2>
         </div>
         <div class=" row container ">
             <!--titulo3-->
@@ -118,18 +107,13 @@
                 <h4 class="tit_Lugar">ESTADIO NACIONAL </h4>
                 <h4 class="tit_nom_event">CARLOS RIVERA-GUERRA TOUR </h4>
             </div>
-
             <div class="col-sm">
                 <a href="./indexpreventa.php" class="btn btn-primary btnregistro">Registrarse</a>
-
             </div>
-
         </div><!--  fin container -->
-
         <hr size=3>
         <!--  fin container -->
         <!--  formulario -->
-
         <div class="row  container">
             <div class="col-sm-6">
                 <table>
@@ -137,17 +121,14 @@
                     <tr>
                         <th class="titutabla">Evento: </th>
                         <td class="subtabla">Concierto</td>
-
                     </tr>
                     <tr>
                         <th class="titutabla">Lugar: </th>
                         <td class="subtabla">Estadio Nacional</td>
-
                     </tr>
                     <tr>
                         <th class="titutabla">Fecha: </th>
                         <td class="subtabla">04/junio/2021</td>
-
                     </tr>
                     <tr>
                         <th class="titutabla">Hora: </th>
@@ -157,11 +138,9 @@
                         <th class="titutabla">Categoría: </th>
                         <td class="subtabla">Concierto</td>
                     </tr>
-
                     <tr>
                         <th class="titutabla">Descripcion: </th>
                         <td class="subtabla">Guerra de Tour,concierto Online</td>
-
                     </tr>
                     <tr>
                         <th class="titutabla">Precio: </th>
@@ -172,51 +151,40 @@
                         <td class="subtabla">Todo Público</td>
                     </tr>
                 </table>
-
             </div>
-
             <!--Eventos Relacionados-->
             <div class=" contain row">
                 <div>
                     <h4 class="otrosevent">EVENTOS RELACIONADOS</h4>
                 </div>
-
                 <div class="col-sm"><img class="imag_even_rel" src="./img/2-concierto.png" alt="imagen2">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
-
                 </div>
                 <div class="col-sm"><img class="imag_even_rel" src="./img/3-concierto.png" alt="imagen3">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary pro-event">Ver</a>
-
                 </div>
                 <div class="col-sm"><img class="imag_even_rel" src="./img/4-concierto.png" alt="imagen4">
                 </div>
                 <div class="col-sm">
                     <a href="./index.php" class="btn btn-primary  pro-event">Ver</a>
-
                 </div>
             </div>
-            <!--  Eventos Relacionados -->
-
         </div>
-
         <!-- Footer -->
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li>
+                    <spam>
                         <img class=" face" src="./img/facebook2.png" alt="face" />
-                    </li>
-                    <li>
-                        <img class="tele" src="./img/telegram3.png"  alt="telegran" />
-                    </li>
-
+                    </spam>
+                    <spam>
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                    </spam>
                 </div>
-
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
                     <a href="#" class="footer-copy"> Virtual Event</a>

@@ -48,8 +48,8 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                <a href="#" class="nav-link titubarra">INICIO</a>
-                                 </li>
+                                    <a href="#" class="nav-link titubarra">INICIO</a>
+                                </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link titubarra">CONTACTO</a>
                                 </li>
@@ -75,31 +75,21 @@
                                 </li>
                             </ul>
                         </div>
-
                     </nav>
                     <!-- FIN NAV-->
                 </div>
             </div>
         </header>
-
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h2 class="ti-event ">REGISTRAR EVENTO</h2>
+                <h1 class="ti-event ">REGISTRAR EVENTO</h1>
             </div>
         </div> <!-- titulo evento -->
-
-
-
         <!-- compras -->
-
-
         <div class="row  container-fluit">
-
-
             <div class=col-sm>
-                <h3 class="ti-preve">PREVENTA DE BOLETOS</h3>
-
+                <h2 class="ti-preve">PREVENTA DE BOLETOS</h2>
                 <h3 class="inf_event">Viernes,04 de junio de 2021 - 8pm</h3>
                 <h3 class="inf_event">Estadio Nacional</h3>
                 <table class="table">
@@ -113,71 +103,52 @@
                     </thead>
                     <tbody class="tit_det_tabla">
                         <tr>
-
                             <td>Mayores</td>
                             <td><a href="#" class="mas-menos">+</a>2<a href="#" class="mas-menos">-</a></td>
                             <td>¢15.000</td>
                             <td>¢30.000</td>
                         </tr>
-
                     </tbody>
                     <tbody class="tit_det_tabla">
                         <tr>
-
                             <td>Menores</td>
                             <td><a href="#" class="mas-menos">+</a>1<a href="#" class="mas-menos">-</a></td>
                             <td>¢15.000</td>
                             <td>¢15.000</td>
                         </tr>
-
                     </tbody>
-
-
                     <tbody class="tit_det_tabla">
                         <tr>
-
                             <td>.</td>
                             <td>.</td>
                             <td>.</td>
                             <td>¢45.000</td>
                         </tr>
-
                     </tbody>
-
                 </table>
             </div>
-
-
             <div class="col">
                 <div class="col-sm"><img class=" evento1" src="./img/1.jpg" alt="evento1">
-
                     <h3 class="art_event">CARLOS RIVERA</h3>
-
                     <!-- BOTONES -->
-
                 </div><!-- FIN compras -->
                 <div class="col-sm-3">
                     <a href="./indexRegister.php" class="btn btn-primary  btnconfir">Confirmar</a>
-
                 </div>
-
                 <!-- FIN BOTONES -->
             </div>
         </div>
-
         <!-- Footer -->
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li >
-                        <img class="face" src="./img/facebook2.png"alt="face" />
-                    </li>
-                    <li >
-                        <img class="tele" src="./img/telegram3.png"alt="telegran" />
-                    </li>
-
+                    <spam>
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
+                    </spam>
+                    <spam>
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                    </spam>
                 </div>
-
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
                     <a href="#" class="footer-copy"> Virtual Event</a>

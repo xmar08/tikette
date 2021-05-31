@@ -1,4 +1,4 @@
-@import 'fonts';
+
 @import 'vars';
 @import 'media-queries';
 
@@ -7,7 +7,6 @@ body{
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
- 
 }
 .row{
   --bs-gutter-x: 0rem; 
@@ -20,8 +19,7 @@ body{
   padding-left: 0px;
   width: 100%;
  }
- 
-.menu-nav{
+ .menu-nav{
   color: $texto;
   background-color:$blue-bg;
   padding-left: 5%;
@@ -41,13 +39,11 @@ body{
     position: relative;
   }
 }
-
 .navbar-nav{
   margin: 0px 0px;
   margin-top: 0em;
   margin-left: 0em;
 display: flex;
-
 @include respond-to($phone){
    position: absolute;
   width: 100%;
@@ -72,7 +68,6 @@ display: flex;
   width: 100%;
   height: auto;
 }
-
 .logo{
   margin-top: -2em;
   padding-left: 0;
@@ -83,7 +78,6 @@ display: flex;
   align-items: center;
   width: 100%;
   height: auto;
-
   @include respond-to($tablet-landscape){
     width: 132px !important;
     margin-top: -2em;
@@ -130,7 +124,7 @@ display: flex;
   list-style: none;
   margin-top: 1em;
   width: 6em;
-  
+  text-align: center;
   @include respond-to($tablet-landscape){
     font-size: 18pt;
     width: 5em;
@@ -145,6 +139,7 @@ display: flex;
     margin-top: 0em;
     margin-left:0.5em;
     width: 50%!important;
+    text-align: left;
   }
 }
 .event{
@@ -164,7 +159,8 @@ display: flex;
   }
   @include respond-to($tablet-portrait){
     font-size: 14pt;
-    margin-left: -1em;
+    margin-left: 1em;
+    text-align: left;
   }
   @include respond-to($phone){
     font-size: 14pt;
@@ -196,9 +192,8 @@ display: flex;
   @include respond-to($phone){
     margin-left: 0em!important;
     margin-top: 0.5em;
-}
   }
-
+}
 .form-control{
   border-radius:1.25rem ;
   font-size: 14px;
@@ -222,7 +217,6 @@ display: flex;
 }
 .form {
   background-color: $blue-bg;
-
   border-radius: 22px;
   display: flex;
   flex-direction: row;
@@ -247,6 +241,9 @@ display: flex;
   margin-bottom: 2em;
   @include respond-to($tablet-portrait){
     font-size: 3pt;
+  }
+  @include respond-to($tablet-portrait){
+    width: 6em;
   }
   @include respond-to($phone){
     font-size: 12pt;
@@ -279,7 +276,6 @@ display: flex;
     width: 97%;
   }
 }
-
 .navbar-nav > li > a {
   @include respond-to($phone){
   width: 64%;
@@ -319,15 +315,12 @@ display: flex;
 .tarjeta{
   width: 100%;
   height: auto;
-
 }
 .nombre-evento{
   color: $blue-bg;
   font-size: 12pt;
   font-weight: 400;
   text-align: center;
-  
-
 }
 .lugar-evento{
   color: $blue-bg;
@@ -379,6 +372,15 @@ display: flex;
 .face{
   width: 40%;
   height: auto;
+  @include respond-to($tablet-landscape){
+    width: 24%;
+    margin-left: 5em;
+  }
+  @include respond-to($tablet-portrait){
+    margin-left: 5em;
+    width: 26%;
+  }
+
   @include respond-to($phone){
     width: 30%;
     margin-left: 4em;
@@ -387,6 +389,14 @@ display: flex;
 .tele{
   height: auto;
   width: 37%;
+  @include respond-to($tablet-landscape){
+    width: 67%;
+    margin-left: -4em;
+  }
+  @include respond-to($tablet-portrait){
+    width: 71%;
+    margin-left: -4em;
+  }
 }
 .footer-copy{
   background-color: $light-blue;
@@ -404,8 +414,8 @@ display: flex;
 //SLIDER
 .container {
   border-radius: 5px;
-   padding: 20px;
-   @include respond-to($tablet-landscape){
+  padding: 20px;
+  @include respond-to($tablet-landscape){
     padding: 0px;
   }
   @include respond-to($phone){
@@ -424,7 +434,7 @@ display: flex;
   width: 89vw;
   align-items: center;
   padding-left: 5%;
- height: auto;
+  height: auto;
   @include respond-to($tablet-landscape){
       padding-left: 7%;
   }
@@ -449,7 +459,6 @@ display: flex;
     padding-left: 5%;
     width: 12em;
   }
-  
 }
 .container{
   background-color: $texto;
@@ -616,7 +625,7 @@ display: flex;
   }
   @include respond-to($tablet-portrait){
     font-size: 18pt;
-    width: 20em;
+    width: 15em;
     margin-top: 0.5em;
   }
   @include respond-to($phone){
@@ -769,7 +778,6 @@ display: flex;
   text-align: center;
   @include respond-to($tablet-landscape){
     font-size: 13pt;
-   
   }
   @include respond-to($tablet-portrait){
      font-size: 12pt;  
@@ -791,7 +799,7 @@ display: flex;
     margin-top: 2em;
   }
   @include respond-to($tablet-portrait){
-    
+    margin-left: 3.5em;  
   }
   @include respond-to($phone){
     margin-top: 0em;
@@ -806,7 +814,7 @@ display: flex;
   font-size: 24pt;
   font-weight: 500;
   margin-right: 1em;
-   margin-top: 1em;
+  margin-top: 1em;
   width:82%;
   text-align: center;
   @include respond-to($tablet-landscape){
@@ -820,7 +828,7 @@ display: flex;
     width: 78%;
     margin-top: 0.1em;
     font-size: 16pt;
-    margin-left: 0em;
+    margin-left: 3em;
   }  
   @include respond-to($phone){
     font-size: 18pt;
@@ -847,11 +855,19 @@ display: flex;
   }
 }
 .btnconfir{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
   width: 10em;
   border-radius: 2em;
   margin-left: 6em;
   @include respond-to($tablet-landscape){
-    margin-left:7.5em;
+    margin-left:12em;
+  }
+  @include respond-to($tablet-portrait){
+    font-size: 13pt;
+    margin-left:6em;
   }
   @include respond-to($phone){
     margin-left: 5em;
@@ -865,11 +881,9 @@ display: flex;
 //************************************************************************************************
 /* **********************INDEX REGISTER********************************************************* */
 //nav y Footer igual a Index
-
-
 .form-registro{
   border-radius:1.25rem ;
-  font-size: 12pt;
+  font-size: 13pt;
   font-weight: 400;
   color: $blue-bg;
   width: 99%!important;
@@ -907,20 +921,20 @@ display: flex;
 }
 .tit_regis{
   max-width: 13em;
-margin-bottom: 4px;
-font-weight: 400;
-margin-left: 3em;
-margin-top: 2em;
-@include respond-to($tablet-landscape){
+  margin-bottom: 4px;
+  font-weight: 400;
+  margin-left: 3em;
+  margin-top: 2em;
+  @include respond-to($tablet-landscape){
   margin-top: 1.5em;
 }
   @include respond-to($tablet-portrait){
     margin-left: -3em;
     width: 10em;
-}
+  }
 }
 .col-holder {
-   float: left;
+  float: left;
   width: 75%;
   margin-top: 9px;
   @include respond-to($tablet-landscape){
@@ -941,7 +955,7 @@ margin-top: 2em;
   font-size: 14px;
   color: $blue-bg;
   opacity: 1;
-   margin-top: 2em;
+  margin-top: 2em;
   border: 2px solid $dark-light-bg;
   height: 3em;
   @include respond-to($tablet-landscape){
@@ -952,49 +966,48 @@ margin-top: 2em;
     width: 13em !important;
     margin-left: 1em;
     height: 3.5em;
-   }
   }
-  .btn-regis{
-    text-align: center;
-    @include respond-to($phone){
+}
+.btn-regis{
+  text-align: center;
+  @include respond-to($phone){
     margin-bottom: -5em;
-    }
   }
-  .btn_compra{
-    width: 11em;
-    border-radius: 2em;
-    margin-left: 12em;
+}
+.btn_compra{
+  color: $texto;
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+  width: 10em;
+  border-radius: 2em;
+  margin-left: 12em;
+  margin-top: 1em;
+  @include respond-to($tablet-landscape){
     margin-top: 1em;
-    @include respond-to($tablet-landscape){
-      margin-top: 1em;
-      width: 12em;
-      margin-left: 6.5em;
-    }
-    @include respond-to($tablet-portrait){
-      margin-left: 6em;
-     
-    }
-    @include respond-to($phone){
-      margin-left: 0em;
-      width: 11em;
-    }
-    
-    }
-  
+    width: 12em;
+    margin-left: 11em;
+  }
+  @include respond-to($tablet-portrait){
+    margin-left: 8em;
+    font-size: 13pt;
+  }
+  @include respond-to($phone){
+    margin-left: 0em;
+    width: 11em;
+  }
+}
 .h4{
   @include respond-to($phone){
-  width: 80%;
+    width: 80%;
+  }
 }
-}
-
-
 //FIN INDEX-REGISTER
 //************************************************************************************************
 //************************************************************************************************
 //************************************************************************************************
 /* **********************INDEX TIKET********************************************************* */
 //nav y Footer igual a Index
-
 .nom_art{
   color: $blue-bg;
   font-size: 24pt;
@@ -1024,7 +1037,7 @@ margin-top: 2em;
   margin-bottom: 2em;
   height: auto;
   @include respond-to($tablet-landscape){
-    margin-left: 1em;
+    margin-left: 4em;
     width: 280px;
   }
   @include respond-to($tablet-portrait){
@@ -1036,7 +1049,7 @@ margin-top: 2em;
     margin-left: 1.5em;  
     margin-bottom: 8em;
   }
- }
+}
  .tit_tique{
   color: $blue-bg;
   font-size: 24pt;
@@ -1056,7 +1069,8 @@ margin-top: 2em;
     font-size: 18pt;
     margin-left: 0.5em;
   }
-}.tik{
+}
+.tik{
   margin-left: 7em;
   width: 100%;
   margin-top: 0em;
@@ -1075,7 +1089,6 @@ margin-top: 2em;
     width: 100%;
     margin-top: -4em;
   }
-  
 }
 .botton-tik{
   color: $texto;
@@ -1093,14 +1106,13 @@ margin-top: 2em;
     width:10.5em;
     font-size: 12pt;
     margin-left: 22em;
-margin-top: -6em;
+    margin-top: -6em;
   }  
   @include respond-to($phone){
     margin-bottom: 0.5em;
     width: 75%;
     margin-left: 2em;
-      }
-     
+  }
 }
 hr {
   margin: 2rem 0;
@@ -1113,7 +1125,6 @@ hr {
   height: 1em;
   margin-top: -1em;
   margin-left: 0%;
-
 }
 .subtiket{
   color: $blue-bg;
@@ -1136,7 +1147,7 @@ hr {
   height: auto;
   @include respond-to($tablet-landscape){
     font-size: 12pt;
-    
+    padding-left: 5em;
   }
   @include respond-to($tablet-portrait){
     font-size: 10pt; 
@@ -1152,7 +1163,6 @@ hr {
   margin-right: 1em;
   @include respond-to($tablet-landscape){
     font-size: 12pt;
-    
   }
   @include respond-to($tablet-portrait){
     width: 15em;
@@ -1168,17 +1178,15 @@ hr {
   margin-left: 1em;
   margin-top: 0em;
   height: auto;
-
   @include respond-to($tablet-landscape){
     width: 144px;
-    margin-top: -20em;
-    margin-left: 33em;
+    margin-top: 3em;
+    margin-left: 2em;
   }
   @include respond-to($tablet-portrait){
     width: 118px;
-    margin-left: 31em;
-    margin-bottom: -16em;
-    margin-top: -44em;
+    margin-left:8em;
+    margin-top:1em;
   }  
   @include respond-to($phone){
     width: 138px;
@@ -1187,7 +1195,7 @@ hr {
     margin-top: 5em!important;
     position: relative;
   }
-  }
+}
 //FIN INDEX-tik
 //************************************************************************************************
 //************************************************************************************************

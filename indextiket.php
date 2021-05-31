@@ -62,7 +62,8 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
+                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                            alt="carro"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
@@ -74,7 +75,6 @@
                                 </li>
                             </ul>
                         </div>
-
                     </nav>
                     <!-- FIN NAV-->
                 </div>
@@ -84,7 +84,7 @@
         <!-- titulo evento -->
         <div class="row ">
             <div class="ti-event2">
-                <h2 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h2>
+                <h1 class="ti-event ">TU COMPRA SE COMPLETO CON EXITO</h1>
             </div>
         </div> <!-- titulo evento -->
         <!-- eventos detalle -->
@@ -150,7 +150,6 @@
                         <tr>
                             <th class="evento_tik">Telefono: </th>
                             <td class="det_tik">2664-0404</td>
-
                         </tr>
                         <tr>
                             <th class="evento_tik">Provincia: </th>
@@ -173,17 +172,17 @@
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li>
-                        <img class=" face" src="./img/facebook2.png" alt="logo face" />
-                    </li>
-                    <li>
-                        <img class="tele" src="./img/telegram3.png" alt="logo telegran" />
-                    </li>
+                    <spam>
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
+                    </spam>
+                    <spam>
+                        <img class="tele" src="./img/telegram3.png" alt="telegran" />
+                    </spam>
                 </div>
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy"> Virtual Event</a>
-                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                    <a href="#" class="footer-copy"> Virtual Event</a>
+                    <a href="#" class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
             </footer>
