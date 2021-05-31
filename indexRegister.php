@@ -37,10 +37,11 @@
                         <span onclick="abrirMenu()">
                             <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
-                        <div class="navbar-brand  ">
+                        <div class="navbar-brand">
                             <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
+
                             <ul class="col-sm navbar-nav ">
                                 <li class="nav-item">
                                     <span onclick="cerrarMenu()">
@@ -48,7 +49,7 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link titubarra">INICIO</a>
+                                    <a href="#" class="nav-link titubarra" aria-current="page">INICIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link titubarra">CONTACTO</a>
@@ -67,7 +68,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="imagen Buscar">
+                                        <input class="form-control form" type="search" placeholder="imagen Buscar"  aria-label="Search">
                                         <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
