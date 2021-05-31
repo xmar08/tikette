@@ -49,14 +49,14 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">INICIO</a>
+                                    <a href="#" class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select event ">
-                                        <option selected="0" class="sub">EVENTOS</option>
+                                        <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
@@ -69,7 +69,7 @@
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar">
-                                        <label for="buscar"></label>
+                                        <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -98,11 +98,11 @@
                 <!--  nombre -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="nombre ">Nombre:</label>
+                        <label  for="nombre "class="tit_regis">Nombre:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro ">
-                        <label for="nombre"></label>
+                        <label for="Escriba su nombre"></label>
                     </div>
                 </div>
 
@@ -110,52 +110,52 @@
 
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="apellido">Apellido:</label>
+                        <label for="apellido" class="tit_regis">Apellido:</label>
                     </div>
                     <div class="col-holder ">
                         <input type="text" class="form-registro">
-                        <label for="apellidor"></label>
+                        <label for="Escriba su apellidor"></label>
                     </div>
                 </div>
 
                 <!--  nacimiento -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="fecha nacimiento"> Fecha Nacimiento:</label>
+                        <label for="fecha nacimiento" class="tit_regis"> Fecha Nacimiento:</label>
                     </div>
                     <div class="col-holder">
                         <input type="date" class="form-registro">
-                        <label for="fecha nacimiento"></label>
+                        <label for="seleccione su fecha nacimiento"></label>
                     </div>
                 </div>
 
                 <!--  telefono -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="Correo">Telefono:</label>
+                        <label for="Correo" class="tit_regis" >Telefono:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
-                        <label for="correo"></label>
+                        <label for="Escriba su telegono"></label>
                     </div>
                 </div>
 
                 <!--  provincia -->
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="provincia">Provincia:</label>
+                        <label  for="provincia" class="tit_regis">Provincia:</label>
                     </div>
 
                     <div class="col-holder ">
                         <select id="provincia" class="placeho" name="provincia">
-                            <option value="1"></option>
-                            <option value="2">Puntarenas</option>
-                            <option value="3">San José</option>
-                            <option value="4">Cartago</option>
-                            <option value="5">Heredia</option>
-                            <option value="#">Guanacaste</option>
-                            <option value="#">Limon</option>
-                            <option value="#">Alajuela</option>
+                           
+                            <option value="1">Puntarenas</option>
+                            <option value="2">San José</option>
+                            <option value="3">Cartago</option>
+                            <option value="4">Heredia</option>
+                            <option value="5">Guanacaste</option>
+                            <option value="6">Limon</option>
+                            <option value="7">Alajuela</option>
                         </select>
                     </div>
                 </div>
@@ -164,11 +164,11 @@
 
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="Correo">Correo:</label>
+                        <label for="Correo"class="tit_regis" >Correo:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
-                        <label for="correo"></label>
+                        <label for="digite un correo"></label>
                     </div>
                 </div>
 
@@ -176,11 +176,11 @@
 
                 <div class="row">
                     <div class="tit_col_regi">
-                        <label class="tit_regis" for="tarjeta de credito">Tarjeta Credito:</label>
+                        <label for="tarjeta de credito" class="tit_regis" >Tarjeta Credito:</label>
                     </div>
                     <div class="col-holder">
                         <input type="text" class="form-registro">
-                        <label for="tarjeta de credito"></label>
+                        <label for="Número de tarjeta de credito"></label>
                     </div>
                 </div>
             </form>
@@ -195,19 +195,19 @@
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="logo face" />
+                    <li >
+                        <img class=" face" src="./img/facebook2.png" alt="logo face" />
                     </li>
-                    <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="logo telegran" />
+                    <li>
+                        <img class="tele" src="./img/telegram3.png"alt="logo telegran" />
                     </li>
 
                 </div>
 
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy"> Virtual Event</a>
-                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                    <a href="#" class="footer-copy"> Virtual Event</a>
+                    <a href="#" class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
             </footer>

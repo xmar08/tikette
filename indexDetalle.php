@@ -3,9 +3,9 @@
 <html lang="en">
 
 <head>
-    <meta name="desciption"
+    <meta name="description"
         content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
-    <meta name="desciption" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
+    <meta name="description" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,27 +49,27 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">INICIO</a>
+                                    <a href="#" class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select  event ">
-                                        <option selected="0" class="sub">EVENTOS</option>
+                                        <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png"
                                             alt="icono carrito"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar">
-                                        <label for="buscar"></label>
+                                        <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -133,7 +133,7 @@
         <div class="row  container">
             <div class="col-sm-6">
                 <table>
-                    <h4 class="subtitu2">GUERRA TOUR</h4>
+                    <spam class="subtitu2">GUERRA TOUR</spam>
                     <tr>
                         <th class="titutabla">Evento: </th>
                         <td class="subtabla">Concierto</td>
@@ -208,19 +208,19 @@
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="face" />
+                    <li>
+                        <img class=" face" src="./img/facebook2.png" alt="face" />
                     </li>
-                    <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="telegran" />
+                    <li>
+                        <img class="tele" src="./img/telegram3.png"  alt="telegran" />
                     </li>
 
                 </div>
 
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy"> Virtual Event</a>
-                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                    <a href="#" class="footer-copy"> Virtual Event</a>
+                    <a href="#" class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
             </footer>

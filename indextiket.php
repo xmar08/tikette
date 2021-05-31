@@ -48,26 +48,26 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">INICIO</a>
+                                    <a href="#" class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select event">
-                                        <option selected="0" class="sub">EVENTOS</option>
+                                        <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
+                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png" alt="carro"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar">
-                                        <label for="buscar"></label>
+                                        <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -176,7 +176,7 @@
                     <li>
                         <img class=" face" src="./img/facebook2.png" alt="logo face" />
                     </li>
-                    <li class="list-inline-item ">
+                    <li>
                         <img class="tele" src="./img/telegram3.png" alt="logo telegran" />
                     </li>
                 </div>

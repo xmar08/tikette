@@ -48,27 +48,27 @@
                                     </span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">INICIO</a>
-                                </li>
+                                <a href="#" class="nav-link titubarra">INICIO></a>
+                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select event ">
-                                        <option selected="0" class="sub">EVENTOS</option>
+                                        <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
                                         <option value="3" class="sub">DEPORTE</option>
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png"
                                             alt="carrito de copras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
                                         <input class="form-control form" type="search" placeholder="Buscar">
-                                        <label for="buscar"></label>
+                                        <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
                                     </form>
@@ -105,10 +105,10 @@
                 <table class="table">
                     <thead class="tit-tabl-event">
                         <tr>
-                            <th class="anchfila" scope="col ">Tipo</th>
-                            <th class="anchfila" scope="col">Cantidad</th>
-                            <th class="anchfila" scope="col">Precio por Persona</th>
-                            <th class="anchfila" scope="col">Total</th>
+                            <th class="anchfila">Tipo</th>
+                            <th class="anchfila">Cantidad</th>
+                            <th class="anchfila">Precio por Persona</th>
+                            <th class="anchfila">Total</th>
                         </tr>
                     </thead>
                     <tbody class="tit_det_tabla">
@@ -169,19 +169,19 @@
         <div class="container-fluid ">
             <footer class="row footer-back">
                 <div class=" footer-icon">
-                    <li class="list-inline-item">
-                        <img class=" face" src="./img/facebook2.png" class="" alt="face" />
+                    <li >
+                        <img class="face" src="./img/facebook2.png"alt="face" />
                     </li>
-                    <li class="list-inline-item ">
-                        <img class="tele" src="./img/telegram3.png" class="" alt="telegran" />
+                    <li >
+                        <img class="tele" src="./img/telegram3.png"alt="telegran" />
                     </li>
 
                 </div>
 
                 <!-- Copyright -->
                 <div class="footer-copy">© 2021 Copyright:
-                    <a class="footer-copy"> Virtual Event</a>
-                    <a class="footer-copy"> Todos los Derechos Reservados</a>
+                    <a href="#" class="footer-copy"> Virtual Event</a>
+                    <a href="#" class="footer-copy"> Todos los Derechos Reservados</a>
                 </div>
                 <!-- Copyright -->
             </footer>
