@@ -170,8 +170,7 @@ body {
 .titubarra {
   color: #fff;
   margin-left: 0em;
-  -webkit-text-decoration: NONE;
-          text-decoration: NONE;
+  text-decoration: none !important;
   font-size: 21pt;
   font-weight: 300;
   border: none;

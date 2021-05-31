@@ -52,7 +52,7 @@
                                     <a href="#" class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <select class="form-select  event ">

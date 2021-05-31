@@ -3,13 +3,13 @@
 <html lang="en">
 
 <head>
-    <meta name="desciption"
-        content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
+    <meta name="desciption" content="Autor: Xinia Aguilar, Tema:I parte del Proyecto Desarrolo de Aplicaciones Interactivas II ">
     <meta name="desciption" content="Virtual Event es una pagina web para comprar tiquetes de eventos en linea ">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiquete-Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+   
     <!-- Bootstrap link/version -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Tiquete-Home</title>
 </head>
-
 
 <body>
     <!-- container -->
@@ -39,7 +39,7 @@
                             <img class="menu" src="./img/menu.png" alt="menu hamburguesa">
                         </span>
                         <div class="navbar-brand  ">
-                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de pagina"></a>
+                            <a href="./index.php"><img src="./img/logo.png" class="logo" alt="logo de la pagina"></a>
                         </div>
                         <div class="col-sm titubarra">
                             <ul class="col-sm navbar-nav ">
@@ -52,10 +52,10 @@
                                     <a href="#" class="nav-link titubarra">INICIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link titubarra">ACERCA DE</a>
+                                    <a href="#" class="nav-link titubarra">CONTACTO</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <select class="form-select event ">
+                                    <select class="form-select event " alt="select">
                                         <option selected class="sub">EVENTOS</option>
                                         <option value="1" class="sub">CONCIERTO</option>
                                         <option value="2" class="sub">COMEDIA</option>
@@ -63,12 +63,12 @@
                                     </select>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navbar-brand"><img class="carro" src="./img/carro.png"
-                                            alt="carro de compras"></a>
+                                    <a href="#" class="navbar-brand"><img class="carro" src="./img/carro.png"
+                                            alt="carrito de compras"></a>
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="Buscar">
+                                        <input class="form-control form" type="search" placeholder="imagen Buscar">
                                         <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
