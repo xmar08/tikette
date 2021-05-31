@@ -70,7 +70,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <form class="d-flex">
-                                        <input class="form-control form" type="search" placeholder="imagen Buscar"  aria-label="Search">
+                                        <input class="form-control form" type="search" placeholder="Buscar" aria-label="Search">
                                         <label for="lupa"></label>
                                         <button class="btn" type="submit"><img class="imagebusca" src="./img/buscar.png"
                                                 alt="buscar"></button>
